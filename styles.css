@@ -1,0 +1,764 @@
+/*
+  chat Timeline Stylesheet
+  This CSS is designed to be resilient and adapt to chat's light/dark themes.
+*/
+
+/* Use CSS variables for easy theme management. We sample chat's own colors. */
+:root {
+    --timeline-dot-color: #D1D5DB; /* Light mode gray */
+    --timeline-dot-active-color: #04b84c; /* chat's primary green */
+    --timeline-star-color: #FF7D03; /* 收藏橙色 rgb(255, 125, 3) */
+
+    /* AI Studio-like tooltip tokens (light) */
+    --timeline-tooltip-bg: #FFFFFF;
+    --timeline-tooltip-text: #1F2937; /* slate-800 */
+    --timeline-tooltip-border: #E5E7EB; /* gray-200 */
+    --timeline-tooltip-radius: 12px;
+    --timeline-tooltip-shadow: 0 4px 14px rgba(0,0,0,0.10), 0 1px 2px rgba(0,0,0,0.06);
+    /* geometry */
+    --timeline-tooltip-lh: 18px;
+    --timeline-tooltip-pad-y: 10px;
+    --timeline-tooltip-pad-x: 12px;
+    --timeline-tooltip-border-w: 1px;
+    --timeline-tooltip-arrow-size: 12px; /* ✅ 需求1：箭头放大 1.5 倍 (8px → 12px) */
+    --timeline-tooltip-arrow-outside: 6px; /* ✅ 需求1：同步调整突出距离 (4px → 6px) */
+    --timeline-tooltip-anim-in: 120ms cubic-bezier(0, 0, 0.2, 1);
+    --timeline-tooltip-anim-out: 100ms linear;
+
+    --timeline-bar-bg: rgba(240, 240, 240, 0.8);
+    --timeline-dot-size: 12px;
+    --timeline-star-size: 14px; /* 五角星盒子尺寸（比圆形大，视觉效果一致） */
+    --timeline-active-ring: 3px;
+    --timeline-star-ring: 4px; /* 五角星边框环宽度（比圆形大，补偿几何形状导致的视觉差异） */
+    --timeline-track-padding: 16px;
+    --timeline-tooltip-max: 288px;
+    --timeline-min-gap: 20px;
+    /* enlarged hit area for easier clicking */
+    --timeline-hit-size: 30px;
+    /* spacing model */
+    --timeline-tooltip-gap-visual: 4px;   /* ✅ 需求1：减少间距，让 tooltip 靠近圆点 (8px → 4px) */
+    --timeline-tooltip-gap-box: 2px;      /* ✅ 需求1：同步减少 box gap (4px → 2px) */
+    /* ✅ 移除：--timeline-hold-ms 已删除，长按功能已移除 */
+}
+
+/* Override variables when chat's dark mode is active */
+html.dark {
+    --timeline-dot-color: #555555;
+    --timeline-dot-active-color: #19C37D;
+    --timeline-star-color: #FF7D03;
+    /* Dark tooltip palette */
+    --timeline-tooltip-bg: #2B2B2B;
+    --timeline-tooltip-text: #EAEAEA;
+    --timeline-tooltip-border: #3A3A3A;
+    --timeline-bar-bg: rgba(50, 50, 50, 0.8);
+}
+
+.chat-timeline-bar {
+    position: fixed;
+    /* Position values (top, right, height) are set by JavaScript based on site adapter */
+    top: 60px; /* Default fallback */
+    right: 15px; /* Default fallback */
+    width: 24px;
+    height: calc(100vh - 100px); /* Default fallback */
+    z-index: 2147483646; /* ensure above site chrome */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: var(--timeline-bar-bg);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    transition: background-color 0.3s ease;
+    overflow: visible;
+    /* Isolate layout/paint to reduce reflow propagation during updates */
+    contain: layout paint;
+}
+
+/* Scrollable track to host all dots (long canvas) */
+.timeline-track {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto; /* programmatic scroll in Linked mode */
+}
+
+/* Inner content whose height reflects conversation length */
+.timeline-track-content {
+    position: relative;
+    width: 100%;
+    height: 100%; /* updated by JS when needed */
+}
+
+.timeline-dot {
+    position: absolute;
+    left: 50%;
+    /* Use normalized position `--n` mapped to track with padding */
+    top: calc(
+      var(--timeline-track-padding)
+      + (100% - 2 * var(--timeline-track-padding)) * var(--n, 0)
+    );
+    transform: translate(-50%, -50%);
+    width: var(--timeline-hit-size);   /* enlarged hit area */
+    height: var(--timeline-hit-size);  /* enlarged hit area */
+    background: transparent;           /* visible dot drawn via ::after */
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.timeline-dot::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: var(--timeline-dot-size);
+    height: var(--timeline-dot-size);
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: var(--timeline-dot-color);
+    transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+}
+
+/* Enhance visibility and interaction feedback on hover */
+.timeline-dot:hover::after { 
+    transform: translate(-50%, -50%) scale(1.15);
+}
+/* 仅未选中且未被收藏的节点 hover 时颜色变深 */
+.timeline-dot:not(.active):not(.starred):hover::after {
+    background-color: #999999; /* 明亮模式：深灰色 */
+}
+html.dark .timeline-dot:not(.active):not(.starred):hover::after {
+    background-color: #777777; /* 暗黑模式：更深的灰色 */
+}
+/* Keyboard accessibility: visible focus ring */
+.timeline-dot:focus-visible::after {
+    box-shadow: 0 0 6px var(--timeline-dot-active-color);
+}
+/* Style for the currently active dot */
+.timeline-dot.active::after {
+    box-shadow: 0 0 0 var(--timeline-active-ring) var(--timeline-dot-active-color), 0 0 6px var(--timeline-dot-active-color);
+}
+
+/* ✅ 已收藏的标记点：橙色五角星（使用 clip-path 裁剪）*/
+.timeline-dot.starred::after {
+    background-color: var(--timeline-star-color);
+    border-radius: 0; /* 移除圆形 */
+    /* 放大盒子尺寸，让视觉大小与圆形一致 */
+    width: var(--timeline-star-size);
+    height: var(--timeline-star-size);
+    /* 五角星 clip-path（与收藏按钮 SVG 路径完全一致）*/
+    clip-path: polygon(
+        50% 8.33%, 
+        62.875% 34.42%, 
+        91.67% 38.63%, 
+        70.83% 58.92%, 
+        75.75% 87.58%, 
+        50% 74.04%, 
+        24.25% 87.58%, 
+        29.17% 58.92%, 
+        8.33% 38.63%, 
+        37.125% 34.42%
+    );
+}
+
+/* ✅ 已收藏且激活状态：使用 ::before 绘制绿色五角星边框 */
+.timeline-dot.starred.active::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /* 边框层：比五角星主体大 8px (两侧各 4px)，补偿几何形状的视觉差异 */
+    width: calc(var(--timeline-star-size) + 2 * var(--timeline-star-ring));
+    height: calc(var(--timeline-star-size) + 2 * var(--timeline-star-ring));
+    transform: translate(-50%, -50%);
+    background-color: var(--timeline-dot-active-color); /* 绿色边框 */
+    /* 五角星形状（与收藏按钮 SVG 路径完全一致）*/
+    clip-path: polygon(
+        50% 8.33%, 
+        62.875% 34.42%, 
+        91.67% 38.63%, 
+        70.83% 58.92%, 
+        75.75% 87.58%, 
+        50% 74.04%, 
+        24.25% 87.58%, 
+        29.17% 58.92%, 
+        8.33% 38.63%, 
+        37.125% 34.42%
+    );
+    z-index: -1; /* 在 ::after 下方 */
+    /* 添加模糊光晕 */
+    filter: drop-shadow(0 0 6px var(--timeline-dot-active-color));
+    /* 添加缩放过渡效果 */
+    transition: transform 0.15s ease;
+}
+
+/* ✅ 修复 hover 缩放效果：让边框层也跟着缩放 */
+.timeline-dot.starred.active:hover::before {
+    transform: translate(-50%, -50%) scale(1.15);
+}
+
+/* Floating tooltip element */
+.timeline-tooltip {
+    position: fixed;
+    /* ✅ 需求1：max-width 在 JS 中动态设置，这里只设置默认值 */
+    max-width: var(--timeline-tooltip-max);
+    /* ✅ 需求1：允许宽度自动适应内容（文字少时自动收缩）*/
+    width: auto;
+    min-width: 80px; /* 设置最小宽度，避免太窄 */
+    
+    /* ✅ 修改：使用 flexbox 水平布局，垂直居中 */
+    display: flex;
+    align-items: center;
+    gap: 12px; /* 内容和星标之间的间距 */
+    
+    background-color: var(--timeline-tooltip-bg);
+    color: var(--timeline-tooltip-text);
+    /* ✅ 修改：进一步增加 padding，让内容区域更宽松 */
+    padding: 14px 18px;
+    border-radius: var(--timeline-tooltip-radius);
+    border: var(--timeline-tooltip-border-w) solid var(--timeline-tooltip-border);
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    box-shadow: var(--timeline-tooltip-shadow);
+    /* ✅ 需求2：允许鼠标悬停在 tooltip 上（可以选择/复制文字）*/
+    pointer-events: auto;
+    cursor: text; /* 提示用户可以选择文字 */
+    z-index: 2147483647;
+    /* ✅ 修复箭头显示：使用 overflow: visible 让箭头可见 */
+    overflow: visible;
+    /* Animation base */
+    opacity: 0;
+    will-change: opacity, transform;
+    transition: opacity var(--timeline-tooltip-anim-in);
+}
+
+/* ✅ 修改：删除了 header 和 index 相关样式，因为新设计中不再需要 */
+
+/* ✅ 星标图标样式（使用 SVG 绘制五角星） */
+.timeline-tooltip-star {
+    width: 18px; /* 星标宽度 */
+    height: 18px; /* 星标高度 */
+    flex-shrink: 0; /* 不允许收缩，保持固定大小 */
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+    transition: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* 未收藏状态 - 空心五角星（边框色 #13386c） */
+.timeline-tooltip-star.not-starred {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 26 26"><path fill="none" stroke="%2313386c" stroke-width="1.5" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>');
+}
+
+/* 收藏状态 - 实心五角星（橙色填充 rgb(255, 125, 3)） */
+.timeline-tooltip-star:not(.not-starred) {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 26 26"><path fill="rgb(255, 125, 3)" stroke="rgb(255, 125, 3)" stroke-width="0.5" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>');
+}
+
+/* ✅ 重新设计：Tooltip 内容区域（简化，不依赖 -webkit-line-clamp） */
+.timeline-tooltip-content {
+    flex: 0 1 auto; /* 自适应内容宽度，不占据剩余空间 */
+    line-height: var(--timeline-tooltip-lh);
+    
+    /* ✅ 关键：JS 已经精确截断了文本，这里只需要隐藏溢出即可 */
+    overflow: hidden;
+    word-break: break-word;
+    white-space: pre-wrap; /* 保留换行和空格 */
+    
+    /* ✅ 点击复制功能 */
+    cursor: pointer; /* 鼠标变成手状 */
+    user-select: none; /* 禁止选中文字（因为点击是复制） */
+    transition: opacity 0.15s ease;
+    position: relative;
+}
+
+.timeline-tooltip-content:hover {
+    opacity: 0.8; /* hover时略微变淡，提示可点击 */
+}
+
+.timeline-tooltip-content:active {
+    opacity: 0.6; /* 点击时更明显的反馈 */
+}
+
+/* ✅ 复制成功提示 - 简洁样式 */
+.timeline-copy-feedback {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    z-index: 2147483647;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.15s ease;
+}
+
+.timeline-copy-feedback.visible {
+    opacity: 1;
+}
+
+/* Visible state toggled by JS */
+.timeline-tooltip.visible {
+    opacity: 1;
+    animation: timeline-tooltip-in var(--timeline-tooltip-anim-in);
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .timeline-tooltip,
+  .timeline-tooltip.visible {
+    transition: opacity 120ms linear;
+    transform: none !important;
+  }
+}
+
+/* Placement-aware transform origin for subtle scale */
+.timeline-tooltip[data-placement="left"] { transform-origin: right center; }
+.timeline-tooltip[data-placement="right"] { transform-origin: left center; }
+
+@keyframes timeline-tooltip-in {
+  from { transform: scale(0.96); }
+  to { transform: scale(1); }
+}
+
+/* ✅ 需求2：箭头指向圆点（类似 antd/element 样式）*/
+.timeline-tooltip::after {
+    content: '';
+    position: absolute;
+    width: var(--timeline-tooltip-arrow-size);
+    height: var(--timeline-tooltip-arrow-size);
+    background: var(--timeline-tooltip-bg);
+    border: var(--timeline-tooltip-border-w) solid var(--timeline-tooltip-border);
+    transform: rotate(45deg);
+    /* 添加阴影让箭头更立体 */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.05);
+    /* ✅ 修复：确保箭头显示在最上层 */
+    z-index: 1;
+    display: block;
+}
+
+/* 左侧显示时，箭头在右边指向圆点 */
+.timeline-tooltip[data-placement="left"]::after {
+    right: calc(-1 * var(--timeline-tooltip-arrow-outside));
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+    border-left: none; /* 隐藏左边框，视觉上与 tooltip 融合 */
+    border-bottom: none; /* 隐藏下边框 */
+    /* 只保留右上角的阴影 */
+    box-shadow: 2px -2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* 右侧显示时，箭头在左边指向圆点 */
+.timeline-tooltip[data-placement="right"]::after {
+    left: calc(-1 * var(--timeline-tooltip-arrow-outside));
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+    border-right: none; /* 隐藏右边框 */
+    border-top: none; /* 隐藏上边框 */
+    /* 只保留左下角的阴影 */
+    box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Hide native scrollbar of the track */
+.timeline-track::-webkit-scrollbar { width: 0; height: 0; }
+.timeline-track { scrollbar-width: none; }
+
+/* Left-side slider to control timeline scroll (visual, low-key) */
+.timeline-slider {
+    position: absolute;
+    left: 2px;
+    top: var(--timeline-track-padding);
+    bottom: var(--timeline-track-padding);
+    width: 6px;
+    pointer-events: auto; /* allow handle to capture */
+    opacity: 0;
+    transition: opacity 180ms ease;
+    z-index: 10;
+}
+.timeline-slider.visible { opacity: 1; }
+.timeline-slider::before {
+    content: '';
+    position: absolute;
+    left: 2px;
+    top: 0; bottom: 0;
+    width: 2px;
+    background: rgba(0,0,0,0.08);
+    border-radius: 9999px;
+}
+html.dark .timeline-slider::before { background: rgba(255,255,255,0.10); }
+
+.timeline-slider .timeline-handle {
+    position: absolute;
+    left: 0;
+    width: 6px;
+    height: 24px; /* updated by JS */
+    background: rgba(16,163,127,0.28); /* chat green with low opacity */
+    border-radius: 9999px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    pointer-events: auto;
+    cursor: grab;
+    transition: background-color 120ms ease, opacity 120ms ease;
+}
+.timeline-slider .timeline-handle:hover { background: rgba(16,163,127,0.45); }
+.timeline-slider .timeline-handle:active { cursor: grabbing; }
+/* External left-side slider (outside the timeline bar) */
+.timeline-left-slider {
+    position: fixed;
+    /* left set by JS using bar's rect (to the left of the bar) */
+    top: 0; /* updated by JS */
+    width: 12px; /* hit area; visual line narrower */
+    height: 160px; /* updated by JS */
+    opacity: 0;
+    transition: opacity 180ms ease;
+    z-index: 2147483646; /* align with bar */
+    pointer-events: none;
+}
+.timeline-left-slider.visible { opacity: 1;  pointer-events: auto; }
+.timeline-left-slider::before {
+    content: '';
+    position: absolute;
+    left: 5px; /* center thin track inside 12px hit area */
+    top: 0; bottom: 0;
+    width: 2px;
+    background: rgba(0,0,0,0.08);
+    border-radius: 9999px;
+}
+html.dark .timeline-left-slider::before { background: rgba(255,255,255,0.10); }
+.timeline-left-slider .timeline-left-handle {
+    position: absolute;
+    left: 2px; /* centered for 8px width inside 12px hit area */
+    width: 8px;
+    height: 22px; /* fixed, concise */
+    background: rgba(16,163,127,0.28);
+    border-radius: 9999px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    pointer-events: auto;
+    cursor: grab;
+    transition: background-color 120ms ease;
+}
+.timeline-left-slider .timeline-left-handle:hover { background: rgba(16,163,127,0.45); }
+.timeline-left-slider .timeline-left-handle:active { cursor: grabbing; }
+
+/* ✅ 收藏按钮（纯五角星，timeline-bar 下方 10px，位置由 JS 动态设置） */
+.timeline-starred-btn {
+    position: fixed;
+    /* right 和 bottom 值由 JS 根据 timeline-bar 动态计算，保证垂直居中对齐 */
+    width: 22px;
+    height: 22px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    transition: opacity 0.2s ease;
+    z-index: 2147483646; /* 与 timeline-bar 同级 */
+    opacity: 0.85;
+}
+
+.timeline-starred-btn svg {
+    width: 22px;
+    height: 22px;
+}
+
+.timeline-starred-btn:hover {
+    opacity: 1;
+}
+
+.timeline-starred-btn:active {
+    opacity: 0.7;
+}
+
+/* ✅ 收藏面板遮罩 */
+.timeline-starred-panel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2147483647; /* 最高层，与 tooltip 同级，确保覆盖所有元素 */
+    display: none;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(4px);
+}
+
+.timeline-starred-panel.visible {
+    display: flex;
+}
+
+/* ✅ 收藏面板内容容器 */
+.timeline-starred-content {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 700px;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    animation: panelSlideIn 0.3s ease;
+}
+
+html.dark .timeline-starred-content {
+    background: #2a2a2a;
+}
+
+@keyframes panelSlideIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* ✅ 面板头部 */
+.timeline-starred-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 24px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+html.dark .timeline-starred-header {
+    border-bottom-color: #404040;
+}
+
+.timeline-starred-header h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #111827;
+}
+
+html.dark .timeline-starred-header h3 {
+    color: #f3f4f6;
+}
+
+.timeline-starred-close {
+    width: 32px;
+    height: 32px;
+    border: none;
+    background: transparent;
+    border-radius: 50%;
+    font-size: 24px;
+    line-height: 1;
+    color: #6b7280;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+}
+
+.timeline-starred-close:hover {
+    background-color: #f3f4f6;
+    color: #111827;
+}
+
+html.dark .timeline-starred-close:hover {
+    background-color: #404040;
+    color: #f3f4f6;
+}
+
+/* ✅ 收藏列表 */
+.timeline-starred-list {
+    overflow-y: auto;
+    padding: 16px 24px;
+    flex: 1;
+}
+
+.timeline-starred-empty {
+    text-align: center;
+    padding: 60px 20px;
+    color: #9ca3af;
+    font-size: 14px;
+}
+
+/* ✅ 收藏项 */
+/* ✅ 收藏项 - 一行布局 */
+.timeline-starred-item {
+    background: #f9fafb;
+    border-radius: 8px;
+    padding: 10px 16px;
+    margin-bottom: 8px;
+    transition: all 0.2s ease;
+    border: 1px solid #e5e7eb; /* ✅ 淡灰色边框 */
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+html.dark .timeline-starred-item {
+    background: #1f1f1f;
+    border-color: #333333; /* ✅ 暗色模式下的淡色边框 */
+}
+
+.timeline-starred-item:hover {
+    background: #f3f4f6;
+    border-color: rgba(255, 125, 3, 0.3); /* ✅ 保持 rgba 格式用于透明度 */
+    box-shadow: 0 2px 8px rgba(255, 125, 3, 0.1);
+}
+
+html.dark .timeline-starred-item:hover {
+    background: #2a2a2a;
+}
+
+/* ✅ 网站标签 - 固定宽度，颜色由内联样式动态设置 */
+.timeline-starred-item-tag {
+    flex-shrink: 0;
+    padding: 3px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    /* 颜色由 JavaScript 动态设置 */
+}
+
+/* ✅ 问题文本 - 弹性占据剩余空间 */
+.timeline-starred-item-question {
+    flex: 1;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #374151;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+    cursor: pointer; /* ✅ 可点击复制 */
+    user-select: none; /* ✅ 禁止选中文字（因为点击是复制） */
+    transition: opacity 0.15s ease;
+}
+
+html.dark .timeline-starred-item-question {
+    color: #d1d5db;
+}
+
+/* ✅ 问题文本悬停效果 */
+.timeline-starred-item-question:hover {
+    color: var(--timeline-star-color);
+    opacity: 0.8; /* ✅ hover时略微变淡，提示可点击 */
+}
+
+/* ✅ 问题文本点击效果 */
+.timeline-starred-item-question:active {
+    opacity: 0.6; /* ✅ 点击时更明显的反馈 */
+}
+
+/* ✅ 操作按钮容器 - 收藏icon和前往按钮的容器 */
+.timeline-starred-item-actions {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap: 6px; /* 收藏icon和前往按钮之间的间距，比整体的12px更小 */
+}
+
+/* ✅ 收藏列表问题文本的自定义 tooltip */
+.timeline-starred-question-tooltip {
+    position: fixed;
+    background-color: var(--timeline-tooltip-bg);
+    color: var(--timeline-tooltip-text);
+    border: 1px solid var(--timeline-tooltip-border);
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 13px;
+    line-height: 1.5;
+    white-space: normal;
+    word-break: break-word;
+    max-width: 400px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    z-index: 2147483648; /* 高于收藏面板 */
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.15s ease, visibility 0.15s ease;
+    pointer-events: none;
+}
+
+.timeline-starred-question-tooltip.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* ✅ Tooltip 箭头 */
+.timeline-starred-question-tooltip::after {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: var(--timeline-tooltip-bg);
+    border: 1px solid var(--timeline-tooltip-border);
+    transform: rotate(45deg);
+    /* 水平位置由 JavaScript 动态设置（--arrow-left CSS 变量）*/
+    left: var(--arrow-left, 50%);
+    margin-left: -4px; /* 居中箭头 */
+}
+
+/* 显示在上方时，箭头在底部指向下方 */
+.timeline-starred-question-tooltip[data-placement="top"]::after {
+    bottom: -5px; /* 箭头突出在 tooltip 底部 */
+    border-top: none;
+    border-left: none;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* 显示在下方时，箭头在顶部指向上方 */
+.timeline-starred-question-tooltip[data-placement="bottom"]::after {
+    top: -5px; /* 箭头突出在 tooltip 顶部 */
+    border-bottom: none;
+    border-right: none;
+    box-shadow: -2px -2px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* ✅ 五角星按钮 - 固定尺寸 */
+.timeline-starred-item-star {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    border: none;
+    background: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    padding: 0;
+}
+
+.timeline-starred-item-star svg {
+    width: 14px;
+    height: 14px;
+}
+
+.timeline-starred-item-star:hover {
+    background-color: rgba(255, 125, 3, 0.1); /* ✅ 保持 rgba 格式用于透明度 */
+    transform: scale(1.1);
+}
+
+.timeline-starred-item-star:active {
+    transform: scale(0.95);
+}
+
+/* ✅ 前往文字链接 - 不是按钮样式 */
+.timeline-starred-item-goto {
+    flex-shrink: 0;
+    font-size: 13px;
+    color: var(--timeline-star-color);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 2px 4px;
+}
+
+.timeline-starred-item-goto:hover {
+    color: rgb(230, 110, 0);
+    text-decoration: underline;
+}
+
+.timeline-starred-item-goto:active {
+    opacity: 0.7;
+}

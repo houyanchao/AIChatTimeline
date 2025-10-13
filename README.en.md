@@ -1,0 +1,102 @@
+<div align="center">
+  <h1>AI Chat Timeline</h1>
+  <p>Add timeline to AI conversations, compatible with all mainstream AI platforms</p>  
+  <p>
+    <a href="./README.md">🇨🇳 点击此处查看中文版</a>
+  </p>
+</div>
+
+---
+
+<div align="center">
+  <img src="./images/demo_en.png" alt="AI Chat Timeline Demo" width="800">
+</div>
+
+---
+
+## 🌟 Features
+
+- **Visual Timeline**: Adds an intuitive vertical timeline to AI chat interfaces
+- **Quick Navigation**: Click on timeline dots to instantly jump to any question in the conversation
+- **Smart Bookmarking**: Star important questions and answers for easy access later
+- **Active State Tracking**: Automatically highlights the current position in the conversation
+- **Multi-Platform Support**: Works with all mainstream AI platforms
+- **Internationalization**: Supports English and Simplified Chinese
+
+## ✅ Installation
+
+### Method 1: Chrome Web Store (Highly Recommended)
+
+1. Visit the [Chrome Web Store](https://chromewebstore.google.com/detail/ai-chat-timeline-ai-chat/fgebdnlceacaiaeikopldglhffljjlhh)
+2. Click "Add to Chrome"
+3. Open any AI chat platform and start a conversation
+
+### Method 2: Manual Installation
+
+1. **Download** - Get the latest version from [Releases](../../releases)
+2. **Extract** - Unzip the downloaded file
+3. **Open Extensions Page** - Navigate to `chrome://extensions/`
+4. **Enable Developer Mode** - Toggle it on in the top right corner
+5. **Load Extension** - Click "Load unpacked" and select the extracted folder
+6. **Start Using** - Open any AI chat platform and start a conversation
+
+## 🚀 Supported Platforms
+
+<table>
+  <tr>
+    <td align="center">✅ ChatGPT</td>
+    <td align="center">✅ Gemini</td>
+    <td align="center">✅ Doubao</td>
+    <td align="center">✅ DeepSeek</td>
+  </tr>
+  <tr>
+    <td align="center">✅ Baidu Yiyan</td>
+    <td align="center">✅ Alibaba Tongyi</td>
+    <td align="center">✅ Kimi</td>
+    <td align="center">✅ Tencent Yuanbao</td>
+  </tr>
+</table>
+
+## 🚧 Planned Features
+
+- [ ] Support for Claude AI
+- [ ] Support adding notes after starring
+- [ ] Support Firefox, Edge, and other browsers
+
+---
+
+## 📋 Changelog
+
+### Version 1.1.0
+
+- Fixed known issues and optimized user experience
+
+### Version 1.0.0
+
+- ✨ Project initialization
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](./LICENSE)
+
+---
+
+## 💬 Contact & Support
+
+- **Issue Tracker**: [GitHub Issues](../../issues)
+- **Email**: houyanchao@outlook.com
+
+---
+
+## 🙏 Acknowledgements
+
+This project is built upon the initial codebase from [chatgpt-conversation-timeline](https://github.com/Reborn14/chatgpt-conversation-timeline), with enhanced user experience and additional features, now supporting all mainstream AI platforms. We greatly appreciate the original author's open-source contribution.
+
+---
+
+<div align="center">
+  <p>⭐ If you find this extension useful, please consider giving it a star on GitHub!</p>
+</div>
+

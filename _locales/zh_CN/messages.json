@@ -1,0 +1,36 @@
+{
+  "extName": {
+    "message": "AI Chat TimeLine - AI 对话时间轴，提高生产力"
+  },
+  "extDescription": {
+    "message": "给 AI 对话添加时间轴，快速查找、轻松收藏，提高你的生产力。"
+  },
+  "viewStarred": {
+    "message": "查看收藏"
+  },
+  "starredList": {
+    "message": "收藏列表"
+  },
+  "close": {
+    "message": "关闭"
+  },
+  "clickToStar": {
+    "message": "点击收藏"
+  },
+  "clickToUnstar": {
+    "message": "点击取消收藏"
+  },
+  "noStarredItems": {
+    "message": "暂无收藏"
+  },
+  "goTo": {
+    "message": "前往"
+  },
+  "goToTooltip": {
+    "message": "前往聊天详情页"
+  },
+  "copied": {
+    "message": "已复制"
+  }
+}
+

@@ -1,0 +1,36 @@
+{
+  "extName": {
+    "message": "AI Chat TimeLine - AI Chat Timeline for Productivity"
+  },
+  "extDescription": {
+    "message": "Add timeline to AI chats, quickly navigate and easily bookmark to boost your productivity."
+  },
+  "viewStarred": {
+    "message": "View starred"
+  },
+  "starredList": {
+    "message": "My Starred"
+  },
+  "close": {
+    "message": "Close"
+  },
+  "clickToStar": {
+    "message": "Click to star"
+  },
+  "clickToUnstar": {
+    "message": "Click to unstar"
+  },
+  "noStarredItems": {
+    "message": "No starred items"
+  },
+  "goTo": {
+    "message": "Go to"
+  },
+  "goToTooltip": {
+    "message": "Go to chat details"
+  },
+  "copied": {
+    "message": "Copied"
+  }
+}
+
