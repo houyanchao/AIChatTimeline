@@ -67,13 +67,16 @@
 
 ## 📋 Changelog
 
-### Version 1.1.0
+### Version 1.1.0 2025-10-13
 
-- Fixed known issues and optimized user experience
+- Support viewing starred list
+- Support quick copy of chat questions
+- Fixed known bugs and optimized interaction experience
 
-### Version 1.0.0
+### Version 1.0.0 2025-10-10
 
-- ✨ Project initialization
+- Support cross-AI platform starring
+- Project initialization
 
 ---
 
