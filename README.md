@@ -57,9 +57,12 @@
   </tr>
 </table>
 
-## 🚧 计划开发
+## 🚧 开发计划
 
 - [ ] 适配 Claude AI
+- [ ] 适配 Copilot
+- [ ] 支持收藏整页聊天
+- [ ] 支持收藏AI的回复
 - [ ] 支持收藏后添加备注
 - [ ] 支持 Firefox、Edge 等浏览器
 
@@ -95,7 +98,7 @@
 
 ## 🙏 致谢
 
-本项目基于 [chatgpt-conversation-timeline](https://github.com/Reborn14/chatgpt-conversation-timeline) 的初始代码进行开发，在此基础上进行了交互优化和功能增强，目前已适配所有主流AI平台。感谢原作者的开源贡献。
+本项目基于 [chatgpt-conversation-timeline](https://github.com/Reborn14/chatgpt-conversation-timeline) 的初始代码进行开发，感谢原作者的开源贡献。在此基础上进行交互优化和功能增强，适配所有主流 AI 平台，支持跨平台的对话收藏。
 
 ---
 

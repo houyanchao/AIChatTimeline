@@ -59,7 +59,10 @@
 
 ## 🚧 Planned Features
 
-- [ ] Support for Claude AI
+- [ ] Add support for Claude AI
+- [ ] Add support for Copilot
+- [ ] Support starring entire chat page
+- [ ] Support starring AI responses
 - [ ] Support adding notes after starring
 - [ ] Support Firefox, Edge, and other browsers
 
@@ -95,7 +98,7 @@ This project is licensed under the [MIT License](./LICENSE)
 
 ## 🙏 Acknowledgements
 
-This project is built upon the initial codebase from [chatgpt-conversation-timeline](https://github.com/Reborn14/chatgpt-conversation-timeline), with enhanced user experience and additional features, now supporting all mainstream AI platforms. We greatly appreciate the original author's open-source contribution.
+This project is developed based on the initial code from [chatgpt-conversation-timeline](https://github.com/Reborn14/chatgpt-conversation-timeline). We sincerely appreciate the original author's open-source contribution. Building upon this foundation, we have optimized the interaction and enhanced features, adapted it for all mainstream AI platforms, and added cross-platform conversation starring support.
 
 ---
 
