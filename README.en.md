@@ -59,11 +59,11 @@
 
 ## 🚧 Planned Features
 
-✅ Support quick jump to any message
-✅ Support starring questions
-✅ Support quick preview of questions
-✅ Support cross-platform starring
-✅ Support quick jump to corresponding question through starred records
+- ✅ Support quick jump to any message
+- ✅ Support starring questions
+- ✅ Support quick preview of questions
+- ✅ Support cross-platform starring
+- ✅ Support quick jump to corresponding question through starred records
 - [ ] Add support for Claude AI
 - [ ] Add support for Copilot
 - [ ] Support starring entire chat page
