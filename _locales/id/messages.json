@@ -1,0 +1,36 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Tambahkan timeline ke obrolan AI, ChatGPT, Gemini, DeepSeek"
+  },
+  "extDescription": {
+    "message": "Mendukung semua platform AI, lompat dengan mudah ke pesan apa pun, favorit lintas platform, meningkatkan efisiensi percakapan."
+  },
+  "viewStarred": {
+    "message": "Lihat favorit"
+  },
+  "starredList": {
+    "message": "Favorit Saya"
+  },
+  "close": {
+    "message": "Tutup"
+  },
+  "clickToStar": {
+    "message": "Klik untuk menambahkan ke favorit"
+  },
+  "clickToUnstar": {
+    "message": "Klik untuk menghapus dari favorit"
+  },
+  "noStarredItems": {
+    "message": "Tidak ada favorit"
+  },
+  "goTo": {
+    "message": "Pergi ke"
+  },
+  "goToTooltip": {
+    "message": "Pergi ke detail obrolan"
+  },
+  "copied": {
+    "message": "Disalin"
+  }
+}
+

@@ -1,0 +1,36 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - AIチャットにタイムラインを追加、ChatGPT、Gemini、DeepSeek"
+  },
+  "extDescription": {
+    "message": "すべてのAIプラットフォームに対応、メッセージへ簡単にジャンプ、クロスプラットフォームのお気に入り、会話効率を向上。"
+  },
+  "viewStarred": {
+    "message": "お気に入りを表示"
+  },
+  "starredList": {
+    "message": "お気に入りリスト"
+  },
+  "close": {
+    "message": "閉じる"
+  },
+  "clickToStar": {
+    "message": "クリックしてお気に入りに追加"
+  },
+  "clickToUnstar": {
+    "message": "クリックしてお気に入りから削除"
+  },
+  "noStarredItems": {
+    "message": "お気に入りがありません"
+  },
+  "goTo": {
+    "message": "移動"
+  },
+  "goToTooltip": {
+    "message": "チャット詳細へ移動"
+  },
+  "copied": {
+    "message": "コピーしました"
+  }
+}
+

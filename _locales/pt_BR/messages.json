@@ -1,0 +1,36 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Adicionar linha do tempo aos chats de IA, ChatGPT, Gemini, DeepSeek"
+  },
+  "extDescription": {
+    "message": "Suporta todas as plataformas de IA, pular facilmente para qualquer mensagem, favoritos multiplataforma, melhora a eficiência da conversa."
+  },
+  "viewStarred": {
+    "message": "Ver favoritos"
+  },
+  "starredList": {
+    "message": "Meus Favoritos"
+  },
+  "close": {
+    "message": "Fechar"
+  },
+  "clickToStar": {
+    "message": "Clique para adicionar aos favoritos"
+  },
+  "clickToUnstar": {
+    "message": "Clique para remover dos favoritos"
+  },
+  "noStarredItems": {
+    "message": "Sem favoritos"
+  },
+  "goTo": {
+    "message": "Ir para"
+  },
+  "goToTooltip": {
+    "message": "Ir para detalhes do chat"
+  },
+  "copied": {
+    "message": "Copiado"
+  }
+}
+

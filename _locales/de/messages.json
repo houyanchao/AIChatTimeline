@@ -1,0 +1,36 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Zeitachse für KI-Chats, ChatGPT, Gemini, DeepSeek"
+  },
+  "extDescription": {
+    "message": "Unterstützt alle KI-Plattformen, springt einfach zu jeder Nachricht, plattformübergreifende Favoriten, verbessert die Gesprächseffizienz."
+  },
+  "viewStarred": {
+    "message": "Favoriten anzeigen"
+  },
+  "starredList": {
+    "message": "Meine Favoriten"
+  },
+  "close": {
+    "message": "Schließen"
+  },
+  "clickToStar": {
+    "message": "Klicken zum Favorisieren"
+  },
+  "clickToUnstar": {
+    "message": "Klicken zum Entfernen"
+  },
+  "noStarredItems": {
+    "message": "Keine Favoriten"
+  },
+  "goTo": {
+    "message": "Gehe zu"
+  },
+  "goToTooltip": {
+    "message": "Zu Chat-Details gehen"
+  },
+  "copied": {
+    "message": "Kopiert"
+  }
+}
+

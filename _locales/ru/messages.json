@@ -1,0 +1,36 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Добавить временную шкалу в AI-чаты, ChatGPT, Gemini, DeepSeek"
+  },
+  "extDescription": {
+    "message": "Поддержка всех AI-платформ, лёгкий переход к любому сообщению, избранное между платформами, повышает эффективность общения."
+  },
+  "viewStarred": {
+    "message": "Просмотр избранного"
+  },
+  "starredList": {
+    "message": "Моё избранное"
+  },
+  "close": {
+    "message": "Закрыть"
+  },
+  "clickToStar": {
+    "message": "Нажмите, чтобы добавить в избранное"
+  },
+  "clickToUnstar": {
+    "message": "Нажмите, чтобы удалить из избранного"
+  },
+  "noStarredItems": {
+    "message": "Нет избранного"
+  },
+  "goTo": {
+    "message": "Перейти"
+  },
+  "goToTooltip": {
+    "message": "Перейти к деталям чата"
+  },
+  "copied": {
+    "message": "Скопировано"
+  }
+}
+

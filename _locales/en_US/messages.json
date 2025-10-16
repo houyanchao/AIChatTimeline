@@ -1,0 +1,36 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Add timeline to AI Chats, ChatGPT, Gemini, DeepSeek"
+  },
+  "extDescription": {
+    "message": "Supports all AI platforms, easily jump to any message, cross-platform favorites, improves conversation efficiency."
+  },
+  "viewStarred": {
+    "message": "View favorites"
+  },
+  "starredList": {
+    "message": "My Favorites"
+  },
+  "close": {
+    "message": "Close"
+  },
+  "clickToStar": {
+    "message": "Click to favorite"
+  },
+  "clickToUnstar": {
+    "message": "Click to unfavorite"
+  },
+  "noStarredItems": {
+    "message": "No favorites"
+  },
+  "goTo": {
+    "message": "Go to"
+  },
+  "goToTooltip": {
+    "message": "Go to chat details"
+  },
+  "copied": {
+    "message": "Copied"
+  }
+}
+

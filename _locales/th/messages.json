@@ -1,0 +1,36 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - เพิ่มไทม์ไลน์ให้กับแชท AI, ChatGPT, Gemini, DeepSeek"
+  },
+  "extDescription": {
+    "message": "รองรับทุกแพลตฟอร์ม AI ข้ามไปยังข้อความใดก็ได้อย่างง่ายดาย รายการโปรดข้ามแพลตฟอร์ม เพิ่มประสิทธิภาพการสนทนา"
+  },
+  "viewStarred": {
+    "message": "ดูรายการโปรด"
+  },
+  "starredList": {
+    "message": "รายการโปรดของฉัน"
+  },
+  "close": {
+    "message": "ปิด"
+  },
+  "clickToStar": {
+    "message": "คลิกเพื่อเพิ่มในรายการโปรด"
+  },
+  "clickToUnstar": {
+    "message": "คลิกเพื่อลบออกจากรายการโปรด"
+  },
+  "noStarredItems": {
+    "message": "ไม่มีรายการโปรด"
+  },
+  "goTo": {
+    "message": "ไปที่"
+  },
+  "goToTooltip": {
+    "message": "ไปที่รายละเอียดแชท"
+  },
+  "copied": {
+    "message": "คัดลอกแล้ว"
+  }
+}
+

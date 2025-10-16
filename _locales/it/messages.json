@@ -1,0 +1,36 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Aggiungi cronologia alle chat AI, ChatGPT, Gemini, DeepSeek"
+  },
+  "extDescription": {
+    "message": "Supporta tutte le piattaforme AI, salta facilmente a qualsiasi messaggio, preferiti multipiattaforma, migliora l'efficienza della conversazione."
+  },
+  "viewStarred": {
+    "message": "Visualizza preferiti"
+  },
+  "starredList": {
+    "message": "I Miei Preferiti"
+  },
+  "close": {
+    "message": "Chiudi"
+  },
+  "clickToStar": {
+    "message": "Clicca per aggiungere ai preferiti"
+  },
+  "clickToUnstar": {
+    "message": "Clicca per rimuovere dai preferiti"
+  },
+  "noStarredItems": {
+    "message": "Nessun preferito"
+  },
+  "goTo": {
+    "message": "Vai a"
+  },
+  "goToTooltip": {
+    "message": "Vai ai dettagli della chat"
+  },
+  "copied": {
+    "message": "Copiato"
+  }
+}
+

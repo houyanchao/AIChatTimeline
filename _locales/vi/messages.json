@@ -1,0 +1,36 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Thêm dòng thời gian vào trò chuyện AI, ChatGPT, Gemini, DeepSeek"
+  },
+  "extDescription": {
+    "message": "Hỗ trợ tất cả nền tảng AI, dễ dàng chuyển đến bất kỳ tin nhắn nào, yêu thích đa nền tảng, cải thiện hiệu quả trò chuyện."
+  },
+  "viewStarred": {
+    "message": "Xem yêu thích"
+  },
+  "starredList": {
+    "message": "Danh Sách Yêu Thích"
+  },
+  "close": {
+    "message": "Đóng"
+  },
+  "clickToStar": {
+    "message": "Nhấp để thêm vào yêu thích"
+  },
+  "clickToUnstar": {
+    "message": "Nhấp để xóa khỏi yêu thích"
+  },
+  "noStarredItems": {
+    "message": "Không có mục yêu thích"
+  },
+  "goTo": {
+    "message": "Đi tới"
+  },
+  "goToTooltip": {
+    "message": "Đi tới chi tiết trò chuyện"
+  },
+  "copied": {
+    "message": "Đã sao chép"
+  }
+}
+

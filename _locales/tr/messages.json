@@ -1,0 +1,36 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - AI sohbetlerine zaman çizelgesi ekle, ChatGPT, Gemini, DeepSeek"
+  },
+  "extDescription": {
+    "message": "Tüm AI platformlarını destekler, herhangi bir mesaja kolayca atla, platformlar arası favoriler, sohbet verimliliğini artırır."
+  },
+  "viewStarred": {
+    "message": "Favorileri görüntüle"
+  },
+  "starredList": {
+    "message": "Favorilerim"
+  },
+  "close": {
+    "message": "Kapat"
+  },
+  "clickToStar": {
+    "message": "Favorilere eklemek için tıklayın"
+  },
+  "clickToUnstar": {
+    "message": "Favorilerden kaldırmak için tıklayın"
+  },
+  "noStarredItems": {
+    "message": "Favori yok"
+  },
+  "goTo": {
+    "message": "Git"
+  },
+  "goToTooltip": {
+    "message": "Sohbet detaylarına git"
+  },
+  "copied": {
+    "message": "Kopyalandı"
+  }
+}
+

@@ -1,0 +1,36 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - 為 AI 對話添加時間軸，ChatGPT、Gemini、DeepSeek、豆包、Kimi"
+  },
+  "extDescription": {
+    "message": "支援所有 AI 平台，輕鬆地跳轉至任意訊息，支援跨平台收藏，提升對話效率。"
+  },
+  "viewStarred": {
+    "message": "檢視收藏"
+  },
+  "starredList": {
+    "message": "收藏清單"
+  },
+  "close": {
+    "message": "關閉"
+  },
+  "clickToStar": {
+    "message": "點擊收藏"
+  },
+  "clickToUnstar": {
+    "message": "點擊取消收藏"
+  },
+  "noStarredItems": {
+    "message": "暫無收藏"
+  },
+  "goTo": {
+    "message": "前往"
+  },
+  "goToTooltip": {
+    "message": "前往聊天詳情頁"
+  },
+  "copied": {
+    "message": "已複製"
+  }
+}
+
