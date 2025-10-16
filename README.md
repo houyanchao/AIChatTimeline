@@ -33,7 +33,7 @@
 
 ### 方式二：手动安装
 
-1. **下载** - [AIChatTimeline-v2.1.9.zip](./AIChatTimeline-v2.1.9.zip)
+1. **下载** - 下载 AIChatTimeline-v2.1.9.zip
 2. **解压** - 解压下载的 ZIP 文件
 3. **打开扩展页面** - 访问 `chrome://extensions/`
 4. **开启开发者模式** - 在页面右上角开启
