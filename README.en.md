@@ -33,7 +33,7 @@
 
 ### Method 2: Manual Installation
 
-1. **Download** - Click to download [AIChatTimeline-v1.1.0.zip](./AIChatTimeline-v1.1.0.zip)
+1. **Download** - Click to download [AIChatTimeline-v2.1.9.zip](./AIChatTimeline-v2.1.9.zip)
 2. **Extract** - Unzip the downloaded file
 3. **Open Extensions Page** - Navigate to `chrome://extensions/`
 4. **Enable Developer Mode** - Toggle it on in the top right corner
@@ -59,6 +59,11 @@
 
 ## 🚧 Planned Features
 
+- ✅ Support quick jump to any message
+- ✅ Support starring questions
+- ✅ Support quick preview of questions
+- ✅ Support cross-platform starring
+- ✅ Support quick jump to corresponding question through starred records
 - [ ] Add support for Claude AI
 - [ ] Add support for Copilot
 - [ ] Support starring entire chat page
@@ -69,6 +74,11 @@
 ---
 
 ## 📋 Changelog
+
+### Version 2.1.9 2025-10-16
+
+- Fixed known bugs
+- Optimized interaction experience
 
 ### Version 1.1.0 2025-10-13
 

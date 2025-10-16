@@ -1,9 +1,9 @@
 {
   "extName": {
-    "message": "AI Chat TimeLine - AI 对话时间轴，ChatGPT、Gemini、DeepSeek、豆包 等主流 AI 平台"
+    "message": "AI Chat Timeline - 为 AI 对话添加时间轴，ChatGPT、Gemini、DeepSeek、豆包、Kimi"
   },
   "extDescription": {
-    "message": "给 AI 对话添加时间轴，提高对话效率。"
+    "message": "支持所有 AI 平台，轻松地跳转至任意消息，支持跨平台收藏，提升对话效率。"
   },
   "viewStarred": {
     "message": "查看收藏"

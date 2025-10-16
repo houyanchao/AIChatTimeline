@@ -1,9 +1,9 @@
 {
   "extName": {
-    "message": "AI Chat TimeLine - ChatGPT, Gemini, DeepSeek, and more AI platforms"
+    "message": "AI Chat Timeline - Add timeline to AI conversations, ChatGPT, Gemini, DeepSeek, Doubao, Kimi"
   },
   "extDescription": {
-    "message": "Add timeline to AI chats to improve conversation efficiency."
+    "message": "Supports all AI platforms, easily jump to any message, cross-platform favorites, improves conversation efficiency."
   },
   "viewStarred": {
     "message": "View starred"
