@@ -27,13 +27,13 @@
 
 ### Method 1: Chrome Web Store (Highly Recommended)
 
-1. Visit the [Chrome Web Store](https://chromewebstore.google.com/detail/ai-chat-timeline-ai-chat/fgebdnlceacaiaeikopldglhffljjlhh)
+1. Go to [Chrome Web Store](https://chromewebstore.google.com/detail/ai-chat-timeline-ai-chat/fgebdnlceacaiaeikopldglhffljjlhh)
 2. Click "Add to Chrome"
 3. Open any AI chat platform and start a conversation
 
 ### Method 2: Manual Installation
 
-1. **Download** - Click to download [AIChatTimeline-v2.1.9.zip](./AIChatTimeline-v2.1.9.zip)
+1. **Download** - [AIChatTimeline-v2.1.9.zip](./AIChatTimeline-v2.1.9.zip)
 2. **Extract** - Unzip the downloaded file
 3. **Open Extensions Page** - Navigate to `chrome://extensions/`
 4. **Enable Developer Mode** - Toggle it on in the top right corner

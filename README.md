@@ -27,13 +27,13 @@
 
 ### 方式一：应用商店（强烈推荐）
 
-1. 点击访问 [Chrome 应用商店](https://chromewebstore.google.com/detail/ai-chat-timeline-ai-chat/fgebdnlceacaiaeikopldglhffljjlhh)
+1. 点击前往 [Chrome 应用商店](https://chromewebstore.google.com/detail/ai-chat-timeline-ai-chat/fgebdnlceacaiaeikopldglhffljjlhh)
 2. 点击"添加至 Chrome"
 3. 打开任意 AI 对话平台，开始对话即可
 
 ### 方式二：手动安装
 
-1. **下载** - 点击下载 [AIChatTimeline-v2.1.9.zip](./AIChatTimeline-v2.1.9.zip)
+1. **下载** - [AIChatTimeline-v2.1.9.zip](./AIChatTimeline-v2.1.9.zip)
 2. **解压** - 解压下载的 ZIP 文件
 3. **打开扩展页面** - 访问 `chrome://extensions/`
 4. **开启开发者模式** - 在页面右上角开启
