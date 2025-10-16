@@ -1,0 +1,36 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Přidat časovou osu do AI chatů, ChatGPT, Gemini, DeepSeek"
+  },
+  "extDescription": {
+    "message": "Podporuje všechny AI platformy, snadno přeskočte na jakoukoli zprávu, oblíbené napříč platformami, zlepšuje efektivitu konverzace."
+  },
+  "viewStarred": {
+    "message": "Zobrazit oblíbené"
+  },
+  "starredList": {
+    "message": "Moje Oblíbené"
+  },
+  "close": {
+    "message": "Zavřít"
+  },
+  "clickToStar": {
+    "message": "Klikněte pro přidání do oblíbených"
+  },
+  "clickToUnstar": {
+    "message": "Klikněte pro odebrání z oblíbených"
+  },
+  "noStarredItems": {
+    "message": "Žádné oblíbené"
+  },
+  "goTo": {
+    "message": "Přejít na"
+  },
+  "goToTooltip": {
+    "message": "Přejít na podrobnosti chatu"
+  },
+  "copied": {
+    "message": "Zkopírováno"
+  }
+}
+

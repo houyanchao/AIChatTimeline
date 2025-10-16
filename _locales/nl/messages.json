@@ -1,0 +1,36 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Tijdlijn toevoegen aan AI-chats, ChatGPT, Gemini, DeepSeek"
+  },
+  "extDescription": {
+    "message": "Ondersteunt alle AI-platforms, spring eenvoudig naar elk bericht, platformoverschrijdende favorieten, verbetert gespreksefficiëntie."
+  },
+  "viewStarred": {
+    "message": "Favorieten bekijken"
+  },
+  "starredList": {
+    "message": "Mijn Favorieten"
+  },
+  "close": {
+    "message": "Sluiten"
+  },
+  "clickToStar": {
+    "message": "Klik om toe te voegen aan favorieten"
+  },
+  "clickToUnstar": {
+    "message": "Klik om te verwijderen uit favorieten"
+  },
+  "noStarredItems": {
+    "message": "Geen favorieten"
+  },
+  "goTo": {
+    "message": "Ga naar"
+  },
+  "goToTooltip": {
+    "message": "Ga naar chatdetails"
+  },
+  "copied": {
+    "message": "Gekopieerd"
+  }
+}
+

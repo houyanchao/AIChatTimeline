@@ -1,0 +1,36 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Idővonal hozzáadása AI-csevegésekhez, ChatGPT, Gemini, DeepSeek"
+  },
+  "extDescription": {
+    "message": "Támogatja az összes AI-platformot, könnyen ugorj bármely üzenetre, platformok közötti kedvencek, javítja a beszélgetés hatékonyságát."
+  },
+  "viewStarred": {
+    "message": "Kedvencek megtekintése"
+  },
+  "starredList": {
+    "message": "Kedvenceim"
+  },
+  "close": {
+    "message": "Bezárás"
+  },
+  "clickToStar": {
+    "message": "Kattintson a kedvencekhez adáshoz"
+  },
+  "clickToUnstar": {
+    "message": "Kattintson a kedvencekből eltávolításhoz"
+  },
+  "noStarredItems": {
+    "message": "Nincsenek kedvencek"
+  },
+  "goTo": {
+    "message": "Ugrás ide"
+  },
+  "goToTooltip": {
+    "message": "Ugrás a csevegés részleteihez"
+  },
+  "copied": {
+    "message": "Másolva"
+  }
+}
+

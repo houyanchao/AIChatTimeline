@@ -1,0 +1,36 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Προσθήκη χρονολογίου στις συνομιλίες AI, ChatGPT, Gemini, DeepSeek"
+  },
+  "extDescription": {
+    "message": "Υποστηρίζει όλες τις πλατφόρμες AI, μεταβείτε εύκολα σε οποιοδήποτε μήνυμα, αγαπημένα μεταξύ πλατφορμών, βελτιώνει την αποδοτικότητα συνομιλίας."
+  },
+  "viewStarred": {
+    "message": "Προβολή αγαπημένων"
+  },
+  "starredList": {
+    "message": "Τα Αγαπημένα Μου"
+  },
+  "close": {
+    "message": "Κλείσιμο"
+  },
+  "clickToStar": {
+    "message": "Κάντε κλικ για προσθήκη στα αγαπημένα"
+  },
+  "clickToUnstar": {
+    "message": "Κάντε κλικ για αφαίρεση από τα αγαπημένα"
+  },
+  "noStarredItems": {
+    "message": "Δεν υπάρχουν αγαπημένα"
+  },
+  "goTo": {
+    "message": "Μετάβαση σε"
+  },
+  "goToTooltip": {
+    "message": "Μετάβαση στις λεπτομέρειες συνομιλίας"
+  },
+  "copied": {
+    "message": "Αντιγράφηκε"
+  }
+}
+

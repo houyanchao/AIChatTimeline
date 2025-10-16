@@ -1,0 +1,36 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Tambah garis masa ke sembang AI, ChatGPT, Gemini, DeepSeek"
+  },
+  "extDescription": {
+    "message": "Menyokong semua platform AI, lompat dengan mudah ke sebarang mesej, kegemaran merentas platform, meningkatkan kecekapan perbualan."
+  },
+  "viewStarred": {
+    "message": "Lihat kegemaran"
+  },
+  "starredList": {
+    "message": "Kegemaran Saya"
+  },
+  "close": {
+    "message": "Tutup"
+  },
+  "clickToStar": {
+    "message": "Klik untuk menambah ke kegemaran"
+  },
+  "clickToUnstar": {
+    "message": "Klik untuk mengeluarkan dari kegemaran"
+  },
+  "noStarredItems": {
+    "message": "Tiada kegemaran"
+  },
+  "goTo": {
+    "message": "Pergi ke"
+  },
+  "goToTooltip": {
+    "message": "Pergi ke butiran sembang"
+  },
+  "copied": {
+    "message": "Disalin"
+  }
+}
+

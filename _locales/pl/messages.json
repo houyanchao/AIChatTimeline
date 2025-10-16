@@ -1,0 +1,36 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Dodaj oś czasu do czatów AI, ChatGPT, Gemini, DeepSeek"
+  },
+  "extDescription": {
+    "message": "Obsługuje wszystkie platformy AI, łatwo przeskocz do dowolnej wiadomości, ulubione między platformami, poprawia efektywność rozmowy."
+  },
+  "viewStarred": {
+    "message": "Zobacz ulubione"
+  },
+  "starredList": {
+    "message": "Moje Ulubione"
+  },
+  "close": {
+    "message": "Zamknij"
+  },
+  "clickToStar": {
+    "message": "Kliknij, aby dodać do ulubionych"
+  },
+  "clickToUnstar": {
+    "message": "Kliknij, aby usunąć z ulubionych"
+  },
+  "noStarredItems": {
+    "message": "Brak ulubionych"
+  },
+  "goTo": {
+    "message": "Przejdź do"
+  },
+  "goToTooltip": {
+    "message": "Przejdź do szczegółów czatu"
+  },
+  "copied": {
+    "message": "Skopiowano"
+  }
+}
+

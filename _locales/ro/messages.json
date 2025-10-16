@@ -1,0 +1,36 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Adaugă cronologie la conversațiile AI, ChatGPT, Gemini, DeepSeek"
+  },
+  "extDescription": {
+    "message": "Suportă toate platformele AI, sări ușor la orice mesaj, favorite între platforme, îmbunătățește eficiența conversației."
+  },
+  "viewStarred": {
+    "message": "Vezi favoritele"
+  },
+  "starredList": {
+    "message": "Favoritele Mele"
+  },
+  "close": {
+    "message": "Închide"
+  },
+  "clickToStar": {
+    "message": "Faceți clic pentru a adăuga la favorite"
+  },
+  "clickToUnstar": {
+    "message": "Faceți clic pentru a elimina din favorite"
+  },
+  "noStarredItems": {
+    "message": "Niciun favorit"
+  },
+  "goTo": {
+    "message": "Mergi la"
+  },
+  "goToTooltip": {
+    "message": "Mergi la detaliile conversației"
+  },
+  "copied": {
+    "message": "Copiat"
+  }
+}
+

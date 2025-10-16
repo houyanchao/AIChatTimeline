@@ -1,0 +1,36 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Magdagdag ng timeline sa AI chats, ChatGPT, Gemini, DeepSeek"
+  },
+  "extDescription": {
+    "message": "Suportado ang lahat ng AI platforms, madaling tumalon sa anumang mensahe, paborito sa iba't ibang platform, pinapabuti ang kahusayan ng pag-uusap."
+  },
+  "viewStarred": {
+    "message": "Tingnan ang mga paborito"
+  },
+  "starredList": {
+    "message": "Aking Mga Paborito"
+  },
+  "close": {
+    "message": "Isara"
+  },
+  "clickToStar": {
+    "message": "I-click upang idagdag sa mga paborito"
+  },
+  "clickToUnstar": {
+    "message": "I-click upang alisin sa mga paborito"
+  },
+  "noStarredItems": {
+    "message": "Walang mga paborito"
+  },
+  "goTo": {
+    "message": "Pumunta sa"
+  },
+  "goToTooltip": {
+    "message": "Pumunta sa mga detalye ng chat"
+  },
+  "copied": {
+    "message": "Nakopya"
+  }
+}
+

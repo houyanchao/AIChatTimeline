@@ -1,0 +1,36 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - הוסף ציר זמן לצ'אטים של AI, ChatGPT, Gemini, DeepSeek"
+  },
+  "extDescription": {
+    "message": "תומך בכל פלטפורמות ה-AI, קפוץ בקלות לכל הודעה, מועדפים חוצי פלטפורמות, משפר יעילות שיחה."
+  },
+  "viewStarred": {
+    "message": "הצג מועדפים"
+  },
+  "starredList": {
+    "message": "המועדפים שלי"
+  },
+  "close": {
+    "message": "סגור"
+  },
+  "clickToStar": {
+    "message": "לחץ להוספה למועדפים"
+  },
+  "clickToUnstar": {
+    "message": "לחץ להסרה מהמועדפים"
+  },
+  "noStarredItems": {
+    "message": "אין מועדפים"
+  },
+  "goTo": {
+    "message": "עבור אל"
+  },
+  "goToTooltip": {
+    "message": "עבור לפרטי הצ'אט"
+  },
+  "copied": {
+    "message": "הועתק"
+  }
+}
+
