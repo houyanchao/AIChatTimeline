@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Interactive timeline for ChatGPT, Gemini, etc."
+  },
+  "extDescription": {
+    "message": "Supports all AI platforms, cross-platform favorites, easily jump to any message, improves conversation efficiency."
+  },
+  "viewStarred": {
+    "message": "View favorites"
+  },
+  "starredList": {
+    "message": "My Favorites"
+  },
+  "close": {
+    "message": "Close"
+  },
+  "clickToStar": {
+    "message": "Click to favorite"
+  },
+  "clickToUnstar": {
+    "message": "Click to unfavorite"
+  },
+  "noStarredItems": {
+    "message": "No favorites"
+  },
+  "goTo": {
+    "message": "Go to"
+  },
+  "goToTooltip": {
+    "message": "Go to chat details"
+  },
+  "copied": {
+    "message": "Copied"
+  },
+  "starChat": {
+    "message": "Star chat"
+  },
+  "unstarChat": {
+    "message": "Unstar chat"
+  },
+  "inputChatTheme": {
+    "message": "Enter chat theme:"
+  },
+  "themePlaceholder": {
+    "message": "Please enter"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "confirm": {
+    "message": "Confirm"
+  },
+  "themeRequired": {
+    "message": "Theme cannot be empty"
+  },
+  "unstar": {
+    "message": "Unstar"
+  },
+  "viewStarredList": {
+    "message": "View starred list"
+  },
+  "edit": {
+    "message": "Edit"
+  },
+  "editStarredContent": {
+    "message": "Edit starred content"
+  },
+  "contentRequired": {
+    "message": "Content cannot be empty"
+  },
+  "dataStorageNote": {
+    "message": "All data is stored locally in your browser and not uploaded to any server"
+  },
+  "projectOpenSource": {
+    "message": "This project is open source, welcome to"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "If you find it useful, feel free to recommend it to others"
+  },
+  "chromeWebStore": {
+    "message": "Chrome Web Store"
+  }
+}

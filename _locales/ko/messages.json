@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - AI 대화에 인터랙티브 타임라인 추가, ChatGPT 등 지원"
+  },
+  "extDescription": {
+    "message": "모든 AI 플랫폼 지원, 크로스 플랫폼 즐겨찾기, 모든 메시지로 쉽게 이동, 대화 효율성 향상."
+  },
+  "viewStarred": {
+    "message": "즐겨찾기 보기"
+  },
+  "starredList": {
+    "message": "내 즐겨찾기"
+  },
+  "close": {
+    "message": "닫기"
+  },
+  "clickToStar": {
+    "message": "클릭하여 즐겨찾기에 추가"
+  },
+  "clickToUnstar": {
+    "message": "클릭하여 즐겨찾기에서 제거"
+  },
+  "noStarredItems": {
+    "message": "즐겨찾기 없음"
+  },
+  "goTo": {
+    "message": "이동"
+  },
+  "goToTooltip": {
+    "message": "채팅 세부정보로 이동"
+  },
+  "copied": {
+    "message": "복사됨"
+  },
+  "starChat": {
+    "message": "채팅 즐겨찾기"
+  },
+  "unstarChat": {
+    "message": "채팅 즐겨찾기 취소"
+  },
+  "inputChatTheme": {
+    "message": "채팅 주제를 입력하세요:"
+  },
+  "themePlaceholder": {
+    "message": "입력하세요"
+  },
+  "cancel": {
+    "message": "취소"
+  },
+  "confirm": {
+    "message": "확인"
+  },
+  "themeRequired": {
+    "message": "주제를 입력해야 합니다"
+  },
+  "unstar": {
+    "message": "즐겨찾기 취소"
+  },
+  "viewStarredList": {
+    "message": "즐겨찾기 목록 보기"
+  },
+  "edit": {
+    "message": "편집"
+  },
+  "editStarredContent": {
+    "message": "즐겨찾기 내용 편집"
+  },
+  "contentRequired": {
+    "message": "내용을 입력해야 합니다"
+  },
+  "dataStorageNote": {
+    "message": "모든 데이터는 브라우저 로컬에 저장되며 서버에 업로드되지 않습니다"
+  },
+  "projectOpenSource": {
+    "message": "이 프로젝트는 오픈 소스입니다."
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "유용하다고 생각하시면 친구에게 추천해 주세요"
+  },
+  "chromeWebStore": {
+    "message": "Chrome 웹 스토어"
+  }
+}

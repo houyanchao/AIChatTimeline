@@ -59,10 +59,20 @@ class ChatGPTAdapter extends SiteAdapter {
     getTimelinePosition() {
         // ChatGPT 默认位置
         return {
-            top: '100px',      // 避开顶部导航栏
+            top: '120px',      // 避开顶部导航栏
             right: '20px',    // 右侧边距
-            bottom: '100px',   // 避开底部输入框
+            bottom: '120px',   // 避开底部输入框
         };
+    }
+    
+    getStarChatButtonTarget() {
+        // 返回分享按钮，收藏按钮将插入到它前面
+        return document.querySelector('[data-testid="share-chat-button"]');
+    }
+    
+    getDefaultChatTheme() {
+        // ChatGPT 使用页面标题作为默认主题
+        return document.title || '';
     }
 }
 

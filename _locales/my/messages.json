@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - ChatGPT, Gemini အတွက် အပြန်အလှန်အချိန်ဇယား"
+  },
+  "extDescription": {
+    "message": "AI ပလက်ဖောင်းအားလုံးကို ပံ့ပိုး၊ ပလက်ဖောင်းများအကြား အကြိုက်ဆုံးများ၊ မည်သည့်မက်ဆေ့ခ်ျမဆို အလွယ်တကူခုန်၊ စကားပြောဆိုမှု စွမ်းဆောင်ရည် တိုးတက်စေသည်။"
+  },
+  "viewStarred": {
+    "message": "အကြိုက်ဆုံးများကြည့်ရန်"
+  },
+  "starredList": {
+    "message": "ကျွန်ုပ်၏ အကြိုက်ဆုံးများ"
+  },
+  "close": {
+    "message": "ပိတ်မည်"
+  },
+  "clickToStar": {
+    "message": "အကြိုက်ဆုံးများသို့ ထည့်ရန် နှိပ်ပါ"
+  },
+  "clickToUnstar": {
+    "message": "အကြိုက်ဆုံးများမှ ဖယ်ရန် နှိပ်ပါ"
+  },
+  "noStarredItems": {
+    "message": "အကြိုက်ဆုံးများ မရှိပါ"
+  },
+  "goTo": {
+    "message": "သွားမည်"
+  },
+  "goToTooltip": {
+    "message": "ချတ်အသေးစိတ်သို့ သွားရန်"
+  },
+  "copied": {
+    "message": "ကူးယူပြီးပါပြီ"
+  },
+  "starChat": {
+    "message": "ချက်တင်ကို အကြိုက်ဆုံးများတွင် ထည့်မည်"
+  },
+  "unstarChat": {
+    "message": "ချက်တင်ကို အကြိုက်ဆုံးများမှ ဖယ်မည်"
+  },
+  "inputChatTheme": {
+    "message": "Enter chat theme:"
+  },
+  "themePlaceholder": {
+    "message": "Please enter"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "confirm": {
+    "message": "Confirm"
+  },
+  "themeRequired": {
+    "message": "Theme cannot be empty"
+  },
+  "unstar": {
+    "message": "Unstar"
+  },
+  "viewStarredList": {
+    "message": "View starred list"
+  },
+  "edit": {
+    "message": "Edit"
+  },
+  "editStarredContent": {
+    "message": "Edit starred content"
+  },
+  "contentRequired": {
+    "message": "Content cannot be empty"
+  },
+  "dataStorageNote": {
+    "message": "ဒေတာအားလုံးကို သင့်ဘရောက်ဆာတွင် ဒေသဆိုင်ရာ သိမ်းဆည်းထားပြီး ဆာဗာသို့ တင်ခြင်းမပြုပါ"
+  },
+  "projectOpenSource": {
+    "message": "ဤပရောဂျက်သည် open source ဖြစ်သည်၊ ကြိုဆိုပါသည်"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "If you find it useful, feel free to recommend it to others"
+  },
+  "chromeWebStore": {
+    "message": "Chrome Web Store"
+  }
+}

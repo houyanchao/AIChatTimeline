@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Gagnvirk tímalína fyrir ChatGPT, Gemini o.fl."
+  },
+  "extDescription": {
+    "message": "Styður alla AI-vettvanga, eftirlæti milli vettvanga, hoppaðu auðveldlega í hvaða skilaboð sem er, bætir samtalshagkvæmni."
+  },
+  "viewStarred": {
+    "message": "Skoða eftirlæti"
+  },
+  "starredList": {
+    "message": "Mín Eftirlæti"
+  },
+  "close": {
+    "message": "Loka"
+  },
+  "clickToStar": {
+    "message": "Smelltu til að bæta við eftirlæti"
+  },
+  "clickToUnstar": {
+    "message": "Smelltu til að fjarlægja úr eftirlætum"
+  },
+  "noStarredItems": {
+    "message": "Engin eftirlæti"
+  },
+  "goTo": {
+    "message": "Fara til"
+  },
+  "goToTooltip": {
+    "message": "Fara í spjallupplýsingar"
+  },
+  "copied": {
+    "message": "Afritað"
+  },
+  "starChat": {
+    "message": "Merkja spjall sem eftirlæti"
+  },
+  "unstarChat": {
+    "message": "Fjarlægja spjall úr eftirlætum"
+  },
+  "inputChatTheme": {
+    "message": "Enter chat theme:"
+  },
+  "themePlaceholder": {
+    "message": "Please enter"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "confirm": {
+    "message": "Confirm"
+  },
+  "themeRequired": {
+    "message": "Theme cannot be empty"
+  },
+  "unstar": {
+    "message": "Unstar"
+  },
+  "viewStarredList": {
+    "message": "View starred list"
+  },
+  "edit": {
+    "message": "Edit"
+  },
+  "editStarredContent": {
+    "message": "Edit starred content"
+  },
+  "contentRequired": {
+    "message": "Content cannot be empty"
+  },
+  "dataStorageNote": {
+    "message": "Öll gögn eru geymd staðbundið í vafranum þínum og ekki hlaðið upp á netþjón"
+  },
+  "projectOpenSource": {
+    "message": "Þetta verkefni er opinn kóði, velkomin"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "If you find it useful, feel free to recommend it to others"
+  },
+  "chromeWebStore": {
+    "message": "Chrome Web Store"
+  }
+}

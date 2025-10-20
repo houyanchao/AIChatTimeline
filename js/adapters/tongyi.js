@@ -52,10 +52,20 @@ class TongyiAdapter extends SiteAdapter {
     getTimelinePosition() {
         // 通义千问位置配置
         return {
-            top: '80px',       // 避开顶部导航栏
+            top: '120px',       // 避开顶部导航栏
             right: '20px',     // 右侧边距
-            bottom: '80px',    // 避开底部输入框
+            bottom: '120px',    // 避开底部输入框
         };
+    }
+    
+    getStarChatButtonTarget() {
+        // 返回 notifyContent 元素，收藏按钮将插入到它前面（左边）
+        return document.querySelector('[class*="notifyContent"]');
+    }
+    
+    getDefaultChatTheme() {
+        // 通义千问默认主题为空
+        return '';
     }
 }
 

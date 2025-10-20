@@ -69,10 +69,29 @@ class DeepSeekAdapter extends SiteAdapter {
     getTimelinePosition() {
         // DeepSeek 位置配置
         return {
-            top: '80px',       // 避开顶部导航栏
+            top: '120px',       // 避开顶部导航栏
             right: '20px',     // 右侧边距
-            bottom: '80px',    // 避开底部输入框
+            bottom: '120px',    // 避开底部输入框
         };
+    }
+    
+    getStarChatButtonTarget() {
+        // 不使用原生插入，返回 null
+        return null;
+    }
+    
+    getStarChatButtonPosition() {
+        // DeepSeek 使用固定定位，返回自定义位置
+        return {
+            top: '12px',
+            right: '60px'
+        };
+    }
+    
+    getDefaultChatTheme() {
+        // DeepSeek 使用页面标题作为默认主题，并过滤尾部的 " - DeepSeek"
+        const title = document.title || '';
+        return title.replace(/\s*-\s*DeepSeek\s*$/i, '').trim();
     }
 }
 

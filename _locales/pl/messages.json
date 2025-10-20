@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Interaktywna oś czasu dla ChatGPT, Gemini itp."
+  },
+  "extDescription": {
+    "message": "Obsługuje wszystkie platformy AI, ulubione między platformami, łatwo przeskocz do dowolnej wiadomości, poprawia efektywność rozmowy."
+  },
+  "viewStarred": {
+    "message": "Zobacz ulubione"
+  },
+  "starredList": {
+    "message": "Moje Ulubione"
+  },
+  "close": {
+    "message": "Zamknij"
+  },
+  "clickToStar": {
+    "message": "Dodaj pytanie do ulubionych"
+  },
+  "clickToUnstar": {
+    "message": "Usuń pytanie z ulubionych"
+  },
+  "noStarredItems": {
+    "message": "Brak ulubionych"
+  },
+  "goTo": {
+    "message": "Przejdź do"
+  },
+  "goToTooltip": {
+    "message": "Przejdź do szczegółów czatu"
+  },
+  "copied": {
+    "message": "Skopiowano"
+  },
+  "starChat": {
+    "message": "Dodaj czat do ulubionych"
+  },
+  "unstarChat": {
+    "message": "Usuń czat z ulubionych"
+  },
+  "inputChatTheme": {
+    "message": "Wprowadź temat czatu:"
+  },
+  "themePlaceholder": {
+    "message": "Wprowadź"
+  },
+  "cancel": {
+    "message": "Anuluj"
+  },
+  "confirm": {
+    "message": "Potwierdź"
+  },
+  "themeRequired": {
+    "message": "Temat nie może być pusty"
+  },
+  "unstar": {
+    "message": "Usuń z ulubionych"
+  },
+  "viewStarredList": {
+    "message": "Zobacz listę ulubionych"
+  },
+  "edit": {
+    "message": "Edytuj"
+  },
+  "editStarredContent": {
+    "message": "Edytuj ulubione"
+  },
+  "contentRequired": {
+    "message": "Zawartość nie może być pusta"
+  },
+  "dataStorageNote": {
+    "message": "Wszystkie dane są przechowywane lokalnie w przeglądarce i nie są przesyłane na serwer"
+  },
+  "projectOpenSource": {
+    "message": "Ten projekt jest open source, zapraszamy do"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "Jeśli uznasz to za przydatne, poleć innym"
+  },
+  "chromeWebStore": {
+    "message": "Chrome Web Store"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Linha do tempo interativa para ChatGPT, Gemini"
+  },
+  "extDescription": {
+    "message": "Suporta todas as plataformas de IA, favoritos multiplataforma, saltar facilmente para qualquer mensagem, melhora a eficiência da conversa."
+  },
+  "viewStarred": {
+    "message": "Ver favoritos"
+  },
+  "starredList": {
+    "message": "Os Meus Favoritos"
+  },
+  "close": {
+    "message": "Fechar"
+  },
+  "clickToStar": {
+    "message": "Clique para adicionar aos favoritos"
+  },
+  "clickToUnstar": {
+    "message": "Clique para remover dos favoritos"
+  },
+  "noStarredItems": {
+    "message": "Sem favoritos"
+  },
+  "goTo": {
+    "message": "Ir para"
+  },
+  "goToTooltip": {
+    "message": "Ir para detalhes do chat"
+  },
+  "copied": {
+    "message": "Copiado"
+  },
+  "starChat": {
+    "message": "Favoritar conversa"
+  },
+  "unstarChat": {
+    "message": "Desfavoritar conversa"
+  },
+  "inputChatTheme": {
+    "message": "Introduza o tema da conversa:"
+  },
+  "themePlaceholder": {
+    "message": "Introduza"
+  },
+  "cancel": {
+    "message": "Cancelar"
+  },
+  "confirm": {
+    "message": "Confirmar"
+  },
+  "themeRequired": {
+    "message": "O tema não pode estar vazio"
+  },
+  "unstar": {
+    "message": "Remover dos favoritos"
+  },
+  "viewStarredList": {
+    "message": "Ver lista de favoritos"
+  },
+  "edit": {
+    "message": "Editar"
+  },
+  "editStarredContent": {
+    "message": "Editar favorito"
+  },
+  "contentRequired": {
+    "message": "O conteúdo não pode estar vazio"
+  },
+  "dataStorageNote": {
+    "message": "Todos os dados são armazenados localmente no seu navegador e não são enviados para o servidor"
+  },
+  "projectOpenSource": {
+    "message": "Este projeto é de código aberto, bem-vindo a"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "Se achar útil, sinta-se à vontade para recomendar a outros"
+  },
+  "chromeWebStore": {
+    "message": "Chrome Web Store"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Dòng thời gian tương tác cho ChatGPT, Gemini"
+  },
+  "extDescription": {
+    "message": "Hỗ trợ tất cả nền tảng AI, yêu thích đa nền tảng, dễ dàng chuyển đến bất kỳ tin nhắn nào, cải thiện hiệu quả trò chuyện."
+  },
+  "viewStarred": {
+    "message": "Xem yêu thích"
+  },
+  "starredList": {
+    "message": "Danh Sách Yêu Thích"
+  },
+  "close": {
+    "message": "Đóng"
+  },
+  "clickToStar": {
+    "message": "Nhấp để thêm vào yêu thích"
+  },
+  "clickToUnstar": {
+    "message": "Nhấp để xóa khỏi yêu thích"
+  },
+  "noStarredItems": {
+    "message": "Không có mục yêu thích"
+  },
+  "goTo": {
+    "message": "Đi tới"
+  },
+  "goToTooltip": {
+    "message": "Đi tới chi tiết trò chuyện"
+  },
+  "copied": {
+    "message": "Đã sao chép"
+  },
+  "starChat": {
+    "message": "Lưu cuộc trò chuyện"
+  },
+  "unstarChat": {
+    "message": "Bỏ lưu cuộc trò chuyện"
+  },
+  "inputChatTheme": {
+    "message": "Nhập chủ đề trò chuyện:"
+  },
+  "themePlaceholder": {
+    "message": "Nhập"
+  },
+  "cancel": {
+    "message": "Hủy"
+  },
+  "confirm": {
+    "message": "Xác nhận"
+  },
+  "themeRequired": {
+    "message": "Chủ đề không được để trống"
+  },
+  "unstar": {
+    "message": "Bỏ lưu"
+  },
+  "viewStarredList": {
+    "message": "Xem danh sách yêu thích"
+  },
+  "edit": {
+    "message": "Chỉnh sửa"
+  },
+  "editStarredContent": {
+    "message": "Chỉnh sửa nội dung yêu thích"
+  },
+  "contentRequired": {
+    "message": "Nội dung không được để trống"
+  },
+  "dataStorageNote": {
+    "message": "Tất cả dữ liệu được lưu trữ cục bộ trong trình duyệt của bạn và không được tải lên máy chủ"
+  },
+  "projectOpenSource": {
+    "message": "Dự án này là mã nguồn mở, chào mừng đến"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "If you find it useful, feel free to recommend it to others"
+  },
+  "chromeWebStore": {
+    "message": "Chrome Web Store"
+  }
+}

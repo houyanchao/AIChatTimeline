@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - ציר זמן אינטראקטיבי עבור ChatGPT, Gemini"
+  },
+  "extDescription": {
+    "message": "תומך בכל פלטפורמות ה-AI, מועדפים חוצי פלטפורמות, קפוץ בקלות לכל הודעה, משפר יעילות שיחה."
+  },
+  "viewStarred": {
+    "message": "הצג מועדפים"
+  },
+  "starredList": {
+    "message": "המועדפים שלי"
+  },
+  "close": {
+    "message": "סגור"
+  },
+  "clickToStar": {
+    "message": "הוסף שאלה למועדפים"
+  },
+  "clickToUnstar": {
+    "message": "הסר שאלה מהמועדפים"
+  },
+  "noStarredItems": {
+    "message": "אין מועדפים"
+  },
+  "goTo": {
+    "message": "עבור אל"
+  },
+  "goToTooltip": {
+    "message": "עבור לפרטי הצ'אט"
+  },
+  "copied": {
+    "message": "הועתק"
+  },
+  "starChat": {
+    "message": "הוסף שיחה למועדפים"
+  },
+  "unstarChat": {
+    "message": "הסר שיחה מהמועדפים"
+  },
+  "inputChatTheme": {
+    "message": "הזן נושא שיחה:"
+  },
+  "themePlaceholder": {
+    "message": "הזן"
+  },
+  "cancel": {
+    "message": "ביטול"
+  },
+  "confirm": {
+    "message": "אישור"
+  },
+  "themeRequired": {
+    "message": "הנושא לא יכול להיות ריק"
+  },
+  "unstar": {
+    "message": "הסר מהמועדפים"
+  },
+  "viewStarredList": {
+    "message": "הצג רשימת מועדפים"
+  },
+  "edit": {
+    "message": "ערוך"
+  },
+  "editStarredContent": {
+    "message": "ערוך מועדף"
+  },
+  "contentRequired": {
+    "message": "התוכן לא יכול להיות ריק"
+  },
+  "dataStorageNote": {
+    "message": "כל הנתונים מאוחסנים מקומית בדפדפן שלך ולא מועלים לשרת"
+  },
+  "projectOpenSource": {
+    "message": "פרויקט זה הוא קוד פתוח, ברוכים הבאים"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "If you find it useful, feel free to recommend it to others"
+  },
+  "chromeWebStore": {
+    "message": "Chrome Web Store"
+  }
+}

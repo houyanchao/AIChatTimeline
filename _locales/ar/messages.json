@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - خط زمني تفاعلي لـ ChatGPT، Gemini"
+  },
+  "extDescription": {
+    "message": "يدعم جميع منصات الذكاء الاصطناعي، المفضلة عبر المنصات، انتقل بسهولة إلى أي رسالة، يحسن كفاءة المحادثة."
+  },
+  "viewStarred": {
+    "message": "عرض المفضلة"
+  },
+  "starredList": {
+    "message": "قائمة المفضلة"
+  },
+  "close": {
+    "message": "إغلاق"
+  },
+  "clickToStar": {
+    "message": "انقر للإضافة إلى المفضلة"
+  },
+  "clickToUnstar": {
+    "message": "انقر للإزالة من المفضلة"
+  },
+  "noStarredItems": {
+    "message": "لا توجد عناصر مفضلة"
+  },
+  "goTo": {
+    "message": "الانتقال إلى"
+  },
+  "goToTooltip": {
+    "message": "الانتقال إلى تفاصيل المحادثة"
+  },
+  "copied": {
+    "message": "تم النسخ"
+  },
+  "starChat": {
+    "message": "إضافة المحادثة إلى المفضلة"
+  },
+  "unstarChat": {
+    "message": "إزالة المحادثة من المفضلة"
+  },
+  "inputChatTheme": {
+    "message": "أدخل موضوع المحادثة:"
+  },
+  "themePlaceholder": {
+    "message": "أدخل"
+  },
+  "cancel": {
+    "message": "إلغاء"
+  },
+  "confirm": {
+    "message": "تأكيد"
+  },
+  "themeRequired": {
+    "message": "لا يمكن أن يكون الموضوع فارغًا"
+  },
+  "unstar": {
+    "message": "إزالة من المفضلة"
+  },
+  "viewStarredList": {
+    "message": "عرض قائمة المفضلة"
+  },
+  "edit": {
+    "message": "تحرير"
+  },
+  "editStarredContent": {
+    "message": "تحرير المحتوى المفضل"
+  },
+  "contentRequired": {
+    "message": "لا يمكن أن يكون المحتوى فارغًا"
+  },
+  "dataStorageNote": {
+    "message": "يتم تخزين جميع البيانات محليًا في المتصفح ولا يتم رفعها إلى الخادم"
+  },
+  "projectOpenSource": {
+    "message": "هذا المشروع مفتوح المصدر، مرحبًا بك في"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "إذا وجدته مفيدًا، لا تتردد في التوصية به للآخرين"
+  },
+  "chromeWebStore": {
+    "message": "متجر كروم الإلكتروني"
+  }
+}

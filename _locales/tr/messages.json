@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - ChatGPT, Gemini için etkileşimli zaman çizelgesi"
+  },
+  "extDescription": {
+    "message": "Tüm AI platformlarını destekler, platformlar arası favoriler, herhangi bir mesaja kolayca atla, sohbet verimliliğini artırır."
+  },
+  "viewStarred": {
+    "message": "Favorileri görüntüle"
+  },
+  "starredList": {
+    "message": "Favorilerim"
+  },
+  "close": {
+    "message": "Kapat"
+  },
+  "clickToStar": {
+    "message": "Soruyu favorilere ekle"
+  },
+  "clickToUnstar": {
+    "message": "Soruyu favorilerden kaldır"
+  },
+  "noStarredItems": {
+    "message": "Favori yok"
+  },
+  "goTo": {
+    "message": "Git"
+  },
+  "goToTooltip": {
+    "message": "Sohbet detaylarına git"
+  },
+  "copied": {
+    "message": "Kopyalandı"
+  },
+  "starChat": {
+    "message": "Sohbeti favorilere ekle"
+  },
+  "unstarChat": {
+    "message": "Sohbeti favorilerden kaldır"
+  },
+  "inputChatTheme": {
+    "message": "Sohbet temasını girin:"
+  },
+  "themePlaceholder": {
+    "message": "Girin"
+  },
+  "cancel": {
+    "message": "İptal"
+  },
+  "confirm": {
+    "message": "Onayla"
+  },
+  "themeRequired": {
+    "message": "Tema boş olamaz"
+  },
+  "unstar": {
+    "message": "Favorilerden kaldır"
+  },
+  "viewStarredList": {
+    "message": "Favori listesini görüntüle"
+  },
+  "edit": {
+    "message": "Düzenle"
+  },
+  "editStarredContent": {
+    "message": "Favoriyi düzenle"
+  },
+  "contentRequired": {
+    "message": "İçerik boş olamaz"
+  },
+  "dataStorageNote": {
+    "message": "Tüm veriler tarayıcınızda yerel olarak depolanır ve sunucuya yüklenmez"
+  },
+  "projectOpenSource": {
+    "message": "Bu proje açık kaynaklıdır, hoş geldiniz"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "Faydalı bulduysanız, başkalarına da tavsiye edebilirsiniz"
+  },
+  "chromeWebStore": {
+    "message": "Chrome Web Store"
+  }
+}

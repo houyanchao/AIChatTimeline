@@ -140,6 +140,9 @@ function initializeTimeline() {
     TimelineUtils.removeElementSafe(document.getElementById('chat-timeline-tooltip'));
     TimelineUtils.removeElementSafe(document.querySelector('.timeline-starred-btn'));
     TimelineUtils.removeElementSafe(document.querySelector('.timeline-starred-panel'));
+    TimelineUtils.removeElementSafe(document.querySelector('.timeline-star-chat-btn-native'));
+    TimelineUtils.removeElementSafe(document.querySelector('.timeline-star-chat-btn-fixed'));
+    TimelineUtils.removeElementSafe(document.querySelector('.timeline-theme-dialog-overlay'));
     
     try {
         timelineManagerInstance = new TimelineManager(currentAdapter);
@@ -164,6 +167,9 @@ function handleUrlChange() {
     TimelineUtils.removeElementSafe(document.getElementById('chat-timeline-tooltip'));
     TimelineUtils.removeElementSafe(document.querySelector('.timeline-starred-btn'));
     TimelineUtils.removeElementSafe(document.querySelector('.timeline-starred-panel'));
+    TimelineUtils.removeElementSafe(document.querySelector('.timeline-star-chat-btn-native'));
+    TimelineUtils.removeElementSafe(document.querySelector('.timeline-star-chat-btn-fixed'));
+    TimelineUtils.removeElementSafe(document.querySelector('.timeline-theme-dialog-overlay'));
     cleanupGlobalObservers();
 
     // 如果当前是对话 URL，重新初始化

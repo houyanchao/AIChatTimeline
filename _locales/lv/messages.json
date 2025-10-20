@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Interaktīva laika skala ChatGPT, Gemini u.c."
+  },
+  "extDescription": {
+    "message": "Atbalsta visas AI platformas, izlase starp platformām, viegli pārvietoties uz jebkuru ziņojumu, uzlabo sarunas efektivitāti."
+  },
+  "viewStarred": {
+    "message": "Skatīt izlasi"
+  },
+  "starredList": {
+    "message": "Mana Izlase"
+  },
+  "close": {
+    "message": "Aizvērt"
+  },
+  "clickToStar": {
+    "message": "Noklikšķiniet, lai pievienotu izlasei"
+  },
+  "clickToUnstar": {
+    "message": "Noklikšķiniet, lai noņemtu no izlases"
+  },
+  "noStarredItems": {
+    "message": "Nav izlases"
+  },
+  "goTo": {
+    "message": "Doties uz"
+  },
+  "goToTooltip": {
+    "message": "Doties uz tērzēšanas detaļām"
+  },
+  "copied": {
+    "message": "Nokopēts"
+  },
+  "starChat": {
+    "message": "Pievienot tērzēšanu izlasei"
+  },
+  "unstarChat": {
+    "message": "Noņemt tērzēšanu no izlases"
+  },
+  "inputChatTheme": {
+    "message": "Ievadiet tērzēšanas tēmu:"
+  },
+  "themePlaceholder": {
+    "message": "Please enter"
+  },
+  "cancel": {
+    "message": "Atcelt"
+  },
+  "confirm": {
+    "message": "Apstiprināt"
+  },
+  "themeRequired": {
+    "message": "Tēma nevar būt tukša"
+  },
+  "unstar": {
+    "message": "Unstar"
+  },
+  "viewStarredList": {
+    "message": "View starred list"
+  },
+  "edit": {
+    "message": "Edit"
+  },
+  "editStarredContent": {
+    "message": "Edit starred content"
+  },
+  "contentRequired": {
+    "message": "Content cannot be empty"
+  },
+  "dataStorageNote": {
+    "message": "Visi dati tiek glabāti lokāli jūsu pārlūkprogrammā un netiek augšupielādēti serverī"
+  },
+  "projectOpenSource": {
+    "message": "Šis projekts ir atvērtā koda, laipni lūdzam"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "If you find it useful, feel free to recommend it to others"
+  },
+  "chromeWebStore": {
+    "message": "Chrome Web Store"
+  }
+}

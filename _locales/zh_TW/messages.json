@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - 為 AI 對話添加互動式時間軸，支援 ChatGPT、Gemini 等平台"
+  },
+  "extDescription": {
+    "message": "支援所有 AI 平台，跨平台收藏，輕鬆地跳轉至任意訊息，提升對話效率。"
+  },
+  "viewStarred": {
+    "message": "檢視收藏"
+  },
+  "starredList": {
+    "message": "收藏清單"
+  },
+  "close": {
+    "message": "關閉"
+  },
+  "clickToStar": {
+    "message": "收藏提問"
+  },
+  "clickToUnstar": {
+    "message": "取消收藏提問"
+  },
+  "noStarredItems": {
+    "message": "暫無收藏"
+  },
+  "goTo": {
+    "message": "前往"
+  },
+  "goToTooltip": {
+    "message": "前往聊天詳情頁"
+  },
+  "copied": {
+    "message": "已複製"
+  },
+  "starChat": {
+    "message": "收藏聊天"
+  },
+  "unstarChat": {
+    "message": "取消收藏聊天"
+  },
+  "inputChatTheme": {
+    "message": "請輸入聊天主題："
+  },
+  "themePlaceholder": {
+    "message": "請輸入"
+  },
+  "cancel": {
+    "message": "取消"
+  },
+  "confirm": {
+    "message": "確定"
+  },
+  "themeRequired": {
+    "message": "主題不能為空"
+  },
+  "unstar": {
+    "message": "取消收藏"
+  },
+  "viewStarredList": {
+    "message": "檢視收藏清單"
+  },
+  "edit": {
+    "message": "編輯"
+  },
+  "editStarredContent": {
+    "message": "編輯收藏內容"
+  },
+  "contentRequired": {
+    "message": "內容不能為空"
+  },
+  "dataStorageNote": {
+    "message": "所有數據存儲在你的瀏覽器本地，不上傳服務器"
+  },
+  "projectOpenSource": {
+    "message": "本項目已開源，歡迎"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "如果覺得好用，歡迎推薦給朋友"
+  },
+  "chromeWebStore": {
+    "message": "Chrome 應用商店"
+  }
+}

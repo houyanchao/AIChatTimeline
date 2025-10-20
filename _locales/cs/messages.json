@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Interaktivní časová osa pro ChatGPT, Gemini"
+  },
+  "extDescription": {
+    "message": "Podporuje všechny AI platformy, oblíbené napříč platformami, snadno přeskočte na jakoukoli zprávu, zlepšuje efektivitu konverzace."
+  },
+  "viewStarred": {
+    "message": "Zobrazit oblíbené"
+  },
+  "starredList": {
+    "message": "Moje Oblíbené"
+  },
+  "close": {
+    "message": "Zavřít"
+  },
+  "clickToStar": {
+    "message": "Přidat otázku do oblíbených"
+  },
+  "clickToUnstar": {
+    "message": "Odebrat otázku z oblíbených"
+  },
+  "noStarredItems": {
+    "message": "Žádné oblíbené"
+  },
+  "goTo": {
+    "message": "Přejít na"
+  },
+  "goToTooltip": {
+    "message": "Přejít na podrobnosti chatu"
+  },
+  "copied": {
+    "message": "Zkopírováno"
+  },
+  "starChat": {
+    "message": "Přidat chat do oblíbených"
+  },
+  "unstarChat": {
+    "message": "Odebrat chat z oblíbených"
+  },
+  "inputChatTheme": {
+    "message": "Zadejte téma chatu:"
+  },
+  "themePlaceholder": {
+    "message": "Zadejte"
+  },
+  "cancel": {
+    "message": "Zrušit"
+  },
+  "confirm": {
+    "message": "Potvrdit"
+  },
+  "themeRequired": {
+    "message": "Téma nemůže být prázdné"
+  },
+  "unstar": {
+    "message": "Odebrat z oblíbených"
+  },
+  "viewStarredList": {
+    "message": "Zobrazit seznam oblíbených"
+  },
+  "edit": {
+    "message": "Upravit"
+  },
+  "editStarredContent": {
+    "message": "Upravit oblíbené"
+  },
+  "contentRequired": {
+    "message": "Obsah nemůže být prázdný"
+  },
+  "dataStorageNote": {
+    "message": "Všechna data jsou uložena lokálně ve vašem prohlížeči a nejsou nahrávána na server"
+  },
+  "projectOpenSource": {
+    "message": "Tento projekt je open source, vítejte"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "If you find it useful, feel free to recommend it to others"
+  },
+  "chromeWebStore": {
+    "message": "Chrome Web Store"
+  }
+}

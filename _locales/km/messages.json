@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - បន្ទាត់ពេលវេលាអន្តរកម្មសម្រាប់ ChatGPT, Gemini"
+  },
+  "extDescription": {
+    "message": "គាំទ្រវេទិកា AI ទាំងអស់ ចំណូលចិត្តឆ្លងវេទិកា លោតទៅសារណាមួយយ៉ាងងាយស្រួល បង្កើនប្រសិទ្ធភាពការសន្ទនា។"
+  },
+  "viewStarred": {
+    "message": "មើលចំណូលចិត្ត"
+  },
+  "starredList": {
+    "message": "ចំណូលចិត្តរបស់ខ្ញុំ"
+  },
+  "close": {
+    "message": "បិទ"
+  },
+  "clickToStar": {
+    "message": "ចុចដើម្បីបន្ថែមទៅចំណូលចិត្ត"
+  },
+  "clickToUnstar": {
+    "message": "ចុចដើម្បីដកចេញពីចំណូលចិត្ត"
+  },
+  "noStarredItems": {
+    "message": "មិនមានចំណូលចិត្ត"
+  },
+  "goTo": {
+    "message": "ទៅកាន់"
+  },
+  "goToTooltip": {
+    "message": "ទៅកាន់ព័ត៌មានលម្អិតការជជែក"
+  },
+  "copied": {
+    "message": "បានចម្លង"
+  },
+  "starChat": {
+    "message": "បន្ថែមការជជែកទៅចំណូលចិត្ត"
+  },
+  "unstarChat": {
+    "message": "លុបការជជែកចេញពីចំណូលចិត្ត"
+  },
+  "inputChatTheme": {
+    "message": "Enter chat theme:"
+  },
+  "themePlaceholder": {
+    "message": "Please enter"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "confirm": {
+    "message": "Confirm"
+  },
+  "themeRequired": {
+    "message": "Theme cannot be empty"
+  },
+  "unstar": {
+    "message": "Unstar"
+  },
+  "viewStarredList": {
+    "message": "View starred list"
+  },
+  "edit": {
+    "message": "Edit"
+  },
+  "editStarredContent": {
+    "message": "Edit starred content"
+  },
+  "contentRequired": {
+    "message": "Content cannot be empty"
+  },
+  "dataStorageNote": {
+    "message": "ទិន្នន័យទាំងអស់ត្រូវបានរក្សាទុកក្នុងកម្មវិធីរុករករបស់អ្នកនិងមិនត្រូវបានផ្ទុកឡើងម៉ាស៊ីនមេទេ"
+  },
+  "projectOpenSource": {
+    "message": "គម្រោងនេះគឺជាកូដបើកចំហ, សូមស្វាគមន៍"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "If you find it useful, feel free to recommend it to others"
+  },
+  "chromeWebStore": {
+    "message": "Chrome Web Store"
+  }
+}

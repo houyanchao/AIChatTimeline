@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Timeline interattiva per ChatGPT, Gemini ecc."
+  },
+  "extDescription": {
+    "message": "Supporta tutte le piattaforme AI, preferiti multipiattaforma, salta facilmente a qualsiasi messaggio, migliora l'efficienza della conversazione."
+  },
+  "viewStarred": {
+    "message": "Visualizza preferiti"
+  },
+  "starredList": {
+    "message": "I Miei Preferiti"
+  },
+  "close": {
+    "message": "Chiudi"
+  },
+  "clickToStar": {
+    "message": "Aggiungi domanda ai preferiti"
+  },
+  "clickToUnstar": {
+    "message": "Rimuovi domanda dai preferiti"
+  },
+  "noStarredItems": {
+    "message": "Nessun preferito"
+  },
+  "goTo": {
+    "message": "Vai a"
+  },
+  "goToTooltip": {
+    "message": "Vai ai dettagli della chat"
+  },
+  "copied": {
+    "message": "Copiato"
+  },
+  "starChat": {
+    "message": "Aggiungi chat ai preferiti"
+  },
+  "unstarChat": {
+    "message": "Rimuovi chat dai preferiti"
+  },
+  "inputChatTheme": {
+    "message": "Inserisci il tema della chat:"
+  },
+  "themePlaceholder": {
+    "message": "Inserisci"
+  },
+  "cancel": {
+    "message": "Annulla"
+  },
+  "confirm": {
+    "message": "Conferma"
+  },
+  "themeRequired": {
+    "message": "Il tema non può essere vuoto"
+  },
+  "unstar": {
+    "message": "Rimuovi dai preferiti"
+  },
+  "viewStarredList": {
+    "message": "Visualizza elenco preferiti"
+  },
+  "edit": {
+    "message": "Modifica"
+  },
+  "editStarredContent": {
+    "message": "Modifica preferito"
+  },
+  "contentRequired": {
+    "message": "Il contenuto non può essere vuoto"
+  },
+  "dataStorageNote": {
+    "message": "Tutti i dati sono memorizzati localmente nel tuo browser e non caricati sul server"
+  },
+  "projectOpenSource": {
+    "message": "Questo progetto è open source, benvenuto a"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "Se lo trovi utile, sentiti libero di consigliarlo ad altri"
+  },
+  "chromeWebStore": {
+    "message": "Chrome Web Store"
+  }
+}

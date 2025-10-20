@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Interaktívna časová os pre ChatGPT, Gemini"
+  },
+  "extDescription": {
+    "message": "Podporuje všetky AI platformy, obľúbené naprieč platformami, ľahko preskočte na akúkoľvek správu, zlepšuje efektivitu konverzácie."
+  },
+  "viewStarred": {
+    "message": "Zobraziť obľúbené"
+  },
+  "starredList": {
+    "message": "Moje Obľúbené"
+  },
+  "close": {
+    "message": "Zavrieť"
+  },
+  "clickToStar": {
+    "message": "Kliknite pre pridanie do obľúbených"
+  },
+  "clickToUnstar": {
+    "message": "Kliknite pre odstránenie z obľúbených"
+  },
+  "noStarredItems": {
+    "message": "Žiadne obľúbené"
+  },
+  "goTo": {
+    "message": "Prejsť na"
+  },
+  "goToTooltip": {
+    "message": "Prejsť na podrobnosti chatu"
+  },
+  "copied": {
+    "message": "Skopírované"
+  },
+  "starChat": {
+    "message": "Pridať chat do obľúbených"
+  },
+  "unstarChat": {
+    "message": "Odstrániť chat z obľúbených"
+  },
+  "inputChatTheme": {
+    "message": "Zadajte tému chatu:"
+  },
+  "themePlaceholder": {
+    "message": "Zadajte"
+  },
+  "cancel": {
+    "message": "Zrušiť"
+  },
+  "confirm": {
+    "message": "Potvrdiť"
+  },
+  "themeRequired": {
+    "message": "Téma nemôže byť prázdna"
+  },
+  "unstar": {
+    "message": "Odstrániť z obľúbených"
+  },
+  "viewStarredList": {
+    "message": "Zobraziť zoznam obľúbených"
+  },
+  "edit": {
+    "message": "Upraviť"
+  },
+  "editStarredContent": {
+    "message": "Upraviť obľúbené"
+  },
+  "contentRequired": {
+    "message": "Obsah nemôže byť prázdny"
+  },
+  "dataStorageNote": {
+    "message": "Všetky údaje sú uložené lokálne vo vašom prehliadači a nie sú nahrávané na server"
+  },
+  "projectOpenSource": {
+    "message": "Tento projekt je open source, vitajte"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "If you find it useful, feel free to recommend it to others"
+  },
+  "chromeWebStore": {
+    "message": "Chrome Web Store"
+  }
+}

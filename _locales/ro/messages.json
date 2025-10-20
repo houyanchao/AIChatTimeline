@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Cronologie interactivă pentru ChatGPT, Gemini"
+  },
+  "extDescription": {
+    "message": "Suportă toate platformele AI, favorite între platforme, sări ușor la orice mesaj, îmbunătățește eficiența conversației."
+  },
+  "viewStarred": {
+    "message": "Vezi favoritele"
+  },
+  "starredList": {
+    "message": "Favoritele Mele"
+  },
+  "close": {
+    "message": "Închide"
+  },
+  "clickToStar": {
+    "message": "Faceți clic pentru a adăuga la favorite"
+  },
+  "clickToUnstar": {
+    "message": "Faceți clic pentru a elimina din favorite"
+  },
+  "noStarredItems": {
+    "message": "Niciun favorit"
+  },
+  "goTo": {
+    "message": "Mergi la"
+  },
+  "goToTooltip": {
+    "message": "Mergi la detaliile conversației"
+  },
+  "copied": {
+    "message": "Copiat"
+  },
+  "starChat": {
+    "message": "Adaugă conversația la favorite"
+  },
+  "unstarChat": {
+    "message": "Elimină conversația din favorite"
+  },
+  "inputChatTheme": {
+    "message": "Introduceți tema conversației:"
+  },
+  "themePlaceholder": {
+    "message": "Introduceți"
+  },
+  "cancel": {
+    "message": "Anulare"
+  },
+  "confirm": {
+    "message": "Confirmare"
+  },
+  "themeRequired": {
+    "message": "Tema nu poate fi goală"
+  },
+  "unstar": {
+    "message": "Elimină din favorite"
+  },
+  "viewStarredList": {
+    "message": "Vezi lista de favorite"
+  },
+  "edit": {
+    "message": "Editează"
+  },
+  "editStarredContent": {
+    "message": "Editează favorit"
+  },
+  "contentRequired": {
+    "message": "Conținutul nu poate fi gol"
+  },
+  "dataStorageNote": {
+    "message": "Toate datele sunt stocate local în browser și nu sunt încărcate pe server"
+  },
+  "projectOpenSource": {
+    "message": "Acest proiect este open source, bine ați venit la"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "If you find it useful, feel free to recommend it to others"
+  },
+  "chromeWebStore": {
+    "message": "Chrome Web Store"
+  }
+}

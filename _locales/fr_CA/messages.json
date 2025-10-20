@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Chronologie interactive pour ChatGPT, Gemini etc."
+  },
+  "extDescription": {
+    "message": "Prend en charge toutes les plateformes IA, favoris multiplateforme, passez facilement à n'importe quel message, améliore l'efficacité de conversation."
+  },
+  "viewStarred": {
+    "message": "Voir les favoris"
+  },
+  "starredList": {
+    "message": "Mes Favoris"
+  },
+  "close": {
+    "message": "Fermer"
+  },
+  "clickToStar": {
+    "message": "Cliquez pour ajouter aux favoris"
+  },
+  "clickToUnstar": {
+    "message": "Cliquez pour retirer des favoris"
+  },
+  "noStarredItems": {
+    "message": "Aucun favori"
+  },
+  "goTo": {
+    "message": "Aller à"
+  },
+  "goToTooltip": {
+    "message": "Aller aux détails du clavardage"
+  },
+  "copied": {
+    "message": "Copié"
+  },
+  "starChat": {
+    "message": "Marquer le chat"
+  },
+  "unstarChat": {
+    "message": "Retirer le chat des favoris"
+  },
+  "inputChatTheme": {
+    "message": "Entrez le thème du clavardage :"
+  },
+  "themePlaceholder": {
+    "message": "Veuillez saisir"
+  },
+  "cancel": {
+    "message": "Annuler"
+  },
+  "confirm": {
+    "message": "Confirmer"
+  },
+  "themeRequired": {
+    "message": "Le thème ne peut pas être vide"
+  },
+  "unstar": {
+    "message": "Retirer des favoris"
+  },
+  "viewStarredList": {
+    "message": "Voir la liste des favoris"
+  },
+  "edit": {
+    "message": "Modifier"
+  },
+  "editStarredContent": {
+    "message": "Modifier le favori"
+  },
+  "contentRequired": {
+    "message": "Le contenu ne peut pas être vide"
+  },
+  "dataStorageNote": {
+    "message": "Toutes les données sont stockées localement dans votre navigateur et ne sont pas téléchargées sur un serveur"
+  },
+  "projectOpenSource": {
+    "message": "Ce projet est open source, bienvenue à"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "Si vous le trouvez utile, n'hésitez pas à le recommander"
+  },
+  "chromeWebStore": {
+    "message": "Chrome Web Store"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - ChatGPT, Gemini को लागि अन्तरक्रियात्मक टाइमलाइन"
+  },
+  "extDescription": {
+    "message": "सबै AI प्लेटफर्महरूलाई समर्थन गर्दछ, क्रस-प्लेटफर्म मनपर्ने, कुनै पनि सन्देशमा सजिलै जानुहोस्, कुराकानी दक्षता सुधार गर्दछ।"
+  },
+  "viewStarred": {
+    "message": "मनपर्ने हेर्नुहोस्"
+  },
+  "starredList": {
+    "message": "मेरो मनपर्ने"
+  },
+  "close": {
+    "message": "बन्द गर्नुहोस्"
+  },
+  "clickToStar": {
+    "message": "मनपर्नेमा थप्न क्लिक गर्नुहोस्"
+  },
+  "clickToUnstar": {
+    "message": "मनपर्नेबाट हटाउन क्लिक गर्नुहोस्"
+  },
+  "noStarredItems": {
+    "message": "कुनै मनपर्ने छैन"
+  },
+  "goTo": {
+    "message": "जानुहोस्"
+  },
+  "goToTooltip": {
+    "message": "च्याट विवरणमा जानुहोस्"
+  },
+  "copied": {
+    "message": "प्रतिलिपि गरियो"
+  },
+  "starChat": {
+    "message": "च्याट मनपर्नेमा थप्नुहोस्"
+  },
+  "unstarChat": {
+    "message": "च्याट मनपर्नेबाट हटाउनुहोस्"
+  },
+  "inputChatTheme": {
+    "message": "Enter chat theme:"
+  },
+  "themePlaceholder": {
+    "message": "Please enter"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "confirm": {
+    "message": "Confirm"
+  },
+  "themeRequired": {
+    "message": "Theme cannot be empty"
+  },
+  "unstar": {
+    "message": "Unstar"
+  },
+  "viewStarredList": {
+    "message": "View starred list"
+  },
+  "edit": {
+    "message": "Edit"
+  },
+  "editStarredContent": {
+    "message": "Edit starred content"
+  },
+  "contentRequired": {
+    "message": "Content cannot be empty"
+  },
+  "dataStorageNote": {
+    "message": "सबै डेटा तपाईंको ब्राउजरमा स्थानीय रूपमा भण्डारण गरिएको छ र सर्भरमा अपलोड गरिएको छैन"
+  },
+  "projectOpenSource": {
+    "message": "यो परियोजना खुला स्रोत हो, स्वागत छ"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "If you find it useful, feel free to recommend it to others"
+  },
+  "chromeWebStore": {
+    "message": "Chrome Web Store"
+  }
+}

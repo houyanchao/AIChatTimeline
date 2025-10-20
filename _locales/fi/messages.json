@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Interaktiivinen aikajana ChatGPT, Gemini jne."
+  },
+  "extDescription": {
+    "message": "Tukee kaikkia AI-alustoja, suosikit eri alustoilla, hyppää helposti mihin tahansa viestiin, parantaa keskustelun tehokkuutta."
+  },
+  "viewStarred": {
+    "message": "Näytä suosikit"
+  },
+  "starredList": {
+    "message": "Omat Suosikit"
+  },
+  "close": {
+    "message": "Sulje"
+  },
+  "clickToStar": {
+    "message": "Klikkaa lisätäksesi suosikkeihin"
+  },
+  "clickToUnstar": {
+    "message": "Klikkaa poistaaksesi suosikeista"
+  },
+  "noStarredItems": {
+    "message": "Ei suosikkeja"
+  },
+  "goTo": {
+    "message": "Siirry"
+  },
+  "goToTooltip": {
+    "message": "Siirry keskustelun tietoihin"
+  },
+  "copied": {
+    "message": "Kopioitu"
+  },
+  "starChat": {
+    "message": "Lisää keskustelu suosikkeihin"
+  },
+  "unstarChat": {
+    "message": "Poista keskustelu suosikeista"
+  },
+  "inputChatTheme": {
+    "message": "Syötä keskustelun teema:"
+  },
+  "themePlaceholder": {
+    "message": "Syötä"
+  },
+  "cancel": {
+    "message": "Peruuta"
+  },
+  "confirm": {
+    "message": "Vahvista"
+  },
+  "themeRequired": {
+    "message": "Teema ei voi olla tyhjä"
+  },
+  "unstar": {
+    "message": "Poista suosikeista"
+  },
+  "viewStarredList": {
+    "message": "Näytä suosikkilista"
+  },
+  "edit": {
+    "message": "Muokkaa"
+  },
+  "editStarredContent": {
+    "message": "Muokkaa suosikkia"
+  },
+  "contentRequired": {
+    "message": "Sisältö ei voi olla tyhjä"
+  },
+  "dataStorageNote": {
+    "message": "Kaikki tiedot tallennetaan paikallisesti selaimeesi eikä niitä ladata palvelimelle"
+  },
+  "projectOpenSource": {
+    "message": "Tämä projekti on avoimen lähdekoodin, tervetuloa"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "If you find it useful, feel free to recommend it to others"
+  },
+  "chromeWebStore": {
+    "message": "Chrome Web Store"
+  }
+}

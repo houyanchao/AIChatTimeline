@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Garis masa interaktif untuk ChatGPT, Gemini"
+  },
+  "extDescription": {
+    "message": "Menyokong semua platform AI, kegemaran merentas platform, lompat dengan mudah ke sebarang mesej, meningkatkan kecekapan perbualan."
+  },
+  "viewStarred": {
+    "message": "Lihat kegemaran"
+  },
+  "starredList": {
+    "message": "Kegemaran Saya"
+  },
+  "close": {
+    "message": "Tutup"
+  },
+  "clickToStar": {
+    "message": "Klik untuk menambah ke kegemaran"
+  },
+  "clickToUnstar": {
+    "message": "Klik untuk mengeluarkan dari kegemaran"
+  },
+  "noStarredItems": {
+    "message": "Tiada kegemaran"
+  },
+  "goTo": {
+    "message": "Pergi ke"
+  },
+  "goToTooltip": {
+    "message": "Pergi ke butiran sembang"
+  },
+  "copied": {
+    "message": "Disalin"
+  },
+  "starChat": {
+    "message": "Tambah sembang ke kegemaran"
+  },
+  "unstarChat": {
+    "message": "Buang sembang dari kegemaran"
+  },
+  "inputChatTheme": {
+    "message": "Masukkan tema sembang:"
+  },
+  "themePlaceholder": {
+    "message": "Masukkan"
+  },
+  "cancel": {
+    "message": "Batal"
+  },
+  "confirm": {
+    "message": "Sahkan"
+  },
+  "themeRequired": {
+    "message": "Tema tidak boleh kosong"
+  },
+  "unstar": {
+    "message": "Buang dari kegemaran"
+  },
+  "viewStarredList": {
+    "message": "Lihat senarai kegemaran"
+  },
+  "edit": {
+    "message": "Edit"
+  },
+  "editStarredContent": {
+    "message": "Edit kegemaran"
+  },
+  "contentRequired": {
+    "message": "Kandungan tidak boleh kosong"
+  },
+  "dataStorageNote": {
+    "message": "Semua data disimpan secara tempatan dalam pelayar anda dan tidak dimuat naik ke pelayan"
+  },
+  "projectOpenSource": {
+    "message": "Projek ini adalah sumber terbuka, selamat datang ke"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "If you find it useful, feel free to recommend it to others"
+  },
+  "chromeWebStore": {
+    "message": "Chrome Web Store"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Interaktivna vremenska linija za ChatGPT, Gemini"
+  },
+  "extDescription": {
+    "message": "Podržava sve AI platforme, favoriti između platformi, lako skočite na bilo koju poruku, poboljšava učinkovitost razgovora."
+  },
+  "viewStarred": {
+    "message": "Pogledaj favorite"
+  },
+  "starredList": {
+    "message": "Moji Favoriti"
+  },
+  "close": {
+    "message": "Zatvori"
+  },
+  "clickToStar": {
+    "message": "Kliknite za dodavanje u favorite"
+  },
+  "clickToUnstar": {
+    "message": "Kliknite za uklanjanje iz favorita"
+  },
+  "noStarredItems": {
+    "message": "Nema favorita"
+  },
+  "goTo": {
+    "message": "Idi na"
+  },
+  "goToTooltip": {
+    "message": "Idi na detalje razgovora"
+  },
+  "copied": {
+    "message": "Kopirano"
+  },
+  "starChat": {
+    "message": "Dodaj razgovor u favorite"
+  },
+  "unstarChat": {
+    "message": "Ukloni razgovor iz favorita"
+  },
+  "inputChatTheme": {
+    "message": "Unesite temu razgovora:"
+  },
+  "themePlaceholder": {
+    "message": "Unesite"
+  },
+  "cancel": {
+    "message": "Odustani"
+  },
+  "confirm": {
+    "message": "Potvrdi"
+  },
+  "themeRequired": {
+    "message": "Tema ne može biti prazna"
+  },
+  "unstar": {
+    "message": "Ukloni iz favorita"
+  },
+  "viewStarredList": {
+    "message": "Pogledaj listu favorita"
+  },
+  "edit": {
+    "message": "Uredi"
+  },
+  "editStarredContent": {
+    "message": "Uredi favorit"
+  },
+  "contentRequired": {
+    "message": "Sadržaj ne može biti prazan"
+  },
+  "dataStorageNote": {
+    "message": "Svi podaci su pohranjeni lokalno u vašem pregledniku i ne učitavaju se na poslužitelj"
+  },
+  "projectOpenSource": {
+    "message": "Ovaj projekt je otvorenog koda, dobrodošli"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "If you find it useful, feel free to recommend it to others"
+  },
+  "chromeWebStore": {
+    "message": "Chrome Web Store"
+  }
+}

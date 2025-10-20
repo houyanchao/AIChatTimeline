@@ -1,9 +1,9 @@
 {
   "extName": {
-    "message": "AI Chat TimeLine - AI 对话时间轴，ChatGPT、Gemini、DeepSeek、豆包 等主流 AI 平台"
+    "message": "AI Chat Timeline - 为 AI 对话添加交互式时间轴，支持 ChatGPT、Gemini、DeepSeek、Claude 等平台"
   },
   "extDescription": {
-    "message": "给 AI 对话添加时间轴，提高对话效率。"
+    "message": "支持所有 AI 平台，跨平台收藏，轻松地跳转至任意消息，提升对话效率。"
   },
   "viewStarred": {
     "message": "查看收藏"
@@ -15,10 +15,16 @@
     "message": "关闭"
   },
   "clickToStar": {
-    "message": "点击收藏"
+    "message": "收藏提问"
   },
   "clickToUnstar": {
-    "message": "点击取消收藏"
+    "message": "取消收藏提问"
+  },
+  "starChat": {
+    "message": "收藏聊天"
+  },
+  "unstarChat": {
+    "message": "取消收藏聊天"
   },
   "noStarredItems": {
     "message": "暂无收藏"
@@ -31,6 +37,50 @@
   },
   "copied": {
     "message": "已复制"
+  },
+  "inputChatTheme": {
+    "message": "请输入聊天主题："
+  },
+  "themePlaceholder": {
+    "message": "请输入"
+  },
+  "cancel": {
+    "message": "取消"
+  },
+  "confirm": {
+    "message": "确定"
+  },
+  "themeRequired": {
+    "message": "主题不能为空"
+  },
+  "unstar": {
+    "message": "取消收藏"
+  },
+  "viewStarredList": {
+    "message": "查看收藏列表"
+  },
+  "edit": {
+    "message": "编辑"
+  },
+  "editStarredContent": {
+    "message": "编辑收藏内容"
+  },
+  "contentRequired": {
+    "message": "内容不能为空"
+  },
+  "dataStorageNote": {
+    "message": "所有数据存储在你的浏览器本地，不上传服务器"
+  },
+  "projectOpenSource": {
+    "message": "本项目已开源，欢迎"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "如果觉得好用，欢迎推荐给朋友"
+  },
+  "chromeWebStore": {
+    "message": "Chrome 应用商店"
   }
 }
-

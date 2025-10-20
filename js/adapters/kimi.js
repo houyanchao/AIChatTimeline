@@ -51,10 +51,23 @@ class KimiAdapter extends SiteAdapter {
     getTimelinePosition() {
         // Kimi 位置配置
         return {
-            top: '80px',       // 避开顶部导航栏
+            top: '120px',       // 避开顶部导航栏
             right: '20px',     // 右侧边距
-            bottom: '80px',    // 避开底部输入框
+            bottom: '120px',    // 避开底部输入框
         };
+    }
+    
+    getStarChatButtonTarget() {
+        // 返回 chat-header-actions 下的 icon 元素，收藏按钮将插入到它前面
+        const headerActions = document.querySelector('.chat-header-actions');
+        if (!headerActions) return null;
+        return headerActions.querySelector('.icon');
+    }
+    
+    getDefaultChatTheme() {
+        // Kimi 使用页面标题作为默认主题，并过滤尾部的 " - Kimi"
+        const title = document.title || '';
+        return title.replace(/\s*-\s*Kimi\s*$/i, '').trim();
     }
 }
 

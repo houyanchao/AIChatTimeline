@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Interaktiv tidslinje for ChatGPT, Gemini osv."
+  },
+  "extDescription": {
+    "message": "Støtter alle AI-plattformer, favoritter på tvers av plattformer, hopp enkelt til hvilken som helst melding, forbedrer samtaleeffektivitet."
+  },
+  "viewStarred": {
+    "message": "Vis favoritter"
+  },
+  "starredList": {
+    "message": "Mine Favoritter"
+  },
+  "close": {
+    "message": "Lukk"
+  },
+  "clickToStar": {
+    "message": "Klikk for å legge til favoritter"
+  },
+  "clickToUnstar": {
+    "message": "Klikk for å fjerne fra favoritter"
+  },
+  "noStarredItems": {
+    "message": "Ingen favoritter"
+  },
+  "goTo": {
+    "message": "Gå til"
+  },
+  "goToTooltip": {
+    "message": "Gå til chatdetaljer"
+  },
+  "copied": {
+    "message": "Kopiert"
+  },
+  "starChat": {
+    "message": "Merk chat som favoritt"
+  },
+  "unstarChat": {
+    "message": "Fjern chat fra favoritter"
+  },
+  "inputChatTheme": {
+    "message": "Skriv inn chattema:"
+  },
+  "themePlaceholder": {
+    "message": "Skriv inn"
+  },
+  "cancel": {
+    "message": "Avbryt"
+  },
+  "confirm": {
+    "message": "Bekreft"
+  },
+  "themeRequired": {
+    "message": "Tema kan ikke være tomt"
+  },
+  "unstar": {
+    "message": "Fjern fra favoritter"
+  },
+  "viewStarredList": {
+    "message": "Vis liste over favoritter"
+  },
+  "edit": {
+    "message": "Rediger"
+  },
+  "editStarredContent": {
+    "message": "Rediger favoritt"
+  },
+  "contentRequired": {
+    "message": "Innhold kan ikke være tomt"
+  },
+  "dataStorageNote": {
+    "message": "All data lagres lokalt i nettleseren din og lastes ikke opp til serveren"
+  },
+  "projectOpenSource": {
+    "message": "Dette prosjektet er open source, velkommen til"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "If you find it useful, feel free to recommend it to others"
+  },
+  "chromeWebStore": {
+    "message": "Chrome Web Store"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Interactive timeline para sa ChatGPT, Gemini"
+  },
+  "extDescription": {
+    "message": "Suportado ang lahat ng AI platforms, paborito sa iba't ibang platform, madaling tumalon sa anumang mensahe, pinapabuti ang kahusayan ng pag-uusap."
+  },
+  "viewStarred": {
+    "message": "Tingnan ang mga paborito"
+  },
+  "starredList": {
+    "message": "Aking Mga Paborito"
+  },
+  "close": {
+    "message": "Isara"
+  },
+  "clickToStar": {
+    "message": "I-click upang idagdag sa mga paborito"
+  },
+  "clickToUnstar": {
+    "message": "I-click upang alisin sa mga paborito"
+  },
+  "noStarredItems": {
+    "message": "Walang mga paborito"
+  },
+  "goTo": {
+    "message": "Pumunta sa"
+  },
+  "goToTooltip": {
+    "message": "Pumunta sa mga detalye ng chat"
+  },
+  "copied": {
+    "message": "Nakopya"
+  },
+  "starChat": {
+    "message": "I-star ang chat"
+  },
+  "unstarChat": {
+    "message": "I-unstar ang chat"
+  },
+  "inputChatTheme": {
+    "message": "Ilagay ang tema ng chat:"
+  },
+  "themePlaceholder": {
+    "message": "Ilagay"
+  },
+  "cancel": {
+    "message": "Kanselahin"
+  },
+  "confirm": {
+    "message": "Kumpirmahin"
+  },
+  "themeRequired": {
+    "message": "Ang tema ay hindi maaaring walang laman"
+  },
+  "unstar": {
+    "message": "I-unstar"
+  },
+  "viewStarredList": {
+    "message": "Tingnan ang listahan ng mga paborito"
+  },
+  "edit": {
+    "message": "I-edit"
+  },
+  "editStarredContent": {
+    "message": "I-edit ang paborito"
+  },
+  "contentRequired": {
+    "message": "Ang nilalaman ay hindi maaaring walang laman"
+  },
+  "dataStorageNote": {
+    "message": "Lahat ng data ay nakaimbak nang lokal sa iyong browser at hindi ina-upload sa server"
+  },
+  "projectOpenSource": {
+    "message": "Ang proyektong ito ay open source, maligayang pagdating sa"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "If you find it useful, feel free to recommend it to others"
+  },
+  "chromeWebStore": {
+    "message": "Chrome Web Store"
+  }
+}

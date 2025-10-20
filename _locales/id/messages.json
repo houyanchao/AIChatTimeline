@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Garis waktu interaktif untuk ChatGPT, Gemini"
+  },
+  "extDescription": {
+    "message": "Mendukung semua platform AI, favorit lintas platform, lompat dengan mudah ke pesan apa pun, meningkatkan efisiensi percakapan."
+  },
+  "viewStarred": {
+    "message": "Lihat favorit"
+  },
+  "starredList": {
+    "message": "Favorit Saya"
+  },
+  "close": {
+    "message": "Tutup"
+  },
+  "clickToStar": {
+    "message": "Klik untuk menambahkan ke favorit"
+  },
+  "clickToUnstar": {
+    "message": "Klik untuk menghapus dari favorit"
+  },
+  "noStarredItems": {
+    "message": "Tidak ada favorit"
+  },
+  "goTo": {
+    "message": "Pergi ke"
+  },
+  "goToTooltip": {
+    "message": "Pergi ke detail obrolan"
+  },
+  "copied": {
+    "message": "Disalin"
+  },
+  "starChat": {
+    "message": "Tambahkan obrolan ke favorit"
+  },
+  "unstarChat": {
+    "message": "Hapus obrolan dari favorit"
+  },
+  "inputChatTheme": {
+    "message": "Masukkan tema obrolan:"
+  },
+  "themePlaceholder": {
+    "message": "Masukkan"
+  },
+  "cancel": {
+    "message": "Batal"
+  },
+  "confirm": {
+    "message": "Konfirmasi"
+  },
+  "themeRequired": {
+    "message": "Tema tidak boleh kosong"
+  },
+  "unstar": {
+    "message": "Hapus dari favorit"
+  },
+  "viewStarredList": {
+    "message": "Lihat daftar favorit"
+  },
+  "edit": {
+    "message": "Edit"
+  },
+  "editStarredContent": {
+    "message": "Edit favorit"
+  },
+  "contentRequired": {
+    "message": "Konten tidak boleh kosong"
+  },
+  "dataStorageNote": {
+    "message": "Semua data disimpan secara lokal di browser Anda dan tidak diunggah ke server"
+  },
+  "projectOpenSource": {
+    "message": "Proyek ini bersifat open source, selamat datang di"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "If you find it useful, feel free to recommend it to others"
+  },
+  "chromeWebStore": {
+    "message": "Chrome Web Store"
+  }
+}

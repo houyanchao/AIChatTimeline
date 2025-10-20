@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Интерактивна временска линија за ChatGPT, Gemini"
+  },
+  "extDescription": {
+    "message": "Подржава све AI платформе, фаворити између платформи, лако скочите на било коју поруку, побољшава ефикасност разговора."
+  },
+  "viewStarred": {
+    "message": "Погледај омиљене"
+  },
+  "starredList": {
+    "message": "Моји Омиљени"
+  },
+  "close": {
+    "message": "Затвори"
+  },
+  "clickToStar": {
+    "message": "Кликните за додавање у омиљене"
+  },
+  "clickToUnstar": {
+    "message": "Кликните за уклањање из омиљених"
+  },
+  "noStarredItems": {
+    "message": "Нема омиљених"
+  },
+  "goTo": {
+    "message": "Иди на"
+  },
+  "goToTooltip": {
+    "message": "Иди на детаље разговора"
+  },
+  "copied": {
+    "message": "Копирано"
+  },
+  "starChat": {
+    "message": "Додај ћаскање у омиљене"
+  },
+  "unstarChat": {
+    "message": "Уклони ћаскање из омиљених"
+  },
+  "inputChatTheme": {
+    "message": "Enter chat theme:"
+  },
+  "themePlaceholder": {
+    "message": "Please enter"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "confirm": {
+    "message": "Confirm"
+  },
+  "themeRequired": {
+    "message": "Theme cannot be empty"
+  },
+  "unstar": {
+    "message": "Unstar"
+  },
+  "viewStarredList": {
+    "message": "View starred list"
+  },
+  "edit": {
+    "message": "Edit"
+  },
+  "editStarredContent": {
+    "message": "Edit starred content"
+  },
+  "contentRequired": {
+    "message": "Content cannot be empty"
+  },
+  "dataStorageNote": {
+    "message": "Сви подаци се чувају локално у вашем прегледачу и не отпремају се на сервер"
+  },
+  "projectOpenSource": {
+    "message": "Овај пројекат је отвореног кода, добродошли"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "If you find it useful, feel free to recommend it to others"
+  },
+  "chromeWebStore": {
+    "message": "Chrome Web Store"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - AI対話にインタラクティブなタイムラインを追加、ChatGPT等対応"
+  },
+  "extDescription": {
+    "message": "すべてのAIプラットフォームに対応、クロスプラットフォームのお気に入り、メッセージへ簡単にジャンプ、会話効率を向上。"
+  },
+  "viewStarred": {
+    "message": "お気に入りを表示"
+  },
+  "starredList": {
+    "message": "お気に入りリスト"
+  },
+  "close": {
+    "message": "閉じる"
+  },
+  "clickToStar": {
+    "message": "クリックしてお気に入りに追加"
+  },
+  "clickToUnstar": {
+    "message": "クリックしてお気に入りから削除"
+  },
+  "noStarredItems": {
+    "message": "お気に入りがありません"
+  },
+  "goTo": {
+    "message": "移動"
+  },
+  "goToTooltip": {
+    "message": "チャット詳細へ移動"
+  },
+  "copied": {
+    "message": "コピーしました"
+  },
+  "starChat": {
+    "message": "チャットをスター"
+  },
+  "unstarChat": {
+    "message": "チャットのスターを解除"
+  },
+  "inputChatTheme": {
+    "message": "チャットのテーマを入力してください："
+  },
+  "themePlaceholder": {
+    "message": "入力してください"
+  },
+  "cancel": {
+    "message": "キャンセル"
+  },
+  "confirm": {
+    "message": "確認"
+  },
+  "themeRequired": {
+    "message": "テーマを入力してください"
+  },
+  "unstar": {
+    "message": "スター解除"
+  },
+  "viewStarredList": {
+    "message": "スターリストを表示"
+  },
+  "edit": {
+    "message": "編集"
+  },
+  "editStarredContent": {
+    "message": "お気に入り内容を編集"
+  },
+  "contentRequired": {
+    "message": "コンテンツを入力してください"
+  },
+  "dataStorageNote": {
+    "message": "すべてのデータはブラウザのローカルに保存され、サーバーにアップロードされません"
+  },
+  "projectOpenSource": {
+    "message": "このプロジェクトはオープンソースです。"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "便利だと感じたら、友達にお勧めください"
+  },
+  "chromeWebStore": {
+    "message": "Chrome ウェブストア"
+  }
+}

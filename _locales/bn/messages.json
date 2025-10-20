@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - ChatGPT, Gemini এর জন্য ইন্টারেক্টিভ টাইমলাইন"
+  },
+  "extDescription": {
+    "message": "সকল AI প্ল্যাটফর্ম সমর্থন করে, ক্রস-প্ল্যাটফর্ম প্রিয়, যেকোনো বার্তায় সহজে যান, কথোপকথন দক্ষতা উন্নত করে।"
+  },
+  "viewStarred": {
+    "message": "প্রিয় দেখুন"
+  },
+  "starredList": {
+    "message": "আমার প্রিয়"
+  },
+  "close": {
+    "message": "বন্ধ"
+  },
+  "clickToStar": {
+    "message": "প্রিয়তে যোগ করতে ক্লিক করুন"
+  },
+  "clickToUnstar": {
+    "message": "প্রিয় থেকে সরাতে ক্লিক করুন"
+  },
+  "noStarredItems": {
+    "message": "কোন প্রিয় নেই"
+  },
+  "goTo": {
+    "message": "যান"
+  },
+  "goToTooltip": {
+    "message": "চ্যাট বিবরণে যান"
+  },
+  "copied": {
+    "message": "কপি করা হয়েছে"
+  },
+  "starChat": {
+    "message": "চ্যাট প্রিয়তে যোগ করুন"
+  },
+  "unstarChat": {
+    "message": "চ্যাট প্রিয় থেকে সরান"
+  },
+  "inputChatTheme": {
+    "message": "চ্যাট থিম লিখুন:"
+  },
+  "themePlaceholder": {
+    "message": "লিখুন"
+  },
+  "cancel": {
+    "message": "বাতিল"
+  },
+  "confirm": {
+    "message": "নিশ্চিত করুন"
+  },
+  "themeRequired": {
+    "message": "থিম খালি হতে পারে না"
+  },
+  "unstar": {
+    "message": "প্রিয় থেকে সরান"
+  },
+  "viewStarredList": {
+    "message": "প্রিয় তালিকা দেখুন"
+  },
+  "edit": {
+    "message": "সম্পাদনা"
+  },
+  "editStarredContent": {
+    "message": "প্রিয় সম্পাদনা করুন"
+  },
+  "contentRequired": {
+    "message": "বিষয়বস্তু খালি হতে পারে না"
+  },
+  "dataStorageNote": {
+    "message": "সমস্ত ডেটা আপনার ব্রাউজারে স্থানীয়ভাবে সংরক্ষণ করা হয় এবং সার্ভারে আপলোড করা হয় না"
+  },
+  "projectOpenSource": {
+    "message": "এই প্রকল্পটি ওপেন সোর্স, স্বাগতম"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "If you find it useful, feel free to recommend it to others"
+  },
+  "chromeWebStore": {
+    "message": "Chrome Web Store"
+  }
+}

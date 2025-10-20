@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Інтерактивна хронологія для ChatGPT, Gemini"
+  },
+  "extDescription": {
+    "message": "Підтримує всі AI-платформи, вибране між платформами, легко переходьте до будь-якого повідомлення, покращує ефективність розмови."
+  },
+  "viewStarred": {
+    "message": "Переглянути вибране"
+  },
+  "starredList": {
+    "message": "Моє Вибране"
+  },
+  "close": {
+    "message": "Закрити"
+  },
+  "clickToStar": {
+    "message": "Натисніть, щоб додати до вибраного"
+  },
+  "clickToUnstar": {
+    "message": "Натисніть, щоб видалити з вибраного"
+  },
+  "noStarredItems": {
+    "message": "Немає вибраного"
+  },
+  "goTo": {
+    "message": "Перейти до"
+  },
+  "goToTooltip": {
+    "message": "Перейти до деталей чату"
+  },
+  "copied": {
+    "message": "Скопійовано"
+  },
+  "starChat": {
+    "message": "Додати чат в обране"
+  },
+  "unstarChat": {
+    "message": "Видалити чат з обраного"
+  },
+  "inputChatTheme": {
+    "message": "Введіть тему чату:"
+  },
+  "themePlaceholder": {
+    "message": "Введіть"
+  },
+  "cancel": {
+    "message": "Скасувати"
+  },
+  "confirm": {
+    "message": "Підтвердити"
+  },
+  "themeRequired": {
+    "message": "Тема не може бути порожньою"
+  },
+  "unstar": {
+    "message": "Видалити з обраного"
+  },
+  "viewStarredList": {
+    "message": "Переглянути список обраного"
+  },
+  "edit": {
+    "message": "Редагувати"
+  },
+  "editStarredContent": {
+    "message": "Редагувати обране"
+  },
+  "contentRequired": {
+    "message": "Вміст не може бути порожнім"
+  },
+  "dataStorageNote": {
+    "message": "Всі дані зберігаються локально у вашому браузері та не завантажуються на сервер"
+  },
+  "projectOpenSource": {
+    "message": "Цей проект має відкритий вихідний код, ласкаво просимо"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "If you find it useful, feel free to recommend it to others"
+  },
+  "chromeWebStore": {
+    "message": "Chrome Web Store"
+  }
+}

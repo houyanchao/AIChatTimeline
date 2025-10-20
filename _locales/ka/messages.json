@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - ინტერაქტიული დროის ხაზი ChatGPT, Gemini-სთვის"
+  },
+  "extDescription": {
+    "message": "მხარს უჭერს ყველა AI პლატფორმას, ფავორიტები პლატფორმებს შორის, ადვილად გადახვიდეთ ნებისმიერ შეტყობინებაზე, აუმჯობესებს საუბრის ეფექტურობას."
+  },
+  "viewStarred": {
+    "message": "ფავორიტების ნახვა"
+  },
+  "starredList": {
+    "message": "ჩემი ფავორიტები"
+  },
+  "close": {
+    "message": "დახურვა"
+  },
+  "clickToStar": {
+    "message": "დააჭირეთ ფავორიტებში დასამატებლად"
+  },
+  "clickToUnstar": {
+    "message": "დააჭირეთ ფავორიტებიდან წასაშლელად"
+  },
+  "noStarredItems": {
+    "message": "ფავორიტები არ არის"
+  },
+  "goTo": {
+    "message": "გადასვლა"
+  },
+  "goToTooltip": {
+    "message": "ჩატის დეტალებზე გადასვლა"
+  },
+  "copied": {
+    "message": "დაკოპირებულია"
+  },
+  "starChat": {
+    "message": "ჩატის ფავორიტებში დამატება"
+  },
+  "unstarChat": {
+    "message": "ჩატის ფავორიტებიდან წაშლა"
+  },
+  "inputChatTheme": {
+    "message": "Enter chat theme:"
+  },
+  "themePlaceholder": {
+    "message": "Please enter"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "confirm": {
+    "message": "Confirm"
+  },
+  "themeRequired": {
+    "message": "Theme cannot be empty"
+  },
+  "unstar": {
+    "message": "Unstar"
+  },
+  "viewStarredList": {
+    "message": "View starred list"
+  },
+  "edit": {
+    "message": "Edit"
+  },
+  "editStarredContent": {
+    "message": "Edit starred content"
+  },
+  "contentRequired": {
+    "message": "Content cannot be empty"
+  },
+  "dataStorageNote": {
+    "message": "ყველა მონაცემი ინახება ლოკალურად თქვენს ბრაუზერში და არ აიტვირთება სერვერზე"
+  },
+  "projectOpenSource": {
+    "message": "ეს პროექტი ღია წყაროა, კეთილი იყოს თქვენი მობრძანება"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "If you find it useful, feel free to recommend it to others"
+  },
+  "chromeWebStore": {
+    "message": "Chrome Web Store"
+  }
+}

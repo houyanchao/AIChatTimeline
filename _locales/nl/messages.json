@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Interactieve tijdlijn voor ChatGPT, Gemini enz."
+  },
+  "extDescription": {
+    "message": "Ondersteunt alle AI-platforms, platformoverschrijdende favorieten, spring eenvoudig naar elk bericht, verbetert gespreksefficiëntie."
+  },
+  "viewStarred": {
+    "message": "Favorieten bekijken"
+  },
+  "starredList": {
+    "message": "Mijn Favorieten"
+  },
+  "close": {
+    "message": "Sluiten"
+  },
+  "clickToStar": {
+    "message": "Vraag toevoegen aan favorieten"
+  },
+  "clickToUnstar": {
+    "message": "Vraag verwijderen uit favorieten"
+  },
+  "noStarredItems": {
+    "message": "Geen favorieten"
+  },
+  "goTo": {
+    "message": "Ga naar"
+  },
+  "goToTooltip": {
+    "message": "Ga naar chatdetails"
+  },
+  "copied": {
+    "message": "Gekopieerd"
+  },
+  "starChat": {
+    "message": "Chat toevoegen aan favorieten"
+  },
+  "unstarChat": {
+    "message": "Chat verwijderen uit favorieten"
+  },
+  "inputChatTheme": {
+    "message": "Voer chatthema in:"
+  },
+  "themePlaceholder": {
+    "message": "Voer in"
+  },
+  "cancel": {
+    "message": "Annuleren"
+  },
+  "confirm": {
+    "message": "Bevestigen"
+  },
+  "themeRequired": {
+    "message": "Thema mag niet leeg zijn"
+  },
+  "unstar": {
+    "message": "Verwijder uit favorieten"
+  },
+  "viewStarredList": {
+    "message": "Toon lijst met favorieten"
+  },
+  "edit": {
+    "message": "Bewerken"
+  },
+  "editStarredContent": {
+    "message": "Favoriet bewerken"
+  },
+  "contentRequired": {
+    "message": "Inhoud mag niet leeg zijn"
+  },
+  "dataStorageNote": {
+    "message": "Alle gegevens worden lokaal in uw browser opgeslagen en niet naar de server geüpload"
+  },
+  "projectOpenSource": {
+    "message": "Dit project is open source, welkom bij"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "Als u het nuttig vindt, deel het gerust met anderen"
+  },
+  "chromeWebStore": {
+    "message": "Chrome Web Store"
+  }
+}

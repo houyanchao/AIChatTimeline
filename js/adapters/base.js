@@ -81,10 +81,34 @@ class SiteAdapter {
      */
     getTimelinePosition() {
         return {
-            top: '100px',      // 避开顶部导航栏
+            top: '120px',      // 避开顶部导航栏
             right: '20px',    // 右侧边距
-            bottom: '100px',   // 避开底部输入框
+            bottom: '120px',   // 避开底部输入框
         };
+    }
+    
+    /**
+     * Get target element for inserting star chat button
+     * @returns {Element|null} - Target element to insert before, or null if not supported
+     */
+    getStarChatButtonTarget() {
+        return null; // 默认不支持，返回 null
+    }
+    
+    /**
+     * Get default chat theme for star chat feature
+     * @returns {string} - Default theme name, empty string means no default
+     */
+    getDefaultChatTheme() {
+        return ''; // 默认返回空字符串
+    }
+    
+    /**
+     * Get fixed position for star chat button (fallback when no native target)
+     * @returns {Object|null} - {top, right} in pixels, or null to skip fixed positioning
+     */
+    getStarChatButtonPosition() {
+        return null; // 默认不使用固定定位
     }
 }
 

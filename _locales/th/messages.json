@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - ไทม์ไลน์แบบโต้ตอบสำหรับ ChatGPT, Gemini ฯลฯ"
+  },
+  "extDescription": {
+    "message": "รองรับทุกแพลตฟอร์ม AI รายการโปรดข้ามแพลตฟอร์ม ข้ามไปยังข้อความใดก็ได้อย่างง่ายดาย เพิ่มประสิทธิภาพการสนทนา"
+  },
+  "viewStarred": {
+    "message": "ดูรายการโปรด"
+  },
+  "starredList": {
+    "message": "รายการโปรดของฉัน"
+  },
+  "close": {
+    "message": "ปิด"
+  },
+  "clickToStar": {
+    "message": "คลิกเพื่อเพิ่มในรายการโปรด"
+  },
+  "clickToUnstar": {
+    "message": "คลิกเพื่อลบออกจากรายการโปรด"
+  },
+  "noStarredItems": {
+    "message": "ไม่มีรายการโปรด"
+  },
+  "goTo": {
+    "message": "ไปที่"
+  },
+  "goToTooltip": {
+    "message": "ไปที่รายละเอียดแชท"
+  },
+  "copied": {
+    "message": "คัดลอกแล้ว"
+  },
+  "starChat": {
+    "message": "เพิ่มแชทในรายการโปรด"
+  },
+  "unstarChat": {
+    "message": "ลบแชทออกจากรายการโปรด"
+  },
+  "inputChatTheme": {
+    "message": "ป้อนหัวข้อแชท:"
+  },
+  "themePlaceholder": {
+    "message": "ป้อน"
+  },
+  "cancel": {
+    "message": "ยกเลิก"
+  },
+  "confirm": {
+    "message": "ยืนยัน"
+  },
+  "themeRequired": {
+    "message": "หัวข้อต้องไม่ว่างเปล่า"
+  },
+  "unstar": {
+    "message": "ลบออกจากรายการโปรด"
+  },
+  "viewStarredList": {
+    "message": "ดูรายการโปรด"
+  },
+  "edit": {
+    "message": "แก้ไข"
+  },
+  "editStarredContent": {
+    "message": "แก้ไขรายการโปรด"
+  },
+  "contentRequired": {
+    "message": "เนื้อหาต้องไม่ว่างเปล่า"
+  },
+  "dataStorageNote": {
+    "message": "ข้อมูลทั้งหมดจัดเก็บไว้ในเบราว์เซอร์ของคุณและไม่ได้อัปโหลดไปยังเซิร์ฟเวอร์"
+  },
+  "projectOpenSource": {
+    "message": "โครงการนี้เป็นโอเพ่นซอร์ส ยินดีต้อนรับ"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "If you find it useful, feel free to recommend it to others"
+  },
+  "chromeWebStore": {
+    "message": "Chrome Web Store"
+  }
+}

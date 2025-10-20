@@ -52,10 +52,34 @@ class YiyanAdapter extends SiteAdapter {
     getTimelinePosition() {
         // 文心一言位置配置
         return {
-            top: '80px',       // 避开顶部导航栏
+            top: '120px',       // 避开顶部导航栏
             right: '20px',     // 右侧边距
-            bottom: '80px',    // 避开底部输入框
+            bottom: '120px',    // 避开底部输入框
         };
     }
+    
+    // getStarChatButtonTarget() {
+    //     // 返回 TopRightTools 元素，收藏按钮将插入到它前面
+    //     return document.querySelector('[class*="TopRightTools"]');
+    // }
+    
+    // getDefaultChatTheme() {
+    //     // 文心一言使用特定元素中的文本作为默认主题
+    //     try {
+    //         const topFixedArea = document.querySelector('[class*="topFixedArea"]');
+    //         if (!topFixedArea) return '';
+    //         
+    //         const container = topFixedArea.querySelector('[class*="container"]');
+    //         if (!container) return '';
+    //         
+    //         const span = container.querySelector('span');
+    //         const title = span?.textContent?.trim() || '';
+    //         
+    //         // 返回原始文本，不需要过滤
+    //         return title;
+    //     } catch {
+    //         return '';
+    //     }
+    // }
 }
 

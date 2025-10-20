@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "__MSG_extName__",
-  "short_name": "AI Chat TimeLine",
-  "version": "1.1.0",
+  "short_name": "AI Chat Timeline",
+  "version": "3.0.1",
   "description": "__MSG_extDescription__",
   "default_locale": "en",
   "author": "yanchao hou",
@@ -49,6 +49,25 @@
       ],
       "css": ["styles.css"],
       "run_at": "document_idle"
+    }
+  ],
+  
+  "web_accessible_resources": [
+    {
+      "resources": ["images/logo/*.png"],
+      "matches": [
+        "https://chatgpt.com/*",
+        "https://chat.openai.com/*",
+        "https://gemini.google.com/*",
+        "https://www.doubao.com/*",
+        "https://chat.deepseek.com/*",
+        "https://yiyan.baidu.com/*",
+        "https://tongyi.aliyun.com/*",
+        "https://www.tongyi.com/*",
+        "https://kimi.moonshot.cn/*",
+        "https://www.kimi.com/*",
+        "https://yuanbao.tencent.com/*"
+      ]
     }
   ],
   

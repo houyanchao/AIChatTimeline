@@ -56,10 +56,20 @@ class YuanbaoAdapter extends SiteAdapter {
     getTimelinePosition() {
         // 元宝位置配置
         return {
-            top: '80px',       // 避开顶部导航栏
+            top: '120px',       // 避开顶部导航栏
             right: '20px',     // 右侧边距
-            bottom: '80px',    // 避开底部输入框
+            bottom: '120px',    // 避开底部输入框
         };
+    }
+    
+    getStarChatButtonTarget() {
+        // 返回 header__name 元素，收藏按钮将插入到它前面（左边）
+        return document.querySelector('[class*="agent-dialogue__content--common__header__name"]');
+    }
+    
+    getDefaultChatTheme() {
+        // 元宝使用页面标题作为默认主题
+        return document.title || '';
     }
 }
 

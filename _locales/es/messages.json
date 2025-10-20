@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Línea de tiempo interactiva para ChatGPT, Gemini"
+  },
+  "extDescription": {
+    "message": "Compatible con todas las plataformas de IA, favoritos multiplataforma, saltar fácilmente a cualquier mensaje, mejora la eficiencia de conversación."
+  },
+  "viewStarred": {
+    "message": "Ver favoritos"
+  },
+  "starredList": {
+    "message": "Mis Favoritos"
+  },
+  "close": {
+    "message": "Cerrar"
+  },
+  "clickToStar": {
+    "message": "Clic para añadir a favoritos"
+  },
+  "clickToUnstar": {
+    "message": "Quitar pregunta de favoritos"
+  },
+  "noStarredItems": {
+    "message": "Sin favoritos"
+  },
+  "goTo": {
+    "message": "Ir a"
+  },
+  "goToTooltip": {
+    "message": "Ir a detalles del chat"
+  },
+  "copied": {
+    "message": "Copiado"
+  },
+  "starChat": {
+    "message": "Marcar chat como favorito"
+  },
+  "unstarChat": {
+    "message": "Quitar chat de favoritos"
+  },
+  "inputChatTheme": {
+    "message": "Ingrese el tema del chat:"
+  },
+  "themePlaceholder": {
+    "message": "Por favor ingrese"
+  },
+  "cancel": {
+    "message": "Cancelar"
+  },
+  "confirm": {
+    "message": "Confirmar"
+  },
+  "themeRequired": {
+    "message": "El tema no puede estar vacío"
+  },
+  "unstar": {
+    "message": "Quitar de favoritos"
+  },
+  "viewStarredList": {
+    "message": "Ver lista de favoritos"
+  },
+  "edit": {
+    "message": "Editar"
+  },
+  "editStarredContent": {
+    "message": "Editar favorito"
+  },
+  "contentRequired": {
+    "message": "El contenido no puede estar vacío"
+  },
+  "dataStorageNote": {
+    "message": "Todos los datos se almacenan localmente en su navegador y no se cargan en ningún servidor"
+  },
+  "projectOpenSource": {
+    "message": "Este proyecto es de código abierto, bienvenido a"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "Si te resulta útil, no dudes en recomendarlo a otros"
+  },
+  "chromeWebStore": {
+    "message": "Chrome Web Store"
+  }
+}

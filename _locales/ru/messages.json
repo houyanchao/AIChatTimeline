@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Интерактивная хронология для ChatGPT, Gemini"
+  },
+  "extDescription": {
+    "message": "Поддержка всех AI-платформ, избранное между платформами, лёгкий переход к любому сообщению, повышает эффективность общения."
+  },
+  "viewStarred": {
+    "message": "Просмотр избранного"
+  },
+  "starredList": {
+    "message": "Моё избранное"
+  },
+  "close": {
+    "message": "Закрыть"
+  },
+  "clickToStar": {
+    "message": "Нажмите, чтобы добавить в избранное"
+  },
+  "clickToUnstar": {
+    "message": "Нажмите, чтобы удалить из избранного"
+  },
+  "noStarredItems": {
+    "message": "Нет избранного"
+  },
+  "goTo": {
+    "message": "Перейти"
+  },
+  "goToTooltip": {
+    "message": "Перейти к деталям чата"
+  },
+  "copied": {
+    "message": "Скопировано"
+  },
+  "starChat": {
+    "message": "Добавить чат в избранное"
+  },
+  "unstarChat": {
+    "message": "Удалить чат из избранного"
+  },
+  "inputChatTheme": {
+    "message": "Введите тему чата:"
+  },
+  "themePlaceholder": {
+    "message": "Введите"
+  },
+  "cancel": {
+    "message": "Отмена"
+  },
+  "confirm": {
+    "message": "Подтвердить"
+  },
+  "themeRequired": {
+    "message": "Тема не может быть пустой"
+  },
+  "unstar": {
+    "message": "Удалить из избранного"
+  },
+  "viewStarredList": {
+    "message": "Просмотр списка избранного"
+  },
+  "edit": {
+    "message": "Редактировать"
+  },
+  "editStarredContent": {
+    "message": "Редактировать избранное"
+  },
+  "contentRequired": {
+    "message": "Содержимое не может быть пустым"
+  },
+  "dataStorageNote": {
+    "message": "Все данные хранятся локально в вашем браузере и не загружаются на сервер"
+  },
+  "projectOpenSource": {
+    "message": "Этот проект имеет открытый исходный код, добро пожаловать"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "Если вам понравилось, рекомендуйте друзьям"
+  },
+  "chromeWebStore": {
+    "message": "Chrome Web Store"
+  }
+}

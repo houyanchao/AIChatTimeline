@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Interaktív idővonal ChatGPT, Gemini stb.-hez"
+  },
+  "extDescription": {
+    "message": "Támogatja az összes AI-platformot, platformok közötti kedvencek, könnyen ugorj bármely üzenetre, javítja a beszélgetés hatékonyságát."
+  },
+  "viewStarred": {
+    "message": "Kedvencek megtekintése"
+  },
+  "starredList": {
+    "message": "Kedvenceim"
+  },
+  "close": {
+    "message": "Bezárás"
+  },
+  "clickToStar": {
+    "message": "Kérdés hozzáadása a kedvencekhez"
+  },
+  "clickToUnstar": {
+    "message": "Kattintson a kedvencekből eltávolításhoz"
+  },
+  "noStarredItems": {
+    "message": "Nincsenek kedvencek"
+  },
+  "goTo": {
+    "message": "Ugrás ide"
+  },
+  "goToTooltip": {
+    "message": "Ugrás a csevegés részleteihez"
+  },
+  "copied": {
+    "message": "Másolva"
+  },
+  "starChat": {
+    "message": "Chat hozzáadása a kedvencekhez"
+  },
+  "unstarChat": {
+    "message": "Chat eltávolítása a kedvencekből"
+  },
+  "inputChatTheme": {
+    "message": "Adja meg a csevegés témáját:"
+  },
+  "themePlaceholder": {
+    "message": "Írja be"
+  },
+  "cancel": {
+    "message": "Mégse"
+  },
+  "confirm": {
+    "message": "Megerősítés"
+  },
+  "themeRequired": {
+    "message": "A téma nem lehet üres"
+  },
+  "unstar": {
+    "message": "Eltávolítás a kedvencekből"
+  },
+  "viewStarredList": {
+    "message": "Kedvencek lista megtekintése"
+  },
+  "edit": {
+    "message": "Szerkesztés"
+  },
+  "editStarredContent": {
+    "message": "Kedvenc szerkesztése"
+  },
+  "contentRequired": {
+    "message": "A tartalom nem lehet üres"
+  },
+  "dataStorageNote": {
+    "message": "Minden adat helyileg tárolódik a böngészőjében, és nem kerül feltöltésre a szerverre"
+  },
+  "projectOpenSource": {
+    "message": "Ez a projekt nyílt forráskódú, üdvözöljük"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "If you find it useful, feel free to recommend it to others"
+  },
+  "chromeWebStore": {
+    "message": "Chrome Web Store"
+  }
+}

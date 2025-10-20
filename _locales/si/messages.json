@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - ChatGPT, Gemini සඳහා අන්තර්ක්‍රියාකාරී කාල රේඛාව"
+  },
+  "extDescription": {
+    "message": "සියලුම AI වේදිකා සහය දක්වයි, හරස් වේදිකා ප්‍රියතම, ඕනෑම පණිවිඩයකට පහසුවෙන් පනින්න, සංවාද කාර්යක්ෂමතාව වැඩි දියුණු කරයි."
+  },
+  "viewStarred": {
+    "message": "ප්‍රියතම බලන්න"
+  },
+  "starredList": {
+    "message": "මගේ ප්‍රියතම"
+  },
+  "close": {
+    "message": "වසන්න"
+  },
+  "clickToStar": {
+    "message": "ප්‍රියතමයන්ට එකතු කිරීමට ක්ලික් කරන්න"
+  },
+  "clickToUnstar": {
+    "message": "ප්‍රියතමයන්ගෙන් ඉවත් කිරීමට ක්ලික් කරන්න"
+  },
+  "noStarredItems": {
+    "message": "ප්‍රියතම නැත"
+  },
+  "goTo": {
+    "message": "යන්න"
+  },
+  "goToTooltip": {
+    "message": "කතාබස් විස්තර වෙත යන්න"
+  },
+  "copied": {
+    "message": "පිටපත් කළා"
+  },
+  "starChat": {
+    "message": "කතාබස් ප්‍රියතම ලෙස සලකුණු කරන්න"
+  },
+  "unstarChat": {
+    "message": "කතාබස් ප්‍රියතම ලෙස ඉවත් කරන්න"
+  },
+  "inputChatTheme": {
+    "message": "Enter chat theme:"
+  },
+  "themePlaceholder": {
+    "message": "Please enter"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "confirm": {
+    "message": "Confirm"
+  },
+  "themeRequired": {
+    "message": "Theme cannot be empty"
+  },
+  "unstar": {
+    "message": "Unstar"
+  },
+  "viewStarredList": {
+    "message": "View starred list"
+  },
+  "edit": {
+    "message": "Edit"
+  },
+  "editStarredContent": {
+    "message": "Edit starred content"
+  },
+  "contentRequired": {
+    "message": "Content cannot be empty"
+  },
+  "dataStorageNote": {
+    "message": "සියලුම දත්ත ඔබේ බ්‍රවුසරයේ දේශීයව ගබඩා කර ඇති අතර සේවාදායකයට උඩුගත නොකෙරේ"
+  },
+  "projectOpenSource": {
+    "message": "මෙම ව්‍යාපෘතිය විවෘත මූලාශ්‍රයකි, සාදරයෙන් පිළිගනිමු"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "If you find it useful, feel free to recommend it to others"
+  },
+  "chromeWebStore": {
+    "message": "Chrome Web Store"
+  }
+}

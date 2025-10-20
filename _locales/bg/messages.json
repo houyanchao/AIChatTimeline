@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Интерактивна времева линия за ChatGPT, Gemini"
+  },
+  "extDescription": {
+    "message": "Поддържа всички AI платформи, любими между платформи, лесно прескачане към всяко съобщение, подобрява ефективността на разговора."
+  },
+  "viewStarred": {
+    "message": "Преглед на любими"
+  },
+  "starredList": {
+    "message": "Моите Любими"
+  },
+  "close": {
+    "message": "Затвори"
+  },
+  "clickToStar": {
+    "message": "Кликнете, за да добавите към любими"
+  },
+  "clickToUnstar": {
+    "message": "Кликнете, за да премахнете от любими"
+  },
+  "noStarredItems": {
+    "message": "Няма любими"
+  },
+  "goTo": {
+    "message": "Отиди на"
+  },
+  "goToTooltip": {
+    "message": "Отиди към детайли на чата"
+  },
+  "copied": {
+    "message": "Копирано"
+  },
+  "starChat": {
+    "message": "Добави чат в любими"
+  },
+  "unstarChat": {
+    "message": "Премахни чат от любими"
+  },
+  "inputChatTheme": {
+    "message": "Въведете тема на чата:"
+  },
+  "themePlaceholder": {
+    "message": "Въведете"
+  },
+  "cancel": {
+    "message": "Отказ"
+  },
+  "confirm": {
+    "message": "Потвърди"
+  },
+  "themeRequired": {
+    "message": "Темата не може да бъде празна"
+  },
+  "unstar": {
+    "message": "Премахни от любими"
+  },
+  "viewStarredList": {
+    "message": "Преглед на списъка с любими"
+  },
+  "edit": {
+    "message": "Редактирай"
+  },
+  "editStarredContent": {
+    "message": "Редактирай любимо"
+  },
+  "contentRequired": {
+    "message": "Съдържанието не може да бъде празно"
+  },
+  "dataStorageNote": {
+    "message": "Всички данни се съхраняват локално във вашия браузър и не се качват на сървър"
+  },
+  "projectOpenSource": {
+    "message": "Този проект е с отворен код, добре дошли в"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "If you find it useful, feel free to recommend it to others"
+  },
+  "chromeWebStore": {
+    "message": "Chrome Web Store"
+  }
+}

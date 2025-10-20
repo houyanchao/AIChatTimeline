@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Ինտերակտիվ ժամանակացույց ChatGPT, Gemini համար"
+  },
+  "extDescription": {
+    "message": "Աջակցում է բոլոր AI հարթակները, միջպլատֆորմային ընտրանի, հեշտությամբ անցեք ցանկացած հաղորդագրության, բարելավում է զրույցի արդյունավետությունը:"
+  },
+  "viewStarred": {
+    "message": "Դիտել ընտրանին"
+  },
+  "starredList": {
+    "message": "Իմ Ընտրանին"
+  },
+  "close": {
+    "message": "Փակել"
+  },
+  "clickToStar": {
+    "message": "Սեղմեք՝ ընտրանիում ավելացնելու համար"
+  },
+  "clickToUnstar": {
+    "message": "Սեղմեք՝ ընտրանիից հեռացնելու համար"
+  },
+  "noStarredItems": {
+    "message": "Ընտրանի չկա"
+  },
+  "goTo": {
+    "message": "Անցնել"
+  },
+  "goToTooltip": {
+    "message": "Անցնել զրույցի մանրամասներին"
+  },
+  "copied": {
+    "message": "Պատճենված է"
+  },
+  "starChat": {
+    "message": "Ավելացնել զրույցը նախընտրածներին"
+  },
+  "unstarChat": {
+    "message": "Հեռացնել զրույցը նախընտրածներից"
+  },
+  "inputChatTheme": {
+    "message": "Enter chat theme:"
+  },
+  "themePlaceholder": {
+    "message": "Please enter"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "confirm": {
+    "message": "Confirm"
+  },
+  "themeRequired": {
+    "message": "Theme cannot be empty"
+  },
+  "unstar": {
+    "message": "Unstar"
+  },
+  "viewStarredList": {
+    "message": "View starred list"
+  },
+  "edit": {
+    "message": "Edit"
+  },
+  "editStarredContent": {
+    "message": "Edit starred content"
+  },
+  "contentRequired": {
+    "message": "Content cannot be empty"
+  },
+  "dataStorageNote": {
+    "message": "Բոլոր տվյալները պահվում են ձեր բրաուզերում տեղական և չեն վերբեռնվում սերվեր"
+  },
+  "projectOpenSource": {
+    "message": "Այս նախագիծը բաց կոդով է, բարի գալուստ"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "If you find it useful, feel free to recommend it to others"
+  },
+  "chromeWebStore": {
+    "message": "Chrome Web Store"
+  }
+}

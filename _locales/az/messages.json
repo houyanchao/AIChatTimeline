@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - ChatGPT, Gemini üçün interaktiv zaman xətti"
+  },
+  "extDescription": {
+    "message": "Bütün AI platformalarını dəstəkləyir, platformalararası sevimlilər, istənilən mesaja asanlıqla keçid, söhbət səmərəliliyini artırır."
+  },
+  "viewStarred": {
+    "message": "Sevimliləri göstər"
+  },
+  "starredList": {
+    "message": "Mənim Sevimlilər"
+  },
+  "close": {
+    "message": "Bağla"
+  },
+  "clickToStar": {
+    "message": "Sevimlilərə əlavə etmək üçün klikləyin"
+  },
+  "clickToUnstar": {
+    "message": "Sevimlilərdən çıxarmaq üçün klikləyin"
+  },
+  "noStarredItems": {
+    "message": "Sevimlilər yoxdur"
+  },
+  "goTo": {
+    "message": "Get"
+  },
+  "goToTooltip": {
+    "message": "Söhbət təfərrüatlarına get"
+  },
+  "copied": {
+    "message": "Kopyalandı"
+  },
+  "starChat": {
+    "message": "Söhbəti sevimlilərə əlavə et"
+  },
+  "unstarChat": {
+    "message": "Söhbəti sevimlilərdən sil"
+  },
+  "inputChatTheme": {
+    "message": "Enter chat theme:"
+  },
+  "themePlaceholder": {
+    "message": "Please enter"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "confirm": {
+    "message": "Confirm"
+  },
+  "themeRequired": {
+    "message": "Theme cannot be empty"
+  },
+  "unstar": {
+    "message": "Unstar"
+  },
+  "viewStarredList": {
+    "message": "View starred list"
+  },
+  "edit": {
+    "message": "Edit"
+  },
+  "editStarredContent": {
+    "message": "Edit starred content"
+  },
+  "contentRequired": {
+    "message": "Content cannot be empty"
+  },
+  "dataStorageNote": {
+    "message": "Bütün məlumatlar brauzerinizdə yerli olaraq saxlanılır və serverə yüklənmir"
+  },
+  "projectOpenSource": {
+    "message": "Bu layihə açıq mənbəlidir, xoş gəlmisiniz"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "If you find it useful, feel free to recommend it to others"
+  },
+  "chromeWebStore": {
+    "message": "Chrome Web Store"
+  }
+}

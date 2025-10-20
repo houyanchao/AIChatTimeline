@@ -1,9 +1,9 @@
 {
   "extName": {
-    "message": "AI Chat TimeLine - ChatGPT, Gemini, DeepSeek, and more AI platforms"
+    "message": "AI Chat Timeline - Interactive timeline for ChatGPT, Gemini, etc."
   },
   "extDescription": {
-    "message": "Add timeline to AI chats to improve conversation efficiency."
+    "message": "Supports all AI platforms, cross-platform favorites, easily jump to any message, improves conversation efficiency."
   },
   "viewStarred": {
     "message": "View starred"
@@ -15,10 +15,16 @@
     "message": "Close"
   },
   "clickToStar": {
-    "message": "Click to star"
+    "message": "Star question"
   },
   "clickToUnstar": {
-    "message": "Click to unstar"
+    "message": "Unstar question"
+  },
+  "starChat": {
+    "message": "Star chat"
+  },
+  "unstarChat": {
+    "message": "Unstar chat"
   },
   "noStarredItems": {
     "message": "No starred items"
@@ -31,6 +37,50 @@
   },
   "copied": {
     "message": "Copied"
+  },
+  "inputChatTheme": {
+    "message": "Enter chat theme:"
+  },
+  "themePlaceholder": {
+    "message": "Please enter"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "confirm": {
+    "message": "Confirm"
+  },
+  "themeRequired": {
+    "message": "Theme cannot be empty"
+  },
+  "unstar": {
+    "message": "Unstar"
+  },
+  "viewStarredList": {
+    "message": "View starred list"
+  },
+  "edit": {
+    "message": "Edit"
+  },
+  "editStarredContent": {
+    "message": "Edit starred content"
+  },
+  "contentRequired": {
+    "message": "Content cannot be empty"
+  },
+  "dataStorageNote": {
+    "message": "All data is stored locally in your browser and not uploaded to any server"
+  },
+  "projectOpenSource": {
+    "message": "This project is open source, welcome to"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "If you find it useful, feel free to recommend it to others"
+  },
+  "chromeWebStore": {
+    "message": "Chrome Web Store"
   }
 }
-

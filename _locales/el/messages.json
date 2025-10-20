@@ -1,0 +1,86 @@
+{
+  "extName": {
+    "message": "AI Chat Timeline - Διαδραστικό χρονολόγιο για ChatGPT, Gemini"
+  },
+  "extDescription": {
+    "message": "Υποστηρίζει όλες τις πλατφόρμες AI, αγαπημένα μεταξύ πλατφορμών, μεταβείτε εύκολα σε οποιοδήποτε μήνυμα, βελτιώνει την αποδοτικότητα συνομιλίας."
+  },
+  "viewStarred": {
+    "message": "Προβολή αγαπημένων"
+  },
+  "starredList": {
+    "message": "Τα Αγαπημένα Μου"
+  },
+  "close": {
+    "message": "Κλείσιμο"
+  },
+  "clickToStar": {
+    "message": "Προσθήκη ερώτησης στα αγαπημένα"
+  },
+  "clickToUnstar": {
+    "message": "Κάντε κλικ για αφαίρεση από τα αγαπημένα"
+  },
+  "noStarredItems": {
+    "message": "Δεν υπάρχουν αγαπημένα"
+  },
+  "goTo": {
+    "message": "Μετάβαση σε"
+  },
+  "goToTooltip": {
+    "message": "Μετάβαση στις λεπτομέρειες συνομιλίας"
+  },
+  "copied": {
+    "message": "Αντιγράφηκε"
+  },
+  "starChat": {
+    "message": "Προσθήκη συνομιλίας στα αγαπημένα"
+  },
+  "unstarChat": {
+    "message": "Κατάργηση συνομιλίας από τα αγαπημένα"
+  },
+  "inputChatTheme": {
+    "message": "Εισαγάγετε θέμα συνομιλίας:"
+  },
+  "themePlaceholder": {
+    "message": "Εισαγάγετε"
+  },
+  "cancel": {
+    "message": "Ακύρωση"
+  },
+  "confirm": {
+    "message": "Επιβεβαίωση"
+  },
+  "themeRequired": {
+    "message": "Το θέμα δεν μπορεί να είναι κενό"
+  },
+  "unstar": {
+    "message": "Κατάργηση από τα αγαπημένα"
+  },
+  "viewStarredList": {
+    "message": "Προβολή λίστας αγαπημένων"
+  },
+  "edit": {
+    "message": "Επεξεργασία"
+  },
+  "editStarredContent": {
+    "message": "Επεξεργασία αγαπημένου"
+  },
+  "contentRequired": {
+    "message": "Το περιεχόμενο δεν μπορεί να είναι κενό"
+  },
+  "dataStorageNote": {
+    "message": "Όλα τα δεδομένα αποθηκεύονται τοπικά στο πρόγραμμα περιήγησής σας και δεν μεταφορτώνονται στον διακομιστή"
+  },
+  "projectOpenSource": {
+    "message": "Αυτό το έργο είναι ανοιχτού κώδικα, καλώς ήρθατε"
+  },
+  "starOnGitHub": {
+    "message": "Star on GitHub"
+  },
+  "shareIfUseful": {
+    "message": "If you find it useful, feel free to recommend it to others"
+  },
+  "chromeWebStore": {
+    "message": "Chrome Web Store"
+  }
+}
