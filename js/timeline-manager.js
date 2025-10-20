@@ -1140,7 +1140,7 @@ class TimelineManager {
                     await this.togglePin(targetId);
                 }
                 longPressTimer = null;
-            }, 600); // 600ms 触发长按
+            }, 500); // 500ms 触发长按
         };
         
         this.checkLongPressMove = (e) => {
