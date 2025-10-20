@@ -70,8 +70,8 @@ html.dark {
     -webkit-backdrop-filter: blur(4px);
     transition: background-color 0.3s ease;
     overflow: visible;
-    /* Isolate layout/paint to reduce reflow propagation during updates */
-    contain: layout paint;
+    /* ✅ 修改：移除 paint containment，允许图钉显示在时间轴外 */
+    contain: layout;
 }
 
 /* Scrollable track to host all dots (long canvas) */
@@ -79,7 +79,7 @@ html.dark {
     position: relative;
     width: 100%;
     height: 100%;
-    overflow-y: auto; /* programmatic scroll in Linked mode */
+    overflow: visible; /* ✅ 改为 visible，允许图钉显示在外部 */
 }
 
 /* Inner content whose height reflects conversation length */
@@ -195,6 +195,27 @@ html.dark .timeline-dot:not(.active):not(.starred):hover::after {
 /* ✅ hover 缩放效果：让边框层也跟着缩放 */
 .timeline-dot.starred.active:hover::before {
     transform: translate(-50%, -50%) scale(1.15);
+}
+
+/* ============================================
+   ✅ 标记（Pin）功能样式 - JS 添加图钉元素
+   ============================================ */
+
+/* 图钉图标（独立渲染到 .chat-timeline-bar，使用和节点相同的定位方式） */
+.timeline-pin-marker {
+    position: absolute !important;
+    left: calc(100% + 3px) !important; /* 时间轴容器右侧3px */
+    /* 使用和节点相同的 --n 变量定位 */
+    top: calc(16px + (100% - 32px) * var(--n, 0)) !important;
+    transform: translateY(-50%) !important;
+    font-size: 12px !important;
+    line-height: 1 !important;
+    pointer-events: none !important;
+    z-index: 10 !important;
+    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.2)) !important;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
 }
 
 /* Floating tooltip element */

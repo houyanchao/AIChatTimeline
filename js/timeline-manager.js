@@ -52,6 +52,10 @@ class TimelineManager {
         this.onBarLeave = null;
         this.onSliderEnter = null;
         this.onSliderLeave = null;
+        // ✅ 长按相关事件处理器
+        this.startLongPress = null;
+        this.checkLongPressMove = null;
+        this.cancelLongPress = null;
         // Timers and RAF IDs
         this.scrollRafId = null;
         this.activeChangeTimer = null;
@@ -106,6 +110,10 @@ class TimelineManager {
         // 临时存储加载的收藏 index（在 markers 创建前）
         this.starredIndexes = new Set();
         
+        // ✅ Pin（标记）功能状态
+        this.pinned = new Set();
+        this.pinnedIndexes = new Set();
+        
         // ✅ URL 到网站信息的映射字典（包含名称和颜色）
         this.siteNameMap = {
             'chatgpt.com': { name: 'ChatGPT', color: '#0D0D0D', logo: chrome.runtime.getURL('images/logo/chatgpt.png') },
@@ -144,6 +152,8 @@ class TimelineManager {
         // Load persisted star markers for current conversation
         this.conversationId = this.adapter.extractConversationId(location.pathname);
         await this.loadStars();
+        // ✅ 加载标记数据
+        await this.loadPins();
         
         // Trigger initial rendering after a short delay to ensure DOM is stable
         // This fixes the bug where nodes don't appear until scroll
@@ -916,6 +926,7 @@ class TimelineManager {
                 baseN: n,
                 dotElement: null,
                 starred: false,
+                pinned: false,  // ✅ 标记状态
             };
             this.markerMap.set(m.id, m);
             return m;
@@ -927,6 +938,15 @@ class TimelineManager {
             if (marker && marker.id) {
                 marker.starred = true;
                 this.starred.add(marker.id);
+            }
+        });
+        
+        // ✅ 应用标记状态：根据 pinnedIndexes 设置 pinned 和填充 this.pinned
+        this.pinnedIndexes.forEach(index => {
+            const marker = this.markers[index];
+            if (marker && marker.id) {
+                marker.pinned = true;
+                this.pinned.add(marker.id);
             }
         });
         
@@ -1066,7 +1086,19 @@ class TimelineManager {
     }
 
     setupEventListeners() {
+        // ✅ 长按标记功能：长按节点切换图钉
+        let longPressTimer = null;
+        let longPressTarget = null;
+        let longPressStartPos = null;
+        let longPressTriggered = false; // 标记长按是否已触发，用于阻止点击事件
+        
         this.onTimelineBarClick = (e) => {
+            // ✅ 如果刚刚触发了长按，阻止点击事件（避免长按后又滚动）
+            if (longPressTriggered) {
+                longPressTriggered = false;
+                return;
+            }
+            
             const dot = e.target.closest('.timeline-dot');
             if (dot) {
                 const targetId = dot.dataset.targetTurnId;
@@ -1080,7 +1112,69 @@ class TimelineManager {
             }
         };
         this.ui.timelineBar.addEventListener('click', this.onTimelineBarClick);
-        // ✅ 移除：长按收藏功能已移除，现在只能通过 Tooltip 内点击星标收藏
+        
+        // ✅ 保存为实例方法以便在 destroy 中清理
+        this.startLongPress = (e) => {
+            const dot = e.target.closest('.timeline-dot');
+            if (!dot) return;
+            
+            longPressTarget = dot;
+            longPressTriggered = false; // 重置标志
+            
+            // 记录起始位置
+            const pos = e.type.startsWith('touch') ? e.touches[0] : e;
+            longPressStartPos = { x: pos.clientX, y: pos.clientY };
+            
+            longPressTimer = setTimeout(async () => {
+                const targetId = dot.dataset.targetTurnId;
+                if (targetId) {
+                    // ✅ 标记长按已触发
+                    longPressTriggered = true;
+                    
+                    // ✅ 触觉反馈（如果支持）
+                    if (navigator.vibrate) {
+                        navigator.vibrate(50); // 震动 50ms
+                    }
+                    
+                    // ✅ 切换图钉状态
+                    await this.togglePin(targetId);
+                }
+                longPressTimer = null;
+            }, 600); // 600ms 触发长按
+        };
+        
+        this.checkLongPressMove = (e) => {
+            if (!longPressTimer || !longPressStartPos) return;
+            
+            // 如果移动超过5px，取消长按
+            const pos = e.type.startsWith('touch') ? e.touches[0] : e;
+            const dx = pos.clientX - longPressStartPos.x;
+            const dy = pos.clientY - longPressStartPos.y;
+            const distance = Math.sqrt(dx * dx + dy * dy);
+            
+            if (distance > 5) {
+                this.cancelLongPress();
+            }
+        };
+        
+        this.cancelLongPress = () => {
+            if (longPressTimer) {
+                clearTimeout(longPressTimer);
+                longPressTimer = null;
+            }
+            longPressTarget = null;
+            longPressStartPos = null;
+        };
+        
+        this.ui.timelineBar.addEventListener('mousedown', this.startLongPress);
+        this.ui.timelineBar.addEventListener('touchstart', this.startLongPress, { passive: true });
+        this.ui.timelineBar.addEventListener('mousemove', this.checkLongPressMove);
+        this.ui.timelineBar.addEventListener('touchmove', this.checkLongPressMove, { passive: true });
+        this.ui.timelineBar.addEventListener('mouseup', this.cancelLongPress);
+        this.ui.timelineBar.addEventListener('mouseleave', this.cancelLongPress);
+        this.ui.timelineBar.addEventListener('touchend', this.cancelLongPress);
+        this.ui.timelineBar.addEventListener('touchcancel', this.cancelLongPress);
+        
         // Listen to container scroll to keep marker active state in sync
         this.onScroll = () => this.scheduleScrollSync();
         this.scrollContainer.addEventListener('scroll', this.onScroll, { passive: true });
@@ -1212,43 +1306,75 @@ class TimelineManager {
         this.onStorage = (changes, areaName) => {
             try {
                 const url = location.href.replace(/^https?:\/\//, '');
-                const prefix = `chatTimelineStar:${url}:`;
+                const starPrefix = `chatTimelineStar:${url}:`;
+                const pinPrefix = `chatTimelinePin:${url}:`;
                 
-                // 检查变化的key中是否有当前页面的收藏数据
+                // 检查变化的key中是否有当前页面的收藏或标记数据
                 Object.keys(changes).forEach(key => {
-                    if (!key.startsWith(prefix)) return;
-                    
-                    // 提取 index
-                    const indexStr = key.substring(prefix.length);
-                    const index = parseInt(indexStr, 10);
-                    if (isNaN(index)) return;
-                    
-                    const marker = this.markers[index];
-                    if (!marker) return;
-                    
-                    const change = changes[key];
-                    
-                    // 判断是添加还是删除
-                    if (change.newValue) {
-                        // 添加收藏
-                        this.starred.add(marker.id);
-                        this.starredIndexes.add(index);
-                        if (marker) marker.starred = true;
-                    } else {
-                        // 删除收藏
-                        this.starred.delete(marker.id);
-                        this.starredIndexes.delete(index);
-                        if (marker) marker.starred = false;
+                    // 处理收藏变化
+                    if (key.startsWith(starPrefix)) {
+                        const indexStr = key.substring(starPrefix.length);
+                        const index = parseInt(indexStr, 10);
+                        if (isNaN(index)) return;
+                        
+                        const marker = this.markers[index];
+                        if (!marker) return;
+                        
+                        const change = changes[key];
+                        
+                        // 判断是添加还是删除
+                        if (change.newValue) {
+                            // 添加收藏
+                            this.starred.add(marker.id);
+                            this.starredIndexes.add(index);
+                            if (marker) marker.starred = true;
+                        } else {
+                            // 删除收藏
+                            this.starred.delete(marker.id);
+                            this.starredIndexes.delete(index);
+                            if (marker) marker.starred = false;
+                        }
+                        
+                        // 更新圆点样式并刷新 tooltip
+                        if (marker.dotElement) {
+                            try { 
+                                marker.dotElement.classList.toggle('starred', this.starred.has(marker.id));
+                                this.refreshTooltipForDot(marker.dotElement);
+                            } catch {}
+                        }
                     }
                     
-                    // 更新圆点样式并刷新 tooltip
-                    if (marker.dotElement) {
-                        try { 
-                            marker.dotElement.classList.toggle('starred', this.starred.has(marker.id));
-                            this.refreshTooltipForDot(marker.dotElement);
-                        } catch {}
+                    // ✅ 处理标记变化
+                    if (key.startsWith(pinPrefix)) {
+                        const indexStr = key.substring(pinPrefix.length);
+                        const index = parseInt(indexStr, 10);
+                        if (isNaN(index)) return;
+                        
+                        const marker = this.markers[index];
+                        if (!marker) return;
+                        
+                        const change = changes[key];
+                        
+                        // 判断是添加还是删除
+                        if (change.newValue) {
+                            // 添加标记
+                            this.pinned.add(marker.id);
+                            this.pinnedIndexes.add(index);
+                            marker.pinned = true;
+                        } else {
+                            // 删除标记
+                            this.pinned.delete(marker.id);
+                            this.pinnedIndexes.delete(index);
+                            marker.pinned = false;
+                        }
+                        
+                        // 更新图钉图标
+                        this.updatePinIcon(marker);
                     }
                 });
+                
+                // ✅ 重新渲染所有图钉
+                this.renderPinMarkers();
                 
                 // 更新收藏列表 UI
                 this.updateStarredListUI();
@@ -1916,6 +2042,10 @@ class TimelineManager {
                 try { dot.classList.toggle('active', marker.id === this.activeTurnId); } catch {}
                 // ✅ 添加：如果已收藏，添加 starred 类（标记点变橙金色）
                 try { dot.classList.toggle('starred', this.starred.has(marker.id)); } catch {}
+                // ✅ 添加：如果已标记，添加 pinned 类（CSS自动显示图钉）
+                try { 
+                    dot.classList.toggle('pinned', this.pinned.has(marker.id));
+                } catch {}
                 marker.dotElement = dot;
                 frag.appendChild(dot);
             } else {
@@ -1929,6 +2059,12 @@ class TimelineManager {
         if (localVersion !== this.markersVersion) return; // stale pass, abort
         if (frag.childNodes.length) this.ui.trackContent.appendChild(frag);
         this.visibleRange = { start, end };
+        
+        // ✅ 节点渲染完成后，重新渲染图钉
+        requestAnimationFrame(() => {
+            this.renderPinMarkers();
+        });
+        
         // keep slider in sync with timeline scroll
         this.updateSlider();
     }
@@ -2304,7 +2440,15 @@ class TimelineManager {
                 StorageAdapter.removeChangeListener(this.onStorage);
             }
         } catch {}
-        // ✅ 移除：长按相关的事件监听器已删除
+        // ✅ 清理长按相关的事件监听器
+        TimelineUtils.removeEventListenerSafe(this.ui.timelineBar, 'mousedown', this.startLongPress);
+        TimelineUtils.removeEventListenerSafe(this.ui.timelineBar, 'touchstart', this.startLongPress);
+        TimelineUtils.removeEventListenerSafe(this.ui.timelineBar, 'mousemove', this.checkLongPressMove);
+        TimelineUtils.removeEventListenerSafe(this.ui.timelineBar, 'touchmove', this.checkLongPressMove);
+        TimelineUtils.removeEventListenerSafe(this.ui.timelineBar, 'mouseup', this.cancelLongPress);
+        TimelineUtils.removeEventListenerSafe(this.ui.timelineBar, 'mouseleave', this.cancelLongPress);
+        TimelineUtils.removeEventListenerSafe(this.ui.timelineBar, 'touchend', this.cancelLongPress);
+        TimelineUtils.removeEventListenerSafe(this.ui.timelineBar, 'touchcancel', this.cancelLongPress);
         TimelineUtils.removeEventListenerSafe(this.scrollContainer, 'scroll', this.onScroll, { passive: true });
         TimelineUtils.removeEventListenerSafe(this.ui.timelineBar, 'mouseover', this.onTimelineBarOver);
         TimelineUtils.removeEventListenerSafe(this.ui.timelineBar, 'mouseout', this.onTimelineBarOut);
@@ -2372,7 +2516,8 @@ class TimelineManager {
         this.onWindowResize = null;
         this.onBarEnter = this.onBarLeave = this.onSliderEnter = this.onSliderLeave = null;
         this.onVisualViewportResize = null;
-        // ✅ 移除：长按相关的引用已删除
+        // ✅ 清理长按相关的引用
+        this.startLongPress = this.checkLongPressMove = this.cancelLongPress = null;
         this.onSliderDown = this.onSliderMove = this.onSliderUp = null;
         this.pendingActiveId = null;
     }
@@ -2395,6 +2540,30 @@ class TimelineManager {
                 const index = parseInt(indexStr, 10);
                 if (!isNaN(index)) {
                     this.starredIndexes.add(index);
+                }
+            });
+        } catch (e) {
+            // Silently fail
+        }
+    }
+    
+    /**
+     * ✅ 加载标记数据（与loadStars类似）
+     */
+    async loadPins() {
+        this.pinned.clear();
+        this.pinnedIndexes.clear();
+        try {
+            const url = location.href.replace(/^https?:\/\//, '');
+            const prefix = `chatTimelinePin:${url}:`;
+            
+            const items = await StorageAdapter.getAllByPrefix(prefix);
+            
+            Object.keys(items).forEach(key => {
+                const indexStr = key.substring(prefix.length);
+                const index = parseInt(indexStr, 10);
+                if (!isNaN(index)) {
+                    this.pinnedIndexes.add(index);
                 }
             });
         } catch (e) {
@@ -3108,6 +3277,101 @@ class TimelineManager {
         const div = document.createElement('div');
         div.textContent = str;
         return div.innerHTML;
+    }
+    
+    /**
+     * ✅ 切换节点的标记状态
+     */
+    async togglePin(id) {
+        if (!id) {
+            return false;
+        }
+        
+        const marker = this.markers.find(m => m.id === id);
+        if (!marker) {
+            return false;
+        }
+        
+        // ✅ 修复：通过 indexOf 获取 index（与 toggleStar 一致）
+        const index = this.markers.indexOf(marker);
+        if (index === -1) {
+            return false;
+        }
+        
+        try {
+            // ✅ 修复：动态计算 urlWithoutProtocol
+            const urlWithoutProtocol = location.href.replace(/^https?:\/\//, '');
+            const key = `chatTimelinePin:${urlWithoutProtocol}:${index}`;
+            const isPinned = await StorageAdapter.get(key);
+            
+            if (isPinned) {
+                // 取消标记
+                await StorageAdapter.remove(key);
+                marker.pinned = false;
+                this.pinned.delete(id);
+                this.pinnedIndexes.delete(index);
+            } else {
+                // 添加标记
+                const pinData = {
+                    url: location.href,
+                    urlWithoutProtocol: urlWithoutProtocol,
+                    index: index,
+                    question: marker.summary || '',
+                    siteName: this.getSiteNameFromUrl(location.href),
+                    timestamp: Date.now(),
+                    isFullChat: false
+                };
+                await StorageAdapter.set(key, pinData);
+                marker.pinned = true;
+                this.pinned.add(id);
+                this.pinnedIndexes.add(index);
+            }
+            
+            // 更新节点UI
+            this.updatePinIcon(marker);
+            // ✅ 重新渲染所有图钉
+            this.renderPinMarkers();
+            return true;
+        } catch (e) {
+            console.error('Failed to toggle pin:', e);
+            return false;
+        }
+    }
+    
+    /**
+     * ✅ 更新节点的图钉图标显示
+     */
+    updatePinIcon(marker) {
+        // ✅ 简化：只更新 pinned class，图钉在单独的方法中渲染
+        if (marker.dotElement) {
+            marker.dotElement.classList.toggle('pinned', marker.pinned);
+        }
+    }
+    
+    /**
+     * ✅ 渲染所有图钉（独立于节点渲染）
+     */
+    renderPinMarkers() {
+        // 清除所有旧的图钉
+        const oldPins = this.ui.timelineBar.querySelectorAll('.timeline-pin-marker');
+        oldPins.forEach(pin => pin.remove());
+        
+        // 为所有标记的节点渲染图钉
+        this.markers.forEach(marker => {
+            if (marker.pinned && marker.dotElement) {
+                const pinMarker = document.createElement('span');
+                pinMarker.className = 'timeline-pin-marker';
+                pinMarker.textContent = '📌';
+                pinMarker.dataset.markerId = marker.id;
+                
+                // 使用节点的 --n 变量来定位图钉
+                const n = marker.n || 0;
+                pinMarker.style.setProperty('--n', String(n));
+                
+                // 添加到 timelineBar
+                this.ui.timelineBar.appendChild(pinMarker);
+            }
+        });
     }
 
     // ✅ 移除：cancelLongPress 方法已删除，长按收藏功能已移除
