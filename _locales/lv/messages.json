@@ -39,7 +39,7 @@
     "message": "Noņemt tērzēšanu no izlases"
   },
   "inputChatTheme": {
-    "message": "Ievadiet tērzēšanas tēmu:"
+    "message": "Ievadiet izlases nosaukumu:"
   },
   "themePlaceholder": {
     "message": "Please enter"
@@ -69,7 +69,7 @@
     "message": "Content cannot be empty"
   },
   "dataStorageNote": {
-    "message": "Visi dati tiek glabāti lokāli jūsu pārlūkprogrammā un netiek augšupielādēti serverī"
+    "message": "Visi dati tiek glabāti tikai lokāli jūsu pārlūkprogrammā. Mēs nekad neaugšupielādēsim nekādus tērzēšanas datus uz serveriem bez jūsu atļaujas"
   },
   "projectOpenSource": {
     "message": "Šis projekts ir atvērtā koda, laipni lūdzam"

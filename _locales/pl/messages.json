@@ -39,7 +39,7 @@
     "message": "Usuń czat z ulubionych"
   },
   "inputChatTheme": {
-    "message": "Wprowadź temat czatu:"
+    "message": "Wprowadź tytuł ulubionego:"
   },
   "themePlaceholder": {
     "message": "Wprowadź"
@@ -69,7 +69,7 @@
     "message": "Zawartość nie może być pusta"
   },
   "dataStorageNote": {
-    "message": "Wszystkie dane są przechowywane lokalnie w przeglądarce i nie są przesyłane na serwer"
+    "message": "Wszystkie dane są przechowywane wyłącznie lokalnie w Twojej przeglądarce. Nigdy nie będziemy przesyłać żadnych danych czatu na serwery bez Twojej zgody"
   },
   "projectOpenSource": {
     "message": "Ten projekt jest open source, zapraszamy do"

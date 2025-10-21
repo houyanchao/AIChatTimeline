@@ -39,7 +39,7 @@
     "message": "च्याट मनपर्नेबाट हटाउनुहोस्"
   },
   "inputChatTheme": {
-    "message": "Enter chat theme:"
+    "message": "मनपर्ने शीर्षक प्रविष्ट गर्नुहोस्:"
   },
   "themePlaceholder": {
     "message": "Please enter"
@@ -69,7 +69,7 @@
     "message": "Content cannot be empty"
   },
   "dataStorageNote": {
-    "message": "सबै डेटा तपाईंको ब्राउजरमा स्थानीय रूपमा भण्डारण गरिएको छ र सर्भरमा अपलोड गरिएको छैन"
+    "message": "सबै डाटा तपाईंको ब्राउजरमा मात्र स्थानीय रूपमा भण्डारण गरिएको छ। हामी तपाईंको अनुमति बिना कहिले पनि कुनै पनि च्याट डाटा सर्भरहरूमा अपलोड गर्ने छैनौं"
   },
   "projectOpenSource": {
     "message": "यो परियोजना खुला स्रोत हो, स्वागत छ"

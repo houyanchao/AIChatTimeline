@@ -39,7 +39,7 @@
     "message": "Unstar chat"
   },
   "inputChatTheme": {
-    "message": "Enter chat theme:"
+    "message": "Enter starred title:"
   },
   "themePlaceholder": {
     "message": "Please enter"
@@ -69,7 +69,7 @@
     "message": "Content cannot be empty"
   },
   "dataStorageNote": {
-    "message": "All data is stored locally in your browser and not uploaded to any server"
+    "message": "All data is stored only in your browser locally. We will never upload any chat data to servers without your permission"
   },
   "projectOpenSource": {
     "message": "This project is open source, welcome to"

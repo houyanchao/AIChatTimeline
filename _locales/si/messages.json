@@ -39,7 +39,7 @@
     "message": "කතාබස් ප්‍රියතම ලෙස ඉවත් කරන්න"
   },
   "inputChatTheme": {
-    "message": "Enter chat theme:"
+    "message": "ප්‍රියතම මාතෘකාව ඇතුලත් කරන්න:"
   },
   "themePlaceholder": {
     "message": "Please enter"
@@ -69,7 +69,7 @@
     "message": "Content cannot be empty"
   },
   "dataStorageNote": {
-    "message": "සියලුම දත්ත ඔබේ බ්‍රවුසරයේ දේශීයව ගබඩා කර ඇති අතර සේවාදායකයට උඩුගත නොකෙරේ"
+    "message": "සියලු දත්ත ඔබේ බ්‍රව්සරයේ පමණක් ස්ථානිකව ගබඩා කර ඇත. ඔබේ අවසරයකින් තොරව අපි කිසි විටෙකත් කතාබස් දත්ත සේවාදායකයන්ට උඩුගත නොකරමු"
   },
   "projectOpenSource": {
     "message": "මෙම ව්‍යාපෘතිය විවෘත මූලාශ්‍රයකි, සාදරයෙන් පිළිගනිමු"

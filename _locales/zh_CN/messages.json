@@ -39,7 +39,7 @@
     "message": "已复制"
   },
   "inputChatTheme": {
-    "message": "请输入聊天主题："
+    "message": "请输入收藏标题："
   },
   "themePlaceholder": {
     "message": "请输入"
@@ -69,7 +69,7 @@
     "message": "内容不能为空"
   },
   "dataStorageNote": {
-    "message": "所有数据存储在你的浏览器本地，不上传服务器"
+    "message": "所有数据仅存储在你的浏览器本地。未经你的允许，我们不会将任何聊天数据上传到服务器"
   },
   "projectOpenSource": {
     "message": "本项目已开源，欢迎"

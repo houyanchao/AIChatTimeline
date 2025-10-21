@@ -39,7 +39,7 @@
     "message": "取消收藏聊天"
   },
   "inputChatTheme": {
-    "message": "請輸入聊天主題："
+    "message": "請輸入收藏標題："
   },
   "themePlaceholder": {
     "message": "請輸入"
@@ -69,7 +69,7 @@
     "message": "內容不能為空"
   },
   "dataStorageNote": {
-    "message": "所有數據存儲在你的瀏覽器本地，不上傳服務器"
+    "message": "所有資料僅儲存在您的瀏覽器本機中。未經您的允許，我們絕不會將任何聊天資料上傳至伺服器"
   },
   "projectOpenSource": {
     "message": "本項目已開源，歡迎"

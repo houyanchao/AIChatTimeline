@@ -39,7 +39,7 @@
     "message": "Poista keskustelu suosikeista"
   },
   "inputChatTheme": {
-    "message": "Syötä keskustelun teema:"
+    "message": "Syötä suosikkiotsikko:"
   },
   "themePlaceholder": {
     "message": "Syötä"
@@ -69,7 +69,7 @@
     "message": "Sisältö ei voi olla tyhjä"
   },
   "dataStorageNote": {
-    "message": "Kaikki tiedot tallennetaan paikallisesti selaimeesi eikä niitä ladata palvelimelle"
+    "message": "Kaikki tiedot tallennetaan vain paikallisesti selaimeesi. Emme koskaan lataa chat-tietoja palvelimille ilman lupaasi"
   },
   "projectOpenSource": {
     "message": "Tämä projekti on avoimen lähdekoodin, tervetuloa"

@@ -39,7 +39,7 @@
     "message": "Fjarlægja spjall úr eftirlætum"
   },
   "inputChatTheme": {
-    "message": "Enter chat theme:"
+    "message": "Sláðu inn uppáhalds titil:"
   },
   "themePlaceholder": {
     "message": "Please enter"
@@ -69,7 +69,7 @@
     "message": "Content cannot be empty"
   },
   "dataStorageNote": {
-    "message": "Öll gögn eru geymd staðbundið í vafranum þínum og ekki hlaðið upp á netþjón"
+    "message": "Öll gögn eru geymd aðeins staðbundið í vafranum þínum. Við munum aldrei hlaða upp gögnum úr spjalli á netþjóna án leyfis þíns"
   },
   "projectOpenSource": {
     "message": "Þetta verkefni er opinn kóði, velkomin"

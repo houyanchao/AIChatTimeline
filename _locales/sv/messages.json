@@ -39,7 +39,7 @@
     "message": "Ta bort stjärnmarkering från chatt"
   },
   "inputChatTheme": {
-    "message": "Ange chatttema:"
+    "message": "Ange favorittitel:"
   },
   "themePlaceholder": {
     "message": "Ange"
@@ -69,7 +69,7 @@
     "message": "Innehåll får inte vara tomt"
   },
   "dataStorageNote": {
-    "message": "All data lagras lokalt i din webbläsare och laddas inte upp till servern"
+    "message": "Alla data lagras endast lokalt i din webbläsare. Vi kommer aldrig att ladda upp chattdata till servrar utan ditt tillstånd"
   },
   "projectOpenSource": {
     "message": "Detta projekt är öppen källkod, välkommen till"

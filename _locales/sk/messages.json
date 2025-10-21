@@ -39,7 +39,7 @@
     "message": "Odstrániť chat z obľúbených"
   },
   "inputChatTheme": {
-    "message": "Zadajte tému chatu:"
+    "message": "Zadajte názov obľúbenej položky:"
   },
   "themePlaceholder": {
     "message": "Zadajte"
@@ -69,7 +69,7 @@
     "message": "Obsah nemôže byť prázdny"
   },
   "dataStorageNote": {
-    "message": "Všetky údaje sú uložené lokálne vo vašom prehliadači a nie sú nahrávané na server"
+    "message": "Všetky údaje sú uložené iba lokálne vo vašom prehliadači. Nikdy nebudeme nahrávať žiadne údaje chatu na servery bez vášho súhlasu"
   },
   "projectOpenSource": {
     "message": "Tento projekt je open source, vitajte"

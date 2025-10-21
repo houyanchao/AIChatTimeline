@@ -39,7 +39,7 @@
     "message": "Chat-Markierung entfernen"
   },
   "inputChatTheme": {
-    "message": "Chat-Thema eingeben:"
+    "message": "Titel des Favoriten eingeben:"
   },
   "themePlaceholder": {
     "message": "Bitte eingeben"
@@ -69,7 +69,7 @@
     "message": "Inhalt darf nicht leer sein"
   },
   "dataStorageNote": {
-    "message": "Alle Daten werden lokal in Ihrem Browser gespeichert und nicht auf einen Server hochgeladen"
+    "message": "Alle Daten werden nur lokal in Ihrem Browser gespeichert. Wir werden ohne Ihre Erlaubnis niemals Chat-Daten auf Server hochladen"
   },
   "projectOpenSource": {
     "message": "Dieses Projekt ist Open Source, willkommen zu"

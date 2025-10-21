@@ -39,7 +39,7 @@
     "message": "채팅 즐겨찾기 취소"
   },
   "inputChatTheme": {
-    "message": "채팅 주제를 입력하세요:"
+    "message": "즐겨찾기 제목 입력："
   },
   "themePlaceholder": {
     "message": "입력하세요"
@@ -69,7 +69,7 @@
     "message": "내용을 입력해야 합니다"
   },
   "dataStorageNote": {
-    "message": "모든 데이터는 브라우저 로컬에 저장되며 서버에 업로드되지 않습니다"
+    "message": "모든 데이터는 브라우저 로컬에만 저장됩니다. 귀하의 허락 없이 채팅 데이터를 서버에 업로드하지 않습니다"
   },
   "projectOpenSource": {
     "message": "이 프로젝트는 오픈 소스입니다."

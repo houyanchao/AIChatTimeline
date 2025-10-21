@@ -39,7 +39,7 @@
     "message": "Уклони ћаскање из омиљених"
   },
   "inputChatTheme": {
-    "message": "Enter chat theme:"
+    "message": "Унесите наслов омиљеног:"
   },
   "themePlaceholder": {
     "message": "Please enter"
@@ -69,7 +69,7 @@
     "message": "Content cannot be empty"
   },
   "dataStorageNote": {
-    "message": "Сви подаци се чувају локално у вашем прегледачу и не отпремају се на сервер"
+    "message": "Сви подаци се чувају само локално у вашем прегледачу. Никада нећемо отпремати податке ћаскања на сервере без ваше дозволе"
   },
   "projectOpenSource": {
     "message": "Овај пројекат је отвореног кода, добродошли"

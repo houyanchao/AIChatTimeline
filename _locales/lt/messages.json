@@ -39,7 +39,7 @@
     "message": "Pašalinti pokalbį iš mėgstamų"
   },
   "inputChatTheme": {
-    "message": "Įveskite pokalbio temą:"
+    "message": "Įveskite mėgstamo pavadinimą:"
   },
   "themePlaceholder": {
     "message": "Please enter"
@@ -69,7 +69,7 @@
     "message": "Content cannot be empty"
   },
   "dataStorageNote": {
-    "message": "Visi duomenys saugomi vietoje jūsų naršyklėje ir nėra įkeliami į serverį"
+    "message": "Visi duomenys saugomi tik vietoje jūsų naršyklėje. Niekada neįkelsime jokių pokalbių duomenų į serverius be jūsų leidimo"
   },
   "projectOpenSource": {
     "message": "Šis projektas yra atviro kodo, sveiki atvykę"

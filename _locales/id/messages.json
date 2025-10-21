@@ -39,7 +39,7 @@
     "message": "Hapus obrolan dari favorit"
   },
   "inputChatTheme": {
-    "message": "Masukkan tema obrolan:"
+    "message": "Masukkan judul favorit:"
   },
   "themePlaceholder": {
     "message": "Masukkan"
@@ -69,7 +69,7 @@
     "message": "Konten tidak boleh kosong"
   },
   "dataStorageNote": {
-    "message": "Semua data disimpan secara lokal di browser Anda dan tidak diunggah ke server"
+    "message": "Semua data hanya disimpan secara lokal di browser Anda. Kami tidak akan pernah mengunggah data obrolan apa pun ke server tanpa izin Anda"
   },
   "projectOpenSource": {
     "message": "Proyek ini bersifat open source, selamat datang di"

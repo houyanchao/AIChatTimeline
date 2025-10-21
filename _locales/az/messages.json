@@ -39,7 +39,7 @@
     "message": "Söhbəti sevimlilərdən sil"
   },
   "inputChatTheme": {
-    "message": "Enter chat theme:"
+    "message": "Sevimlinin başlığını daxil edin:"
   },
   "themePlaceholder": {
     "message": "Please enter"
@@ -69,7 +69,7 @@
     "message": "Content cannot be empty"
   },
   "dataStorageNote": {
-    "message": "Bütün məlumatlar brauzerinizdə yerli olaraq saxlanılır və serverə yüklənmir"
+    "message": "Bütün məlumatlar yalnız brauzerizdə yerli olaraq saxlanılır. Biz heç vaxt icazəniz olmadan çat məlumatlarını serverlərə yükləməyəcəyik"
   },
   "projectOpenSource": {
     "message": "Bu layihə açıq mənbəlidir, xoş gəlmisiniz"

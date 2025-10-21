@@ -39,7 +39,7 @@
     "message": "Հեռացնել զրույցը նախընտրածներից"
   },
   "inputChatTheme": {
-    "message": "Enter chat theme:"
+    "message": "Մուտքագրեք ընտրյալի վերնագիրը:"
   },
   "themePlaceholder": {
     "message": "Please enter"
@@ -69,7 +69,7 @@
     "message": "Content cannot be empty"
   },
   "dataStorageNote": {
-    "message": "Բոլոր տվյալները պահվում են ձեր բրաուզերում տեղական և չեն վերբեռնվում սերվեր"
+    "message": "Բոլոր տվյալները պահվում են միայն ձեր բրաուզերում տեղական կերպով: Մենք երբեք չենք վերբեռնի զրույցի տվյալները սերվերներ առանց ձեր թույլտվության"
   },
   "projectOpenSource": {
     "message": "Այս նախագիծը բաց կոդով է, բարի գալուստ"

@@ -20,7 +20,7 @@
 - Click on timeline dots to instantly jump to any question in the conversation
 - Star important questions and answers for easy access later
 - Automatically highlights the current position in the conversation
-- All data is stored locally in your browser, never uploaded to any server, ensuring privacy and security
+- All data is stored only in your browser locally. We will never upload any chat data to servers without your permission, ensuring privacy and security
 - Works with all mainstream AI platforms
 - Supports 52 languages with the industry's most comprehensive language coverage
 
@@ -175,7 +175,7 @@ This project is licensed under the [MIT License](./LICENSE)
 ## 🙏 Acknowledgements
 
 This project is developed based on the initial code from [chatgpt-conversation-timeline](https://github.com/Reborn14/chatgpt-conversation-timeline). We sincerely appreciate the original author's open-source contribution. 
-Building upon this foundation, we have optimized the interaction and enhanced features: added support for all mainstream AI platforms; added cross-platform conversation starring support; added support for starring entire chat pages; all data is stored locally in your browser and not uploaded to any server.
+Building upon this foundation, we have optimized the interaction and enhanced features: added support for all mainstream AI platforms; added cross-platform conversation starring support; added support for starring entire chat pages; all data is stored only in your browser locally and we will never upload any chat data to servers without your permission.
 
 ---
 

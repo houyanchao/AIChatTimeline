@@ -57,7 +57,7 @@ html.dark {
     position: fixed;
     /* Position values (top, right, height) are set by JavaScript based on site adapter */
     top: 60px; /* Default fallback */
-    right: 15px; /* Default fallback */
+    right: 17px; /* Default fallback */
     width: 28px;
     height: calc(100vh - 100px); /* Default fallback */
     z-index: 2147483646; /* ensure above site chrome */
@@ -208,7 +208,7 @@ html.dark .timeline-dot:not(.active):not(.starred):hover::after {
     /* 使用和节点相同的 --n 变量定位 */
     top: calc(16px + (100% - 32px) * var(--n, 0)) !important;
     transform: translateY(-50%) !important;
-    font-size: 12px !important;
+    font-size: 15px !important;
     line-height: 1 !important;
     pointer-events: none !important;
     z-index: 10 !important;

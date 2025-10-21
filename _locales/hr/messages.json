@@ -39,7 +39,7 @@
     "message": "Ukloni razgovor iz favorita"
   },
   "inputChatTheme": {
-    "message": "Unesite temu razgovora:"
+    "message": "Unesite naslov favorita:"
   },
   "themePlaceholder": {
     "message": "Unesite"
@@ -69,7 +69,7 @@
     "message": "Sadržaj ne može biti prazan"
   },
   "dataStorageNote": {
-    "message": "Svi podaci su pohranjeni lokalno u vašem pregledniku i ne učitavaju se na poslužitelj"
+    "message": "Svi podaci pohranjeni su samo lokalno u vašem pregledniku. Nikada nećemo učitavati podatke razgovora na poslužitelje bez vašeg dopuštenja"
   },
   "projectOpenSource": {
     "message": "Ovaj projekt je otvorenog koda, dobrodošli"

@@ -39,7 +39,7 @@
     "message": "Quitar chat de favoritos"
   },
   "inputChatTheme": {
-    "message": "Ingrese el tema del chat:"
+    "message": "Ingrese el título del favorito:"
   },
   "themePlaceholder": {
     "message": "Por favor ingrese"
@@ -69,7 +69,7 @@
     "message": "El contenido no puede estar vacío"
   },
   "dataStorageNote": {
-    "message": "Todos los datos se almacenan localmente en su navegador y no se cargan en ningún servidor"
+    "message": "Todos los datos se almacenan únicamente en su navegador localmente. Nunca subiremos ningún dato de chat a servidores sin su permiso"
   },
   "projectOpenSource": {
     "message": "Este proyecto es de código abierto, bienvenido a"

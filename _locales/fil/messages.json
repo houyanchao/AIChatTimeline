@@ -39,7 +39,7 @@
     "message": "I-unstar ang chat"
   },
   "inputChatTheme": {
-    "message": "Ilagay ang tema ng chat:"
+    "message": "Ilagay ang pamagat ng paborito:"
   },
   "themePlaceholder": {
     "message": "Ilagay"
@@ -69,7 +69,7 @@
     "message": "Ang nilalaman ay hindi maaaring walang laman"
   },
   "dataStorageNote": {
-    "message": "Lahat ng data ay nakaimbak nang lokal sa iyong browser at hindi ina-upload sa server"
+    "message": "Ang lahat ng data ay naka-imbak lamang sa iyong browser nang lokal. Hindi namin kailanman ia-upload ang anumang data ng chat sa mga server nang walang iyong pahintulot"
   },
   "projectOpenSource": {
     "message": "Ang proyektong ito ay open source, maligayang pagdating sa"

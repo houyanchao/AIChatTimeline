@@ -39,7 +39,7 @@
     "message": "Sohbeti favorilerden kaldır"
   },
   "inputChatTheme": {
-    "message": "Sohbet temasını girin:"
+    "message": "Favori başlığını girin:"
   },
   "themePlaceholder": {
     "message": "Girin"
@@ -69,7 +69,7 @@
     "message": "İçerik boş olamaz"
   },
   "dataStorageNote": {
-    "message": "Tüm veriler tarayıcınızda yerel olarak depolanır ve sunucuya yüklenmez"
+    "message": "Tüm veriler yalnızca tarayıcınızda yerel olarak saklanır. İzniniz olmadan sohbet verilerini hiçbir zaman sunuculara yüklemeyeceğiz"
   },
   "projectOpenSource": {
     "message": "Bu proje açık kaynaklıdır, hoş geldiniz"

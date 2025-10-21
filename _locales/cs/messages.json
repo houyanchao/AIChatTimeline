@@ -39,7 +39,7 @@
     "message": "Odebrat chat z oblíbených"
   },
   "inputChatTheme": {
-    "message": "Zadejte téma chatu:"
+    "message": "Zadejte název oblíbené položky:"
   },
   "themePlaceholder": {
     "message": "Zadejte"
@@ -69,7 +69,7 @@
     "message": "Obsah nemůže být prázdný"
   },
   "dataStorageNote": {
-    "message": "Všechna data jsou uložena lokálně ve vašem prohlížeči a nejsou nahrávána na server"
+    "message": "Všechna data jsou uložena pouze lokálně ve vašem prohlížeči. Nikdy nebudeme nahrávat žádná data chatu na servery bez vašeho svolení"
   },
   "projectOpenSource": {
     "message": "Tento projekt je open source, vítejte"

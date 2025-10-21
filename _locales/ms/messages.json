@@ -39,7 +39,7 @@
     "message": "Buang sembang dari kegemaran"
   },
   "inputChatTheme": {
-    "message": "Masukkan tema sembang:"
+    "message": "Masukkan tajuk kegemaran:"
   },
   "themePlaceholder": {
     "message": "Masukkan"
@@ -69,7 +69,7 @@
     "message": "Kandungan tidak boleh kosong"
   },
   "dataStorageNote": {
-    "message": "Semua data disimpan secara tempatan dalam pelayar anda dan tidak dimuat naik ke pelayan"
+    "message": "Semua data hanya disimpan secara setempat dalam pelayar anda. Kami tidak akan memuat naik sebarang data sembang ke pelayan tanpa kebenaran anda"
   },
   "projectOpenSource": {
     "message": "Projek ini adalah sumber terbuka, selamat datang ke"

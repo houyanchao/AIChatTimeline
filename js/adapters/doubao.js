@@ -52,7 +52,7 @@ class DoubaoAdapter extends SiteAdapter {
         // Doubao 位置配置（可根据实际情况调整）
         return {
             top: '120px',      // 避开顶部导航栏
-            right: '20px',    // 右侧边距
+            right: '22px',    // 右侧边距
             bottom: '120px',   // 避开底部输入框
         };
     }

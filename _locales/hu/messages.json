@@ -39,7 +39,7 @@
     "message": "Chat eltávolítása a kedvencekből"
   },
   "inputChatTheme": {
-    "message": "Adja meg a csevegés témáját:"
+    "message": "Adja meg a kedvenc címét:"
   },
   "themePlaceholder": {
     "message": "Írja be"
@@ -69,7 +69,7 @@
     "message": "A tartalom nem lehet üres"
   },
   "dataStorageNote": {
-    "message": "Minden adat helyileg tárolódik a böngészőjében, és nem kerül feltöltésre a szerverre"
+    "message": "Minden adat csak helyileg, a böngészőjében van tárolva. Soha nem töltünk fel chat adatokat szerverre az Ön engedélye nélkül"
   },
   "projectOpenSource": {
     "message": "Ez a projekt nyílt forráskódú, üdvözöljük"

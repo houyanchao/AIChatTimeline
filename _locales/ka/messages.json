@@ -39,7 +39,7 @@
     "message": "ჩატის ფავორიტებიდან წაშლა"
   },
   "inputChatTheme": {
-    "message": "Enter chat theme:"
+    "message": "შეიყვანეთ რჩეულის სათაური:"
   },
   "themePlaceholder": {
     "message": "Please enter"
@@ -69,7 +69,7 @@
     "message": "Content cannot be empty"
   },
   "dataStorageNote": {
-    "message": "ყველა მონაცემი ინახება ლოკალურად თქვენს ბრაუზერში და არ აიტვირთება სერვერზე"
+    "message": "ყველა მონაცემი ინახება მხოლოდ თქვენს ბრაუზერში ლოკალურად. ჩვენ არასოდეს ავტვირთავთ ჩატის მონაცემებს სერვერებზე თქვენი ნებართვის გარეშე"
   },
   "projectOpenSource": {
     "message": "ეს პროექტი ღია წყაროა, კეთილი იყოს თქვენი მობრძანება"

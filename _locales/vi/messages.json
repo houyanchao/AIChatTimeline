@@ -39,7 +39,7 @@
     "message": "Bỏ lưu cuộc trò chuyện"
   },
   "inputChatTheme": {
-    "message": "Nhập chủ đề trò chuyện:"
+    "message": "Nhập tiêu đề yêu thích:"
   },
   "themePlaceholder": {
     "message": "Nhập"
@@ -69,7 +69,7 @@
     "message": "Nội dung không được để trống"
   },
   "dataStorageNote": {
-    "message": "Tất cả dữ liệu được lưu trữ cục bộ trong trình duyệt của bạn và không được tải lên máy chủ"
+    "message": "Tất cả dữ liệu chỉ được lưu trữ cục bộ trong trình duyệt của bạn. Chúng tôi sẽ không bao giờ tải bất kỳ dữ liệu trò chuyện nào lên máy chủ mà không có sự cho phép của bạn"
   },
   "projectOpenSource": {
     "message": "Dự án này là mã nguồn mở, chào mừng đến"

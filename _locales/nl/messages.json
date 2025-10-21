@@ -39,7 +39,7 @@
     "message": "Chat verwijderen uit favorieten"
   },
   "inputChatTheme": {
-    "message": "Voer chatthema in:"
+    "message": "Voer favoriettitel in:"
   },
   "themePlaceholder": {
     "message": "Voer in"
@@ -69,7 +69,7 @@
     "message": "Inhoud mag niet leeg zijn"
   },
   "dataStorageNote": {
-    "message": "Alle gegevens worden lokaal in uw browser opgeslagen en niet naar de server geüpload"
+    "message": "Alle gegevens worden alleen lokaal in uw browser opgeslagen. We zullen nooit chatgegevens naar servers uploaden zonder uw toestemming"
   },
   "projectOpenSource": {
     "message": "Dit project is open source, welkom bij"

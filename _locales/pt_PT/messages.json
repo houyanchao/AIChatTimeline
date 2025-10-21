@@ -39,7 +39,7 @@
     "message": "Desfavoritar conversa"
   },
   "inputChatTheme": {
-    "message": "Introduza o tema da conversa:"
+    "message": "Introduza o título do favorito:"
   },
   "themePlaceholder": {
     "message": "Introduza"
@@ -69,7 +69,7 @@
     "message": "O conteúdo não pode estar vazio"
   },
   "dataStorageNote": {
-    "message": "Todos os dados são armazenados localmente no seu navegador e não são enviados para o servidor"
+    "message": "Todos os dados são armazenados apenas localmente no seu navegador. Nunca faremos o carregamento de quaisquer dados de chat para servidores sem a sua permissão"
   },
   "projectOpenSource": {
     "message": "Este projeto é de código aberto, bem-vindo a"

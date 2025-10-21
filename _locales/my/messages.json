@@ -39,7 +39,7 @@
     "message": "ချက်တင်ကို အကြိုက်ဆုံးများမှ ဖယ်မည်"
   },
   "inputChatTheme": {
-    "message": "Enter chat theme:"
+    "message": "အကြိုက်ဆုံးခေါင်းစဉ်ကို ထည့်ပါ:"
   },
   "themePlaceholder": {
     "message": "Please enter"
@@ -69,7 +69,7 @@
     "message": "Content cannot be empty"
   },
   "dataStorageNote": {
-    "message": "ဒေတာအားလုံးကို သင့်ဘရောက်ဆာတွင် ဒေသဆိုင်ရာ သိမ်းဆည်းထားပြီး ဆာဗာသို့ တင်ခြင်းမပြုပါ"
+    "message": "ဒေတာအားလုံးသည် သင့်ဘရောက်ဆာတွင်သာ local သိမ်းဆည်းထားသည်။ သင့်ခွင့်ပြုချက်မရှိဘဲ ချတ်ဒေတာများကို ဆာဗာများသို့ မည်သည့်အခါမျှ upload မလုပ်ပါ"
   },
   "projectOpenSource": {
     "message": "ဤပရောဂျက်သည် open source ဖြစ်သည်၊ ကြိုဆိုပါသည်"

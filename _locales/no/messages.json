@@ -39,7 +39,7 @@
     "message": "Fjern chat fra favoritter"
   },
   "inputChatTheme": {
-    "message": "Skriv inn chattema:"
+    "message": "Skriv inn favoritt-tittel:"
   },
   "themePlaceholder": {
     "message": "Skriv inn"
@@ -69,7 +69,7 @@
     "message": "Innhold kan ikke være tomt"
   },
   "dataStorageNote": {
-    "message": "All data lagres lokalt i nettleseren din og lastes ikke opp til serveren"
+    "message": "Alle data lagres kun lokalt i nettleseren din. Vi vil aldri laste opp chatdata til servere uten din tillatelse"
   },
   "projectOpenSource": {
     "message": "Dette prosjektet er open source, velkommen til"

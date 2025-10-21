@@ -39,7 +39,7 @@
     "message": "Retirer le chat des favoris"
   },
   "inputChatTheme": {
-    "message": "Entrez le thème de la conversation :"
+    "message": "Entrez le titre du favori:"
   },
   "themePlaceholder": {
     "message": "Veuillez saisir"
@@ -69,7 +69,7 @@
     "message": "Le contenu ne peut pas être vide"
   },
   "dataStorageNote": {
-    "message": "Toutes les données sont stockées localement dans votre navigateur et ne sont pas téléchargées sur un serveur"
+    "message": "Toutes les données sont stockées uniquement en local dans votre navigateur. Nous ne téléchargerons jamais de données de chat sur des serveurs sans votre permission"
   },
   "projectOpenSource": {
     "message": "Ce projet est open source, bienvenue à"
