@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "__MSG_extName__",
   "short_name": "AI Chat Timeline",
-  "version": "3.0.1",
+  "version": "3.1.0",
   "description": "__MSG_extDescription__",
   "default_locale": "en",
   "author": "yanchao hou",
