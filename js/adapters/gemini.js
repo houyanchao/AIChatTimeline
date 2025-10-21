@@ -65,16 +65,15 @@ class GeminiAdapter extends SiteAdapter {
     }
     
     getStarChatButtonTarget() {
-        // Gemini 页面布局复杂，暂时禁用原生插入，避免影响页面布局
-        return null;
-    }
-    
-    getStarChatButtonPosition() {
-        // Gemini 使用固定定位，显示在右上角
-        return {
-            top: '20px',
-            right: '70px'  // 避开右侧的其他按钮
-        };
+        // 查找 .top-bar-actions 下的 .right-section，插入到第一个元素的左边
+        const topBarActions = document.querySelector('.top-bar-actions');
+        if (!topBarActions) return null;
+        
+        const rightSection = topBarActions.querySelector('.right-section');
+        if (!rightSection) return null;
+        
+        // 返回 right-section 的第一个子元素，收藏按钮将插入到它前面
+        return rightSection.firstElementChild;
     }
     
     getDefaultChatTheme() {
