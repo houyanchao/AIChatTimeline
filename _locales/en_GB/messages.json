@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "AI Chat Timeline - Interactive timeline for ChatGPT, Gemini, etc."
+    "message": "Timeline - Interactive timeline for ChatGPT, Gemini, DeepSeek, etc."
   },
   "extDescription": {
     "message": "Supports all AI platforms, cross-platform favourites, easily jump to any message, improves conversation efficiency."
@@ -69,7 +69,7 @@
     "message": "Content cannot be empty"
   },
   "dataStorageNote": {
-    "message": "All data is stored only in your browser locally. We will never upload any chat data to servers without your permission"
+    "message": "All data is stored locally in your browser, not uploaded to servers"
   },
   "projectOpenSource": {
     "message": "This project is open source, welcome to"

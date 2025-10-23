@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "AI Chat Timeline - 为 AI 对话添加交互式时间轴，支持 ChatGPT、Gemini、DeepSeek、Claude 等平台"
+    "message": "Timeline - 为 AI 对话添加交互式时间轴，支持 ChatGPT、Gemini、DeepSeek、Claude 等平台"
   },
   "extDescription": {
     "message": "支持所有 AI 平台，跨平台收藏，轻松地跳转至任意消息，提升对话效率。"
@@ -69,7 +69,7 @@
     "message": "内容不能为空"
   },
   "dataStorageNote": {
-    "message": "所有数据仅存储在你的浏览器本地。未经你的允许，我们不会将任何聊天数据上传到服务器"
+    "message": "所有数据存储在你的浏览器本地，不上传服务器"
   },
   "projectOpenSource": {
     "message": "本项目已开源，欢迎"

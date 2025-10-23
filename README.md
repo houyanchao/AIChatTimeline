@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>AI Chat Timeline</h1>
+  <h1>Timeline</h1>
   <p>Add interactive timeline to AI conversations, compatible with all mainstream AI platforms</p>  
   <p>
     <a href="./README.zh_CN.md">🇨🇳 点击此处查看中文版</a>
@@ -9,7 +9,7 @@
 ---
 
 <div align="center">
-  <img src="./images/demo_en.png" alt="AI Chat Timeline Demo" width="800">
+  <img src="./images/demo_en.png" alt="Timeline Demo" width="800">
 </div>
 
 ---
@@ -29,16 +29,16 @@
 ### Method 1: Install via Web Store (Highly Recommended)
 
 The English installation guide is as follows:
-1. Go to 👉 [Chrome Web Store](https://chromewebstore.google.com/detail/ai-chat-timeline-ai-chat/fgebdnlceacaiaeikopldglhffljjlhh) to install
+1. Go to 👉 [Chrome Web Store](https://chromewebstore.google.com/detail/timeline-ai-chat/fgebdnlceacaiaeikopldglhffljjlhh) to install
 2. After installation, open any AI platform and start a conversation
 
 中文版安装教程如下：
-1. 前往👉 [Chrome 应用商店](https://chromewebstore.google.com/detail/ai-chat-timeline-ai-chat/fgebdnlceacaiaeikopldglhffljjlhh) 进行安装
+1. 前往👉 [Chrome 应用商店](https://chromewebstore.google.com/detail/timeline-ai-chat/fgebdnlceacaiaeikopldglhffljjlhh) 进行安装
 2. 安装完成后，打开任意 AI 平台，开始对话即可
 
 ### Method 2: Manual Installation
 
-1. **Download** - Download the [AIChatTimeline.zip] archive from the project
+1. **Download** - Download the [Timeline.zip] archive from the project
 2. **Extract** - Unzip the downloaded file
 3. **Open Extensions Page** - Navigate to `chrome://extensions/`
 4. **Enable Developer Mode** - Toggle [Developer Mode] in the top right corner

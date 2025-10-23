@@ -60,7 +60,7 @@ html.dark {
     right: 17px; /* Default fallback */
     width: 28px;
     height: calc(100vh - 100px); /* Default fallback */
-    z-index: 2147483646; /* ensure above site chrome */
+    z-index: 50; /* ensure above site chrome */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -459,7 +459,7 @@ html.dark .timeline-slider::before { background: rgba(255,255,255,0.10); }
     height: 160px; /* updated by JS */
     opacity: 0;
     transition: opacity 180ms ease;
-    z-index: 2147483646; /* align with bar */
+    z-index: 50; /* align with bar */
     pointer-events: none;
 }
 .timeline-left-slider.visible { opacity: 1;  pointer-events: auto; }
@@ -502,7 +502,7 @@ html.dark .timeline-left-slider::before { background: rgba(255,255,255,0.10); }
     justify-content: center;
     padding: 3px;
     transition: background-color 0.2s ease, opacity 0.2s ease;
-    z-index: 2147483646; /* 与 timeline-bar 同级 */
+    z-index: 50; /* 与 timeline-bar 同级 */
     opacity: 0.85;
     border-radius: 6px;
 }
