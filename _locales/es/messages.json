@@ -1,9 +1,9 @@
 {
   "extName": {
-    "message": "Timeline - Línea de tiempo interactiva para ChatGPT, Gemini, DeepSeek"
+    "message": "AI Chat Timeline - Línea de tiempo interactiva para ChatGPT, Gemini"
   },
   "extDescription": {
-    "message": "Compatible con todas las plataformas de IA, favoritos multiplataforma, saltar fácilmente a cualquier mensaje, mejora la eficiencia de conversación."
+    "message": "¡Duplica tu eficiencia de chat con IA! Añade línea de tiempo interactiva a ChatGPT, Gemini, DeepSeek, 🚀 salta fácilmente a cualquier conversación, 📌 marca conversaciones clave, ⭐️ favoritos de chats importantes."
   },
   "viewStarred": {
     "message": "Ver favoritos"
@@ -63,7 +63,7 @@
     "message": "Editar"
   },
   "editStarredContent": {
-    "message": "Editar favorito"
+    "message": "Editar título favorito"
   },
   "contentRequired": {
     "message": "El contenido no puede estar vacío"
@@ -78,7 +78,7 @@
     "message": "Star on GitHub"
   },
   "shareIfUseful": {
-    "message": "Si te resulta útil, no dudes en recomendarlo a otros"
+    "message": "Si te ayuda, no dudes en recomendarlo a tus amigos"
   },
   "chromeWebStore": {
     "message": "Chrome Web Store"

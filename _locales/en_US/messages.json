@@ -1,9 +1,9 @@
 {
   "extName": {
-    "message": "Timeline - Interactive timeline for ChatGPT, Gemini, DeepSeek, etc."
+    "message": "AI Chat Timeline - Interactive timeline for ChatGPT, Gemini, DeepSeek, etc."
   },
   "extDescription": {
-    "message": "Supports all AI platforms, cross-platform favorites, easily jump to any message, improves conversation efficiency."
+    "message": "Double your AI chat efficiency! Add interactive timeline to ChatGPT, Gemini, DeepSeek, 🚀 jump to any conversation easily, 📌 mark key conversations, ⭐️ favorite important chats."
   },
   "viewStarred": {
     "message": "View favorites"
@@ -63,7 +63,7 @@
     "message": "Edit"
   },
   "editStarredContent": {
-    "message": "Edit starred content"
+    "message": "Edit starred title"
   },
   "contentRequired": {
     "message": "Content cannot be empty"
@@ -78,7 +78,7 @@
     "message": "Star on GitHub"
   },
   "shareIfUseful": {
-    "message": "If you find it useful, feel free to recommend it to others"
+    "message": "If it helps you, feel free to recommend it to your friends"
   },
   "chromeWebStore": {
     "message": "Chrome Web Store"

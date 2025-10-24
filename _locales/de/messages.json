@@ -1,9 +1,9 @@
 {
   "extName": {
-    "message": "Timeline - Interaktive Zeitleiste für ChatGPT, Gemini, DeepSeek usw."
+    "message": "AI Chat Timeline - Interaktive Zeitleiste für ChatGPT, Gemini, DeepSeek"
   },
   "extDescription": {
-    "message": "Unterstützt alle KI-Plattformen, plattformübergreifende Favoriten, springt einfach zu jeder Nachricht, verbessert die Gesprächseffizienz."
+    "message": "Verdoppeln Sie Ihre KI-Chat-Effizienz! Fügen Sie ChatGPT, Gemini, DeepSeek eine interaktive Zeitleiste hinzu, 🚀 springen Sie einfach zu jedem Gespräch, 📌 markieren Sie wichtige Gespräche, ⭐️ setzen Sie wichtige Chats als Favoriten."
   },
   "viewStarred": {
     "message": "Favoriten anzeigen"
@@ -63,7 +63,7 @@
     "message": "Bearbeiten"
   },
   "editStarredContent": {
-    "message": "Favoriten bearbeiten"
+    "message": "Favoriten-Titel bearbeiten"
   },
   "contentRequired": {
     "message": "Inhalt darf nicht leer sein"
@@ -78,7 +78,7 @@
     "message": "Star on GitHub"
   },
   "shareIfUseful": {
-    "message": "Wenn Sie es nützlich finden, empfehlen Sie es gerne weiter"
+    "message": "Wenn es Ihnen hilft, empfehlen Sie es gerne Ihren Freunden weiter"
   },
   "chromeWebStore": {
     "message": "Chrome Web Store"

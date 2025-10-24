@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Timeline</h1>
+  <h1>AI Chat Timeline</h1>
   <p>Add interactive timeline to AI conversations, compatible with all mainstream AI platforms</p>  
   <p>
     <a href="./README.zh_CN.md">🇨🇳 点击此处查看中文版</a>
@@ -9,7 +9,7 @@
 ---
 
 <div align="center">
-  <img src="./images/demo_en.png" alt="Timeline Demo" width="800">
+  <img src="./images/demo_en.png" alt="AI Chat Timeline Demo" width="800">
 </div>
 
 ---
@@ -38,7 +38,7 @@ The English installation guide is as follows:
 
 ### Method 2: Manual Installation
 
-1. **Download** - Download the [Timeline.zip] archive from the project
+1. **Download** - Download the [AI-Chat-Timeline-v3.2.0.zip] archive from the project
 2. **Extract** - Unzip the downloaded file
 3. **Open Extensions Page** - Navigate to `chrome://extensions/`
 4. **Enable Developer Mode** - Toggle [Developer Mode] in the top right corner

@@ -1,9 +1,9 @@
 {
   "extName": {
-    "message": "Timeline - Interaktiivinen aikajana ChatGPT, Gemini, DeepSeek jne."
+    "message": "AI Chat Timeline - Interaktiivinen aikajana ChatGPT, Gemini, DeepSeek jne."
   },
   "extDescription": {
-    "message": "Tukee kaikkia AI-alustoja, suosikit eri alustoilla, hyppää helposti mihin tahansa viestiin, parantaa keskustelun tehokkuutta."
+    "message": "Kaksinkertaista AI-chat-tehokkuutesi! Lisää interaktiivinen aikajana ChatGPT:hen, Geminiin, DeepSeekiin, 🚀 hyppää helposti mihin tahansa keskusteluun, 📌 merkitse avainlausunnot, ⭐️ lisää tärkeät chatit suosikkeihin."
   },
   "viewStarred": {
     "message": "Näytä suosikit"
@@ -63,7 +63,7 @@
     "message": "Muokkaa"
   },
   "editStarredContent": {
-    "message": "Muokkaa suosikkia"
+    "message": "Muokkaa suosikkiotsikkoa"
   },
   "contentRequired": {
     "message": "Sisältö ei voi olla tyhjä"
@@ -78,7 +78,7 @@
     "message": "Star on GitHub"
   },
   "shareIfUseful": {
-    "message": "If you find it useful, feel free to recommend it to others"
+    "message": "Jos se auttaa sinua, suosittele sitä ystävillesi"
   },
   "chromeWebStore": {
     "message": "Chrome Web Store"

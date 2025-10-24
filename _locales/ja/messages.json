@@ -1,9 +1,9 @@
 {
   "extName": {
-    "message": "Timeline - AI対話にインタラクティブなタイムラインを追加、ChatGPT、DeepSeek等対応"
+    "message": "AI Chat Timeline - AI対話にインタラクティブなタイムラインを追加、ChatGPT、DeepSeek等対応"
   },
   "extDescription": {
-    "message": "すべてのAIプラットフォームに対応、クロスプラットフォームのお気に入り、メッセージへ簡単にジャンプ、会話効率を向上。"
+    "message": "AIチャットの効率を2倍にします！ChatGPT、Gemini、DeepSeekにインタラクティブなタイムラインを追加、🚀任意の会話に簡単にジャンプ、📌重要な会話をマーク、⭐️重要なチャットをお気に入り。"
   },
   "viewStarred": {
     "message": "お気に入りを表示"
@@ -63,7 +63,7 @@
     "message": "編集"
   },
   "editStarredContent": {
-    "message": "お気に入り内容を編集"
+    "message": "お気に入りタイトルを編集"
   },
   "contentRequired": {
     "message": "コンテンツを入力してください"
@@ -78,7 +78,7 @@
     "message": "Star on GitHub"
   },
   "shareIfUseful": {
-    "message": "便利だと感じたら、友達にお勧めください"
+    "message": "お役に立ちましたら、ぜひ友達におすすめください"
   },
   "chromeWebStore": {
     "message": "Chrome ウェブストア"

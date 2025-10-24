@@ -1,9 +1,9 @@
 {
   "extName": {
-    "message": "Timeline - Cronologie interactivă pentru ChatGPT, Gemini, DeepSeek"
+    "message": "AI Chat Timeline - Cronologie interactivă pentru ChatGPT, Gemini, DeepSeek"
   },
   "extDescription": {
-    "message": "Suportă toate platformele AI, favorite între platforme, sări ușor la orice mesaj, îmbunătățește eficiența conversației."
+    "message": "Dublați-vă eficiența chat-ului AI! Adăugați cronologie interactivă la ChatGPT, Gemini, DeepSeek, 🚀 săriți ușor la orice conversație, 📌 marcați conversații cheie, ⭐️ favorite chat-uri importante."
   },
   "viewStarred": {
     "message": "Vezi favoritele"
@@ -63,7 +63,7 @@
     "message": "Editează"
   },
   "editStarredContent": {
-    "message": "Editează favorit"
+    "message": "Editare titlu favorit"
   },
   "contentRequired": {
     "message": "Conținutul nu poate fi gol"
@@ -78,7 +78,7 @@
     "message": "Star on GitHub"
   },
   "shareIfUseful": {
-    "message": "If you find it useful, feel free to recommend it to others"
+    "message": "Dacă vă ajută, recomandați-l prietenilor dvs"
   },
   "chromeWebStore": {
     "message": "Chrome Web Store"

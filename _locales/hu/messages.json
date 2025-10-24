@@ -1,9 +1,9 @@
 {
   "extName": {
-    "message": "Timeline - Interaktív idővonal ChatGPT, Gemini, DeepSeek stb.-hez"
+    "message": "AI Chat Timeline - Interaktív idővonal ChatGPT, Gemini, DeepSeek stb.-hez"
   },
   "extDescription": {
-    "message": "Támogatja az összes AI-platformot, platformok közötti kedvencek, könnyen ugorj bármely üzenetre, javítja a beszélgetés hatékonyságát."
+    "message": "Duplázd meg az AI chat hatékonyságodat! Adj hozzá interaktív idővonalat a ChatGPT, Gemini, DeepSeek-hez, 🚀 könnyen ugorj bármely beszélgetéshez, 📌 jelöld meg a kulcs beszélgetéseket, ⭐️ kedvencekhez add a fontos chateket."
   },
   "viewStarred": {
     "message": "Kedvencek megtekintése"
@@ -63,7 +63,7 @@
     "message": "Szerkesztés"
   },
   "editStarredContent": {
-    "message": "Kedvenc szerkesztése"
+    "message": "Kedvenc cím szerkesztése"
   },
   "contentRequired": {
     "message": "A tartalom nem lehet üres"
@@ -78,7 +78,7 @@
     "message": "Star on GitHub"
   },
   "shareIfUseful": {
-    "message": "If you find it useful, feel free to recommend it to others"
+    "message": "Ha segít neked, nyugodtan ajánld barátaidnak"
   },
   "chromeWebStore": {
     "message": "Chrome Web Store"

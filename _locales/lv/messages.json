@@ -1,9 +1,9 @@
 {
   "extName": {
-    "message": "Timeline - Interaktīva laika skala ChatGPT, Gemini, DeepSeek u.c."
+    "message": "AI Chat Timeline - Interaktīva laika skala ChatGPT, Gemini, DeepSeek u.c."
   },
   "extDescription": {
-    "message": "Atbalsta visas AI platformas, izlase starp platformām, viegli pārvietoties uz jebkuru ziņojumu, uzlabo sarunas efektivitāti."
+    "message": "Dubultojiet savu AI tērzēšanas efektivitāti! Pievienojiet interaktīvu laika skalu ChatGPT, Gemini, DeepSeek, 🚀 viegli pārejiet uz jebkuru sarunu, 📌 atzīmējiet galvenās sarunas, ⭐️ iecienītākās svarīgās tērzēšanas."
   },
   "viewStarred": {
     "message": "Skatīt izlasi"
@@ -63,7 +63,7 @@
     "message": "Edit"
   },
   "editStarredContent": {
-    "message": "Edit starred content"
+    "message": "Rediģēt iecienītā nosaukumu"
   },
   "contentRequired": {
     "message": "Content cannot be empty"
@@ -78,7 +78,7 @@
     "message": "Star on GitHub"
   },
   "shareIfUseful": {
-    "message": "If you find it useful, feel free to recommend it to others"
+    "message": "Ja tas jums palīdz, ieteiciet to saviem draugiem"
   },
   "chromeWebStore": {
     "message": "Chrome Web Store"

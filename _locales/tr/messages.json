@@ -1,9 +1,9 @@
 {
   "extName": {
-    "message": "Timeline - ChatGPT, Gemini, DeepSeek için etkileşimli zaman çizelgesi"
+    "message": "AI Chat Timeline - ChatGPT, Gemini için etkileşimli zaman çizelgesi"
   },
   "extDescription": {
-    "message": "Tüm AI platformlarını destekler, platformlar arası favoriler, herhangi bir mesaja kolayca atla, sohbet verimliliğini artırır."
+    "message": "AI sohbet verimliliğinizi iki katına çıkarın! ChatGPT, Gemini, DeepSeek'e etkileşimli zaman çizelgesi ekleyin, 🚀 kolayca herhangi bir konuşmaya atlayın, 📌 önemli konuşmaları işaretleyin, ⭐️ önemli sohbetleri favorilere ekleyin."
   },
   "viewStarred": {
     "message": "Favorileri görüntüle"
@@ -63,7 +63,7 @@
     "message": "Düzenle"
   },
   "editStarredContent": {
-    "message": "Favoriyi düzenle"
+    "message": "Favori başlığını düzenle"
   },
   "contentRequired": {
     "message": "İçerik boş olamaz"
@@ -78,7 +78,7 @@
     "message": "Star on GitHub"
   },
   "shareIfUseful": {
-    "message": "Faydalı bulduysanız, başkalarına da tavsiye edebilirsiniz"
+    "message": "Size yardımcı oluyorsa, arkadaşlarınıza önermekten çekinmeyin"
   },
   "chromeWebStore": {
     "message": "Chrome Web Store"

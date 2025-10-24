@@ -1,9 +1,9 @@
 {
   "extName": {
-    "message": "Timeline - ChatGPT, Gemini, DeepSeek အတွက် အပြန်အလှန်အချိန်ဇယား"
+    "message": "AI Chat Timeline - ChatGPT, Gemini, DeepSeek အတွက် အပြန်အလှန်အချိန်ဇယား"
   },
   "extDescription": {
-    "message": "AI ပလက်ဖောင်းအားလုံးကို ပံ့ပိုး၊ ပလက်ဖောင်းများအကြား အကြိုက်ဆုံးများ၊ မည်သည့်မက်ဆေ့ခ်ျမဆို အလွယ်တကူခုန်၊ စကားပြောဆိုမှု စွမ်းဆောင်ရည် တိုးတက်စေသည်။"
+    "message": "သင့်၏ AI ချက် စွမ်းဆောင်ရည် နှစ်ဆတိုးပါ! ChatGPT၊ Gemini၊ DeepSeek သို့ အပြန်အလှန်အချိန်ဇယားထည့်ပါ၊ 🚀 မည်သည့် စကားစမြည်သို့မဆို အလွယ်တကူ သွားပါ၊ 📌 အဓိက စကားစမြည်များကို အမှတ်အသားပြုပါ၊ ⭐️ အရေးကြီးသော ချက်များကို အကြိုက်ဆုံးထားပါ။"
   },
   "viewStarred": {
     "message": "အကြိုက်ဆုံးများကြည့်ရန်"
@@ -63,7 +63,7 @@
     "message": "Edit"
   },
   "editStarredContent": {
-    "message": "Edit starred content"
+    "message": "အကြိုက်ဆုံး ခေါင်းစဉ်ကို တည်းဖြတ်ရန်"
   },
   "contentRequired": {
     "message": "Content cannot be empty"
@@ -78,7 +78,7 @@
     "message": "Star on GitHub"
   },
   "shareIfUseful": {
-    "message": "If you find it useful, feel free to recommend it to others"
+    "message": "သင့်ကို ကူညီပေးခဲ့ရင် သင့်သူငယ်ချင်းတွေကို အကြံပြုဖို့ လွတ်လပ်စွာ လုပ်ပါ"
   },
   "chromeWebStore": {
     "message": "Chrome Web Store"

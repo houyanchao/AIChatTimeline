@@ -1,9 +1,9 @@
 {
   "extName": {
-    "message": "Timeline - Interaktyvi laiko juosta ChatGPT, Gemini, DeepSeek ir kt."
+    "message": "AI Chat Timeline - Interaktyvi laiko juosta ChatGPT, Gemini, DeepSeek"
   },
   "extDescription": {
-    "message": "Palaiko visas AI platformas, mėgstamiausieji tarp platformų, lengvai peršokite į bet kurį pranešimą, pagerina pokalbio efektyvumą."
+    "message": "Padvigubinkite savo AI pokalbių efektyvumą! Pridėkite interaktyvią laiko juostą prie ChatGPT, Gemini, DeepSeek, 🚀 lengvai pereikite prie bet kurio pokalbio, 📌 pažymėkite pagrindinius pokalbius, ⭐️ mėgstamiausi svarbūs pokalbiai."
   },
   "viewStarred": {
     "message": "Peržiūrėti mėgstamiausius"
@@ -63,7 +63,7 @@
     "message": "Edit"
   },
   "editStarredContent": {
-    "message": "Edit starred content"
+    "message": "Redaguoti mėgstamą pavadinimą"
   },
   "contentRequired": {
     "message": "Content cannot be empty"
@@ -78,7 +78,7 @@
     "message": "Star on GitHub"
   },
   "shareIfUseful": {
-    "message": "If you find it useful, feel free to recommend it to others"
+    "message": "Jei jums tai padeda, rekomenduokite draugams"
   },
   "chromeWebStore": {
     "message": "Chrome Web Store"

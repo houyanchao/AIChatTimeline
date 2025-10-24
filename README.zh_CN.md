@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Timeline - AI 对话时间轴</h1>
+  <h1>AI Chat Timeline</h1>
   <p>为 AI 对话添加交互式时间轴，兼容所有主流 AI 平台</p>  
   <p>
     <a href="./README.md">🇺🇸 Click here for the English README</a>
@@ -9,7 +9,7 @@
 ---
 
 <div align="center">
-  <img src="./images/demo_cn.png" alt="Timeline 效果展示" width="800">
+  <img src="./images/demo_cn.png" alt="AI Chat Timeline 效果展示" width="800">
 </div>
 
 ---
@@ -38,7 +38,7 @@ The English installation guide is as follows:
 
 ### 方式二：手动安装
 
-1. **下载** - 下载项目中的[Timeline.zip]压缩包
+1. **下载** - 下载项目中的[AI-Chat-Timeline-v3.2.0.zip]压缩包
 2. **解压** - 解压下载的 ZIP 文件
 3. **打开扩展页面** - 访问 `chrome://extensions/`
 4. **开启开发者模式** - 页面右上角开启[开发者模式]

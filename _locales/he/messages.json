@@ -1,9 +1,9 @@
 {
   "extName": {
-    "message": "Timeline - ציר זמן אינטראקטיבי עבור ChatGPT, Gemini, DeepSeek"
+    "message": "AI Chat Timeline - ציר זמן אינטראקטיבי עבור ChatGPT, Gemini, DeepSeek"
   },
   "extDescription": {
-    "message": "תומך בכל פלטפורמות ה-AI, מועדפים חוצי פלטפורמות, קפוץ בקלות לכל הודעה, משפר יעילות שיחה."
+    "message": "הכפל את יעילות הצ'אט שלך עם הבינה המלאכותית! הוסף ציר זמן אינטראקטיבי ל-ChatGPT, Gemini, DeepSeek, 🚀 קפוץ בקלות לכל שיחה, 📌 סמן שיחות מפתח, ⭐️ שיחות חשובות מועדפות."
   },
   "viewStarred": {
     "message": "הצג מועדפים"
@@ -63,7 +63,7 @@
     "message": "ערוך"
   },
   "editStarredContent": {
-    "message": "ערוך מועדף"
+    "message": "ערוך כותרת מועדפת"
   },
   "contentRequired": {
     "message": "התוכן לא יכול להיות ריק"
@@ -78,7 +78,7 @@
     "message": "Star on GitHub"
   },
   "shareIfUseful": {
-    "message": "If you find it useful, feel free to recommend it to others"
+    "message": "אם זה עוזר לך, אל תהסס להמליץ על זה לחברים שלך"
   },
   "chromeWebStore": {
     "message": "Chrome Web Store"

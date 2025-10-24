@@ -1,9 +1,9 @@
 {
   "extName": {
-    "message": "Timeline - Interaktivní časová osa pro ChatGPT, Gemini, DeepSeek"
+    "message": "AI Chat Timeline - Interaktivní časová osa pro ChatGPT, Gemini, DeepSeek"
   },
   "extDescription": {
-    "message": "Podporuje všechny AI platformy, oblíbené napříč platformami, snadno přeskočte na jakoukoli zprávu, zlepšuje efektivitu konverzace."
+    "message": "Zdvojnásobte svou efektivitu AI chatu! Přidejte interaktivní časovou osu do ChatGPT, Gemini, DeepSeek, 🚀 snadno přeskočte na jakoukoli konverzaci, 📌 označte klíčové konverzace, ⭐️ oblíbené důležité chaty."
   },
   "viewStarred": {
     "message": "Zobrazit oblíbené"
@@ -63,7 +63,7 @@
     "message": "Upravit"
   },
   "editStarredContent": {
-    "message": "Upravit oblíbené"
+    "message": "Upravit název oblíbeného"
   },
   "contentRequired": {
     "message": "Obsah nemůže být prázdný"
@@ -78,7 +78,7 @@
     "message": "Star on GitHub"
   },
   "shareIfUseful": {
-    "message": "If you find it useful, feel free to recommend it to others"
+    "message": "Pokud vám to pomůže, doporučte to svým přátelům"
   },
   "chromeWebStore": {
     "message": "Chrome Web Store"

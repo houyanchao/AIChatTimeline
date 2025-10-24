@@ -1,9 +1,9 @@
 {
   "extName": {
-    "message": "Timeline - 为 AI 对话添加交互式时间轴，支持 ChatGPT、Gemini、DeepSeek、Claude 等平台"
+    "message": "AI Chat Timeline - 为 AI 对话添加交互式时间轴，支持 ChatGPT、Gemini、DeepSeek、Claude 等"
   },
   "extDescription": {
-    "message": "支持所有 AI 平台，跨平台收藏，轻松地跳转至任意消息，提升对话效率。"
+    "message": "让您跟AI聊天的效率翻倍！给 ChatGPT、Gemini、DeepSeek 添加交互式时间轴，🚀轻松跳转至任意对话，📌标记重点对话，⭐️收藏重要聊天。"
   },
   "viewStarred": {
     "message": "查看收藏"
@@ -63,13 +63,13 @@
     "message": "编辑"
   },
   "editStarredContent": {
-    "message": "编辑收藏内容"
+    "message": "编辑收藏标题"
   },
   "contentRequired": {
     "message": "内容不能为空"
   },
   "dataStorageNote": {
-    "message": "所有数据存储在你的浏览器本地，不上传服务器"
+    "message": "所有数据存储在您的浏览器本地，不上传服务器"
   },
   "projectOpenSource": {
     "message": "本项目已开源，欢迎"
@@ -78,7 +78,7 @@
     "message": "Star on GitHub"
   },
   "shareIfUseful": {
-    "message": "如果觉得好用，欢迎推荐给朋友"
+    "message": "如果对您有帮助，欢迎推荐给朋友"
   },
   "chromeWebStore": {
     "message": "Chrome 应用商店"

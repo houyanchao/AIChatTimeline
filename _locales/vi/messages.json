@@ -1,9 +1,9 @@
 {
   "extName": {
-    "message": "Timeline - Dòng thời gian tương tác cho ChatGPT, Gemini, DeepSeek"
+    "message": "AI Chat Timeline - Dòng thời gian tương tác cho ChatGPT, Gemini, DeepSeek"
   },
   "extDescription": {
-    "message": "Hỗ trợ tất cả nền tảng AI, yêu thích đa nền tảng, dễ dàng chuyển đến bất kỳ tin nhắn nào, cải thiện hiệu quả trò chuyện."
+    "message": "Tăng gấp đôi hiệu quả trò chuyện AI của bạn! Thêm dòng thời gian tương tác vào ChatGPT, Gemini, DeepSeek, 🚀 chuyển đến bất kỳ cuộc trò chuyện nào một cách dễ dàng, 📌 đánh dấu các cuộc trò chuyện chính, ⭐️ yêu thích các cuộc trò chuyện quan trọng."
   },
   "viewStarred": {
     "message": "Xem yêu thích"
@@ -63,7 +63,7 @@
     "message": "Chỉnh sửa"
   },
   "editStarredContent": {
-    "message": "Chỉnh sửa nội dung yêu thích"
+    "message": "Chỉnh sửa tiêu đề yêu thích"
   },
   "contentRequired": {
     "message": "Nội dung không được để trống"
@@ -78,7 +78,7 @@
     "message": "Star on GitHub"
   },
   "shareIfUseful": {
-    "message": "If you find it useful, feel free to recommend it to others"
+    "message": "Nếu nó giúp ích cho bạn, hãy giới thiệu nó cho bạn bè của bạn"
   },
   "chromeWebStore": {
     "message": "Chrome Web Store"

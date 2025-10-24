@@ -1,9 +1,9 @@
 {
   "extName": {
-    "message": "Timeline - Garis waktu interaktif untuk ChatGPT, Gemini, DeepSeek"
+    "message": "AI Chat Timeline - Garis waktu interaktif untuk ChatGPT, Gemini, DeepSeek"
   },
   "extDescription": {
-    "message": "Mendukung semua platform AI, favorit lintas platform, lompat dengan mudah ke pesan apa pun, meningkatkan efisiensi percakapan."
+    "message": "Gandakan efisiensi obrolan AI Anda! Tambahkan garis waktu interaktif ke ChatGPT, Gemini, DeepSeek, 🚀 lompat ke percakapan apa pun dengan mudah, 📌 tandai percakapan kunci, ⭐️ favoritkan obrolan penting."
   },
   "viewStarred": {
     "message": "Lihat favorit"
@@ -63,7 +63,7 @@
     "message": "Edit"
   },
   "editStarredContent": {
-    "message": "Edit favorit"
+    "message": "Edit judul favorit"
   },
   "contentRequired": {
     "message": "Konten tidak boleh kosong"
@@ -78,7 +78,7 @@
     "message": "Star on GitHub"
   },
   "shareIfUseful": {
-    "message": "If you find it useful, feel free to recommend it to others"
+    "message": "Jika membantu Anda, jangan ragu untuk merekomendasikannya kepada teman Anda"
   },
   "chromeWebStore": {
     "message": "Chrome Web Store"

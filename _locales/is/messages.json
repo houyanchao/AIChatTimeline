@@ -1,9 +1,9 @@
 {
   "extName": {
-    "message": "Timeline - Gagnvirk tímalína fyrir ChatGPT, Gemini, DeepSeek o.fl."
+    "message": "AI Chat Timeline - Gagnvirk tímalína fyrir ChatGPT, Gemini, DeepSeek o.fl."
   },
   "extDescription": {
-    "message": "Styður alla AI-vettvanga, eftirlæti milli vettvanga, hoppaðu auðveldlega í hvaða skilaboð sem er, bætir samtalshagkvæmni."
+    "message": "Tvöfalda AI spjallskilvirkni þína! Bættu gagnvirkri tímalínu við ChatGPT, Gemini, DeepSeek, 🚀 hoppaðu auðveldlega í hvaða samræðu sem er, 📌 merktu lykilsamræður, ⭐️ uppáhaldsspjall mikilvæg."
   },
   "viewStarred": {
     "message": "Skoða eftirlæti"
@@ -63,7 +63,7 @@
     "message": "Edit"
   },
   "editStarredContent": {
-    "message": "Edit starred content"
+    "message": "Breyta uppáhaldstitli"
   },
   "contentRequired": {
     "message": "Content cannot be empty"
@@ -78,7 +78,7 @@
     "message": "Star on GitHub"
   },
   "shareIfUseful": {
-    "message": "If you find it useful, feel free to recommend it to others"
+    "message": "Ef það hjálpar þér, mæltu með því við vini þína"
   },
   "chromeWebStore": {
     "message": "Chrome Web Store"

@@ -1,9 +1,9 @@
 {
   "extName": {
-    "message": "Timeline - Interaktivna vremenska linija za ChatGPT, Gemini, DeepSeek"
+    "message": "AI Chat Timeline - Interaktivna vremenska linija za ChatGPT, Gemini"
   },
   "extDescription": {
-    "message": "Podržava sve AI platforme, favoriti između platformi, lako skočite na bilo koju poruku, poboljšava učinkovitost razgovora."
+    "message": "Udvostručite svoju učinkovitost AI chata! Dodajte interaktivnu vremensku liniju u ChatGPT, Gemini, DeepSeek, 🚀 lako skočite na bilo koji razgovor, 📌 označite ključne razgovore, ⭐️ omiljeni važni razgovori."
   },
   "viewStarred": {
     "message": "Pogledaj favorite"
@@ -63,7 +63,7 @@
     "message": "Uredi"
   },
   "editStarredContent": {
-    "message": "Uredi favorit"
+    "message": "Uredi naslov favorita"
   },
   "contentRequired": {
     "message": "Sadržaj ne može biti prazan"
@@ -78,7 +78,7 @@
     "message": "Star on GitHub"
   },
   "shareIfUseful": {
-    "message": "If you find it useful, feel free to recommend it to others"
+    "message": "Ako vam pomogne, preporučite ga prijateljima"
   },
   "chromeWebStore": {
     "message": "Chrome Web Store"

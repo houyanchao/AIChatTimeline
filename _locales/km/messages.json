@@ -1,9 +1,9 @@
 {
   "extName": {
-    "message": "Timeline - បន្ទាត់ពេលវេលាអន្តរកម្មសម្រាប់ ChatGPT, Gemini, DeepSeek"
+    "message": "AI Chat Timeline - បន្ទាត់ពេលវេលាអន្តរកម្មសម្រាប់ ChatGPT, Gemini, DeepSeek"
   },
   "extDescription": {
-    "message": "គាំទ្រវេទិកា AI ទាំងអស់ ចំណូលចិត្តឆ្លងវេទិកា លោតទៅសារណាមួយយ៉ាងងាយស្រួល បង្កើនប្រសិទ្ធភាពការសន្ទនា។"
+    "message": "បង្កើនប្រសិទ្ធភាពការជជែក AI របស់អ្នកទ្វេដង! បន្ថែមបន្ទាត់ពេលវេលាអន្តរកម្មទៅ ChatGPT, Gemini, DeepSeek, 🚀 លោតទៅការសន្ទនាណាមួយបានយ៉ាងងាយស្រួល, 📌 សម្គាល់ការសន្ទនាសំខាន់ៗ, ⭐️ ការសន្ទនាសំខាន់ៗដែលចូលចិត្ត។"
   },
   "viewStarred": {
     "message": "មើលចំណូលចិត្ត"
@@ -63,7 +63,7 @@
     "message": "Edit"
   },
   "editStarredContent": {
-    "message": "Edit starred content"
+    "message": "កែសម្រួលចំណងជើងសំណព្វ"
   },
   "contentRequired": {
     "message": "Content cannot be empty"
@@ -78,7 +78,7 @@
     "message": "Star on GitHub"
   },
   "shareIfUseful": {
-    "message": "If you find it useful, feel free to recommend it to others"
+    "message": "ប្រសិនបើវាជួយអ្នក សូមណែនាំវាទៅកាន់មិត្តភក្តិរបស់អ្នក"
   },
   "chromeWebStore": {
     "message": "Chrome Web Store"

@@ -1,9 +1,9 @@
 {
   "extName": {
-    "message": "Timeline - Interaktywna oś czasu dla ChatGPT, Gemini, DeepSeek itp."
+    "message": "AI Chat Timeline - Interaktywna oś czasu dla ChatGPT, Gemini, DeepSeek itp."
   },
   "extDescription": {
-    "message": "Obsługuje wszystkie platformy AI, ulubione między platformami, łatwo przeskocz do dowolnej wiadomości, poprawia efektywność rozmowy."
+    "message": "Podwój swoją efektywność czatu AI! Dodaj interaktywną oś czasu do ChatGPT, Gemini, DeepSeek, 🚀 łatwo przeskocz do dowolnej rozmowy, 📌 oznacz kluczowe rozmowy, ⭐️ dodaj ważne czaty do ulubionych."
   },
   "viewStarred": {
     "message": "Zobacz ulubione"
@@ -63,7 +63,7 @@
     "message": "Edytuj"
   },
   "editStarredContent": {
-    "message": "Edytuj ulubione"
+    "message": "Edytuj tytuł ulubionego"
   },
   "contentRequired": {
     "message": "Zawartość nie może być pusta"
@@ -78,7 +78,7 @@
     "message": "Star on GitHub"
   },
   "shareIfUseful": {
-    "message": "Jeśli uznasz to za przydatne, poleć innym"
+    "message": "Jeśli ci pomaga, polec go znajomym"
   },
   "chromeWebStore": {
     "message": "Chrome Web Store"

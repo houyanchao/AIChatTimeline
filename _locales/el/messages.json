@@ -1,9 +1,9 @@
 {
   "extName": {
-    "message": "Timeline - Διαδραστικό χρονολόγιο για ChatGPT, Gemini, DeepSeek"
+    "message": "AI Chat Timeline - Διαδραστικό χρονολόγιο για ChatGPT, Gemini, DeepSeek"
   },
   "extDescription": {
-    "message": "Υποστηρίζει όλες τις πλατφόρμες AI, αγαπημένα μεταξύ πλατφορμών, μεταβείτε εύκολα σε οποιοδήποτε μήνυμα, βελτιώνει την αποδοτικότητα συνομιλίας."
+    "message": "Διπλασιάστε την αποδοτικότητα της συνομιλίας AI σας! Προσθέστε διαδραστικό χρονολόγιο στο ChatGPT, Gemini, DeepSeek, 🚀 μεταβείτε εύκολα σε οποιαδήποτε συνομιλία, 📌 σημειώστε βασικές συνομιλίες, ⭐️ αγαπημένες σημαντικές συνομιλίες."
   },
   "viewStarred": {
     "message": "Προβολή αγαπημένων"
@@ -63,7 +63,7 @@
     "message": "Επεξεργασία"
   },
   "editStarredContent": {
-    "message": "Επεξεργασία αγαπημένου"
+    "message": "Επεξεργασία τίτλου αγαπημένου"
   },
   "contentRequired": {
     "message": "Το περιεχόμενο δεν μπορεί να είναι κενό"
@@ -78,7 +78,7 @@
     "message": "Star on GitHub"
   },
   "shareIfUseful": {
-    "message": "If you find it useful, feel free to recommend it to others"
+    "message": "Εάν σας βοηθά, μη διστάσετε να το συστήσετε στους φίλους σας"
   },
   "chromeWebStore": {
     "message": "Chrome Web Store"
