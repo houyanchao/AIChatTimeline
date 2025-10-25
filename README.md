@@ -1,4 +1,5 @@
 <div align="center">
+  <img src="./icons/icon128.png" alt="AI Chat Timeline Logo" width="128" height="128">
   <h1>AI Chat Timeline</h1>
   <p>Add interactive timeline to AI conversations, compatible with all mainstream AI platforms</p>  
   <p>
