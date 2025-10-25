@@ -70,8 +70,6 @@ The English installation guide is as follows:
   </tr>
 </table>
 
----
-
 ## 📋 Changelog
 
 ### Version 3.0.1 2025-10-18
@@ -95,8 +93,6 @@ The English installation guide is as follows:
 
 - Support cross-AI platform starring
 - Project initialization
-
----
 
 ## 🌍 Language Support
 
@@ -151,27 +147,19 @@ Supporting **52 languages** - The industry's most comprehensive language coverag
 - 🇲🇲 Burmese (my)
 - 🇰🇭 Khmer (km)
 
----
-
 ## 💬 Contact & Support
 
 - **Issue Tracker**: [GitHub Issues](../../issues)
 - **Email**: houyanchao@outlook.com
 
----
-
 ## 📄 License
 
 This project is licensed under the [MIT License](./LICENSE)
-
----
 
 ## 🙏 Acknowledgements
 
 This project is developed based on the initial code from [chatgpt-conversation-timeline](https://github.com/Reborn14/chatgpt-conversation-timeline). We sincerely appreciate the original author's open-source contribution. 
 Building upon this foundation, we have optimized the interaction and enhanced features: added support for all mainstream AI platforms; added cross-platform conversation starring support; added support for starring entire chat pages; all data is stored only in your browser locally and we will never upload any chat data to servers without your permission.
-
----
 
 <div align="center">
   <p>⭐ If you find this extension useful, please consider giving it a star on GitHub!</p>

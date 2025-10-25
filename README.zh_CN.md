@@ -69,8 +69,6 @@ The English installation guide is as follows:
   </tr>
 </table>
 
----
-
 ## 📋 更新日志
 
 ### Version 3.0.1 2025-10-18
@@ -94,8 +92,6 @@ The English installation guide is as follows:
 
 - 支持跨 AI 平台的收藏
 - 项目初始化
-
----
 
 ## 🌍 语言支持
 
@@ -150,27 +146,19 @@ The English installation guide is as follows:
 - 🇲🇲 缅甸语 (my)
 - 🇰🇭 高棉语 (km)
 
----
-
 ## 💬 联系与支持
 
 - **问题反馈**：[GitHub Issues](../../issues)
 - **邮件联系**：houyanchao@outlook.com
 
----
-
 ## 📄 许可证
 
 本项目采用 [MIT License](./LICENSE) 开源协议
-
----
 
 ## 🙏 致谢
 
 本项目基于 [chatgpt-conversation-timeline](https://github.com/Reborn14/chatgpt-conversation-timeline) 的基础代码进行开发，感谢原作者的开源贡献。
 在原项目基础上我们进行交互优化和功能增强：新增适配所有主流 AI 平台；新增支持跨平台的对话收藏；新增支持收藏整页聊天；数据全部存储于你的本地浏览器中，不会上传到服务器；
-
----
 
 <div align="center">
   <p>⭐ 如果这个扩展对你有帮助，欢迎给项目点个 Star！</p>
