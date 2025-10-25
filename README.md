@@ -6,8 +6,6 @@
   <img src="./images/demo_en.png" alt="AI Chat Timeline Demo" width="800">
 </div>
 
----
-
 ## 🌟 Features
 
 - Adds an interactive timeline to AI chat interfaces

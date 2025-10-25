@@ -6,8 +6,6 @@
   <img src="./images/demo_cn.png" alt="AI Chat Timeline 效果展示" width="800">
 </div>
 
----
-
 ## 🌟 功能特性
 
 - 为 AI 对话添加交互式时间轴
