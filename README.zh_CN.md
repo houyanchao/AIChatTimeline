@@ -1,10 +1,8 @@
 <div align="center">
   <img src="./icons/icon128.png" alt="AI Chat Timeline Logo" width="128" height="128">
   <h1>AI Chat Timeline</h1>
-  <p>为 AI 对话添加交互式时间轴，兼容所有主流 AI 平台</p>  
-  <p>
-    <a href="./README.md">🇺🇸 Click here for the English README</a>
-  </p>
+  <p>为 AI 对话添加交互式时间轴，兼容所有主流 AI 平台</p>
+  <h4 align="center"><a href="./README.md">English</a> | <strong>简体中文</strong></h4>
 </div>
 
 ---
