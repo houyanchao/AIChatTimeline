@@ -1,13 +1,9 @@
 <div align="center">
   <img src="./icons/icon128.png" alt="AI Chat Timeline Logo" width="128" height="128">
   <h1>AI Chat Timeline</h1>
-  <p>Add interactive timeline to AI conversations, compatible with all mainstream AI platforms</p>
   <h4 align="center"><strong>English</strong> | <a href="./README.zh_CN.md">简体中文</a></h4>
-</div>
-
----
-
-<div align="center">
+  <p><strong>Double your AI chat efficiency! Add interactive timeline to ChatGPT, Gemini, DeepSeek, 🚀 jump to any conversation easily, 📌 mark key conversations, ⭐️ favorite important chats.</strong></p>
+  <br>
   <img src="./images/demo_en.png" alt="AI Chat Timeline Demo" width="800">
 </div>
 

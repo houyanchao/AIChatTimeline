@@ -1,13 +1,9 @@
 <div align="center">
   <img src="./icons/icon128.png" alt="AI Chat Timeline Logo" width="128" height="128">
   <h1>AI Chat Timeline</h1>
-  <p>为 AI 对话添加交互式时间轴，兼容所有主流 AI 平台</p>
   <h4 align="center"><a href="./README.md">English</a> | <strong>简体中文</strong></h4>
-</div>
-
----
-
-<div align="center">
+  <p><strong>让您跟AI聊天的效率翻倍！给 ChatGPT、Gemini、DeepSeek 添加交互式时间轴，🚀轻松跳转至任意对话，📌标记重点对话，⭐️收藏重要聊天。</strong></p>
+  <br>
   <img src="./images/demo_cn.png" alt="AI Chat Timeline 效果展示" width="800">
 </div>
 
