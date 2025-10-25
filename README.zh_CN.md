@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./icons/icon128.png" alt="AI Chat Timeline Logo" width="128" height="128">
+  <img src="./icons/icon128.png" alt="AI Chat Timeline Logo" width="100" height="100">
   <h1>AI Chat Timeline</h1>
   <h4 align="center"><a href="./README.md">English</a> | <strong>简体中文</strong></h4>
   <p><strong>让您跟AI聊天的效率翻倍！给 ChatGPT、Gemini、DeepSeek 添加交互式时间轴，🚀轻松跳转至任意对话，📌标记重点对话，⭐️收藏重要聊天。</strong></p>
@@ -12,9 +12,9 @@
 - 点击时间轴节点，即可快速跳转到任意提问位置
 - 收藏重要的问题和回答，方便后续查看
 - 自动高亮显示当前在对话中的位置
-- 所有数据仅存储在你的浏览器本地。未经你的允许，我们不会将任何聊天数据上传到服务器，保护隐私安全
+- 所有数据存储在您的浏览器本地，不上传服务器
 - 支持所有主流 AI 平台
-- 支持52种语言，业界最全面的语言覆盖
+- 支持42种语言，业界最全面的语言覆盖
 
 ## ✅ 安装方式
 

@@ -12,7 +12,7 @@
 - Click on timeline dots to instantly jump to any question in the conversation
 - Star important questions and answers for easy access later
 - Automatically highlights the current position in the conversation
-- All data is stored only in your browser locally. We will never upload any chat data to servers without your permission, ensuring privacy and security
+- All data is stored locally in your browser, not uploaded to servers
 - Works with all mainstream AI platforms
 - Supports 52 languages with the industry's most comprehensive language coverage
 
