@@ -1,7 +1,7 @@
 <div align="center">
-  <img src="./icons/icon128.png" alt="AI Chat Timeline Logo" width="128" height="128">
+  <img src="./icons/icon128.png" alt="AI Chat Timeline Logo" width="100" height="100">
   <h1>AI Chat Timeline</h1>
-  <h4 align="center"><strong>English</strong> | <a href="./README.zh_CN.md">简体中文</a></h4>
+  <h4 align="center"><strong>English</strong> | <a href="./README.zh_CN.md">简体中文</a> | <a href="./README.ja.md">日本語</a></h4>
   <p><strong>Double your AI chat efficiency! Add interactive timeline to ChatGPT, Gemini, DeepSeek, 🚀 jump to any conversation easily, 📌 mark key conversations, ⭐️ favorite important chats.</strong></p>
   <img src="./images/demo_en.png" alt="AI Chat Timeline Demo" width="800">
 </div>
@@ -14,7 +14,7 @@
 - Automatically highlights the current position in the conversation
 - All data is stored locally in your browser, not uploaded to servers
 - Works with all mainstream AI platforms
-- Supports 52 languages with the industry's most comprehensive language coverage
+- Supports 42 languages with the industry's most comprehensive language coverage
 
 ## ✅ Installation
 
@@ -46,8 +46,7 @@ The English installation guide is as follows:
 - ✅ Support quick jump to corresponding question through starred records
 - ✅ Support starring entire chat page
 - ✅ Support adding notes after starring
-- [ ] Add support for Claude AI
-- [ ] Add support for Copilot
+- [ ] Add support for Claude and Copilot
 - [ ] Support starring AI responses
 - [ ] Support Firefox, Edge, and other browsers
 
@@ -94,7 +93,7 @@ The English installation guide is as follows:
 
 ## 🌍 Language Support
 
-Supporting **52 languages** - The industry's most comprehensive language coverage:
+Supporting **42 languages** - The industry's most comprehensive language coverage:
 
 - 🇬🇧 English (en)
 - 🇨🇳 Chinese Simplified (zh_CN)
