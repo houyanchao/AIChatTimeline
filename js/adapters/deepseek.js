@@ -1,7 +1,7 @@
 /**
  * DeepSeek Adapter
  * 
- * Supports: chat.deepseek.com
+ * Supports: chat.deepseek.com, chat.deepseek.com/share/*
  * Features: 动态检测用户消息 class（每次加载可能不同）
  */
 
@@ -47,15 +47,20 @@ class DeepSeekAdapter extends SiteAdapter {
     }
 
     isConversationRoute(pathname) {
-        // DeepSeek 对话 URL: /a/chat/s/{id}
-        return pathname.includes('/a/chat/s/');
+        // DeepSeek 对话 URL: /a/chat/s/{id} 或分享页面 /share/{id}
+        return pathname.includes('/a/chat/s/') || pathname.includes('/share/');
     }
 
     extractConversationId(pathname) {
         try {
-            // 从 /a/chat/s/fb39afdf-... 提取对话 ID
-            const match = pathname.match(/\/a\/chat\/s\/([^\/]+)/);
-            return match ? match[1] : null;
+            // 从 /a/chat/s/fb39afdf-... 或 /share/xxx 提取对话 ID
+            const chatMatch = pathname.match(/\/a\/chat\/s\/([^\/]+)/);
+            if (chatMatch) return chatMatch[1];
+            
+            const shareMatch = pathname.match(/\/share\/([^\/]+)/);
+            if (shareMatch) return shareMatch[1];
+            
+            return null;
         } catch {
             return null;
         }

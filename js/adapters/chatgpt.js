@@ -1,7 +1,7 @@
 /**
  * ChatGPT Adapter
  * 
- * Supports: chatgpt.com, chat.openai.com
+ * Supports: chatgpt.com, chat.openai.com, chatgpt.com/share/e/*
  * Features: Uses native data-message-id when available, falls back to index
  */
 
@@ -32,19 +32,46 @@ class ChatGPTAdapter extends SiteAdapter {
 
     isConversationRoute(pathname) {
         const segs = pathname.split('/').filter(Boolean);
-        const i = segs.indexOf('c');
-        if (i === -1) return false;
-        const slug = segs[i + 1];
-        return typeof slug === 'string' && slug.length > 0 && /^[A-Za-z0-9_-]+$/.test(slug);
+        
+        // 检查普通对话路径: /c/{id}
+        const cIndex = segs.indexOf('c');
+        if (cIndex !== -1) {
+            const slug = segs[cIndex + 1];
+            if (typeof slug === 'string' && slug.length > 0 && /^[A-Za-z0-9_-]+$/.test(slug)) {
+                return true;
+            }
+        }
+        
+        // 检查分享页面路径: /share/e/{id}
+        const shareIndex = segs.indexOf('share');
+        if (shareIndex !== -1 && segs[shareIndex + 1] === 'e') {
+            const shareId = segs[shareIndex + 2];
+            if (typeof shareId === 'string' && shareId.length > 0 && /^[A-Za-z0-9_-]+$/.test(shareId)) {
+                return true;
+            }
+        }
+        
+        return false;
     }
 
     extractConversationId(pathname) {
         try {
             const segs = pathname.split('/').filter(Boolean);
-            const i = segs.indexOf('c');
-            if (i === -1) return null;
-            const slug = segs[i + 1];
-            if (slug && /^[A-Za-z0-9_-]+$/.test(slug)) return slug;
+            
+            // 尝试提取普通对话 ID: /c/{id}
+            const cIndex = segs.indexOf('c');
+            if (cIndex !== -1) {
+                const slug = segs[cIndex + 1];
+                if (slug && /^[A-Za-z0-9_-]+$/.test(slug)) return slug;
+            }
+            
+            // 尝试提取分享页面 ID: /share/e/{id}
+            const shareIndex = segs.indexOf('share');
+            if (shareIndex !== -1 && segs[shareIndex + 1] === 'e') {
+                const shareId = segs[shareIndex + 2];
+                if (shareId && /^[A-Za-z0-9_-]+$/.test(shareId)) return shareId;
+            }
+            
             return null;
         } catch {
             return null;

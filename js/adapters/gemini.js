@@ -1,7 +1,7 @@
 /**
  * Gemini Adapter
  * 
- * Supports: gemini.google.com
+ * Supports: gemini.google.com, gemini.google.com/share/*
  * Features: Angular custom element, index-based ID, filters Angular comment nodes
  */
 
@@ -36,15 +36,21 @@ class GeminiAdapter extends SiteAdapter {
     }
 
     isConversationRoute(pathname) {
-        // Gemini conversation URLs: /app/xxx
-        return pathname.includes('/app/');
+        // Gemini conversation URLs: /app/xxx 或分享页面 /share/xxx
+        return pathname.includes('/app/') || pathname.includes('/share/');
     }
 
     extractConversationId(pathname) {
         try {
             // Extract conversation ID from /app/xxx pattern
-            const match = pathname.match(/\/app\/([A-Za-z0-9_-]+)/);
-            return match ? match[1] : null;
+            const appMatch = pathname.match(/\/app\/([A-Za-z0-9_-]+)/);
+            if (appMatch) return appMatch[1];
+            
+            // Extract conversation ID from /share/xxx pattern
+            const shareMatch = pathname.match(/\/share\/([A-Za-z0-9_-]+)/);
+            if (shareMatch) return shareMatch[1];
+            
+            return null;
         } catch {
             return null;
         }

@@ -1,7 +1,7 @@
 /**
  * Kimi Adapter
  * 
- * Supports: kimi.com
+ * Supports: kimi.com, kimi.com/share/*
  * Features: 固定 class 名 user-content
  */
 
@@ -29,15 +29,20 @@ class KimiAdapter extends SiteAdapter {
     }
 
     isConversationRoute(pathname) {
-        // Kimi 对话 URL: /chat/{id}
-        return pathname.includes('/chat/');
+        // Kimi 对话 URL: /chat/{id} 或分享页面 /share/{id}
+        return pathname.includes('/chat/') || pathname.includes('/share/');
     }
 
     extractConversationId(pathname) {
         try {
-            // 从 /chat/cuq3h25m2citjh45prb0 提取对话 ID
-            const match = pathname.match(/\/chat\/([^\/]+)/);
-            return match ? match[1] : null;
+            // 从 /chat/cuq3h25m2citjh45prb0 或 /share/xxx 提取对话 ID
+            const chatMatch = pathname.match(/\/chat\/([^\/]+)/);
+            if (chatMatch) return chatMatch[1];
+            
+            const shareMatch = pathname.match(/\/share\/([^\/]+)/);
+            if (shareMatch) return shareMatch[1];
+            
+            return null;
         } catch {
             return null;
         }
